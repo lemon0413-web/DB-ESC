@@ -1,0 +1,27 @@
+file,experiment_config,expected_rows,actual_rows,missing_files,unexpected_files,duplicates,non_success,nonfinite_metrics,isolated_score_hash_mismatches,missing_isolated_runtime,passed
+s2a_core_ablation_180.csv,Branch A only,180,180,0,0,0,0,0,0,0,True
+s2a_core_ablation_180.csv,Branch B only,180,180,0,0,0,0,0,0,0,True
+s2a_core_ablation_180.csv,A+B Raw Fusion,180,180,0,0,0,0,0,0,0,True
+s2a_core_ablation_180.csv,A+B Std-Scaled Fusion,180,180,0,0,0,0,0,0,0,True
+s2a_core_ablation_180.csv,A+B ECDF without Smoothing,180,180,0,0,0,0,0,0,0,True
+s2a_core_ablation_180.csv,A+B ECDF with Smoothing,180,180,0,0,0,0,0,0,0,True
+s2a_core_ablation_180.csv,A+B POT without Smoothing,180,180,0,0,0,0,0,0,0,True
+s2a_core_ablation_180.csv,Full DB-ESC,180,180,0,0,0,0,0,0,0,True
+s2b_multiscale_ablation_180.csv,W = {48},180,180,0,0,0,0,0,0,0,True
+s2b_multiscale_ablation_180.csv,W = {96},180,180,0,0,0,0,0,0,0,True
+s2b_multiscale_ablation_180.csv,W = {192},180,180,0,0,0,0,0,0,0,True
+s2b_multiscale_ablation_180.csv,"W = {48,96}",180,180,0,0,0,0,0,0,0,True
+s2b_multiscale_ablation_180.csv,"W = {48,192}",180,180,0,0,0,0,0,0,0,True
+s2b_multiscale_ablation_180.csv,"W = {96,192}",180,180,0,0,0,0,0,0,0,True
+s2b_multiscale_ablation_180.csv,"W = {48,96,192}",180,180,0,0,0,0,0,0,0,True
+s2b_pot_stage_ablation_180.csv,No Stage-1 POT,180,180,0,0,0,0,0,0,0,True
+s2b_pot_stage_ablation_180.csv,No Stage-2 POT,180,180,0,0,0,0,0,0,0,True
+s2b_pot_stage_ablation_180.csv,No Stage-1 and Stage-2 POT,180,180,0,0,0,0,0,0,0,True
+s2b_pot_stage_ablation_180.csv,Full Two-Stage POT,180,180,0,0,0,0,0,0,0,True
+s2b_period_ablation_180.csv,Fixed Window = 32,180,180,0,0,0,0,0,0,0,True
+s2b_period_ablation_180.csv,Fixed Window = 64,180,180,0,0,0,0,0,0,0,True
+s2b_period_ablation_180.csv,Fixed Window = 128,180,180,0,0,0,0,0,0,0,True
+s2b_period_ablation_180.csv,FFT Period-Adaptive Window,180,180,0,0,0,0,0,0,0,True
+s2b_branch_a_internal_180.csv,k-NN only,180,180,0,0,0,0,0,0,0,True
+s2b_branch_a_internal_180.csv,PCA Orthogonal Residual only,180,180,0,0,0,0,0,0,0,True
+s2b_branch_a_internal_180.csv,k-NN + PCA Orthogonal Residual,180,180,0,0,0,0,0,0,0,True

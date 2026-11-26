@@ -1,0 +1,4 @@
+metric,manuscript_reference,measured,difference,matches_4_decimal_reference,series_n,dataset_n,max_per_series_reference_VUS_error,max_official_engine_parity_error,max_wrapper_error
+Series-Average VUS-PR,0.4773,0.47732085031988725,2.0850319887244506e-05,True,180,17,1.1102230246251565e-16,6.661338147750939e-16,0.0
+Dataset-Average VUS-PR,0.3758,0.37578289209548366,-1.71079045163669e-05,True,180,17,1.1102230246251565e-16,6.661338147750939e-16,0.0
+Legacy Series-Average AUC-PR,0.4653,0.46533965823906415,3.965823906415533e-05,True,180,17,1.1102230246251565e-16,6.661338147750939e-16,0.0

@@ -1,0 +1,5 @@
+Prototype,DB-ESC (Full),Branch A (kNN),Branch B (SPD),ECDF-Fusion,PCA,IForest
+P1: Waveform/Phase Distortion,0.9999,0.9999,0.2365,0.2903,0.148,0.1115
+P2: Pure Covariance Flip,0.9996,0.0812,0.9996,0.2191,0.9703,0.196
+P3: Multi-Severity Extremes,0.474,0.9155,0.4549,0.9366,0.9725,0.9984
+P5: Isolated 1-Point Impulses,0.027,0.0041,0.0341,0.0162,1.0,1.0

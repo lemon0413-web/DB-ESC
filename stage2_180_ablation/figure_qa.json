@@ -1,0 +1,37 @@
+[
+  {
+    "file": "s2a_core_ablation.pdf",
+    "pages": 1,
+    "embedded_raster_images": 0,
+    "sha256": "b38e101b6459636332a8e7a4ddad773f0a19e3d5394657a87ec4ba7207e348b1",
+    "manual_render_review": "passed: labels and axes readable, no clipping or data-overlapping legend"
+  },
+  {
+    "file": "s2b_internal_ablation.pdf",
+    "pages": 1,
+    "embedded_raster_images": 0,
+    "sha256": "e443f6d9eb5a17a827be867ef257174b1bbc9fe0a66e56f847b9b64c0277c709",
+    "manual_render_review": "passed: labels and axes readable, no clipping or data-overlapping legend"
+  },
+  {
+    "file": "s2c_branch_variance_ratio_boxplot.pdf",
+    "pages": 1,
+    "embedded_raster_images": 0,
+    "sha256": "64b3ed468ed4142ea458baa0f6934191b2a1d5f7bde8ff55ecbcaabe26631c5a",
+    "manual_render_review": "passed: labels and axes readable, no clipping or data-overlapping legend"
+  },
+  {
+    "file": "s2c_correlation_variance_performance.pdf",
+    "pages": 1,
+    "embedded_raster_images": 0,
+    "sha256": "4dad89ecb7bf4c619d9a5d1a3a30cb2d7fde60dbb0add44e60ad5442255387f2",
+    "manual_render_review": "passed: labels and axes readable, no clipping or data-overlapping legend"
+  },
+  {
+    "file": "s2c_measured_vs_theoretical_variance.pdf",
+    "pages": 1,
+    "embedded_raster_images": 0,
+    "sha256": "3c60737e3fca0e14efba463be78dfbde95bf652c000cc8f723c7dd839f4275b6",
+    "manual_render_review": "passed: labels and axes readable, no clipping or data-overlapping legend"
+  }
+]

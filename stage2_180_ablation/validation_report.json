@@ -1,0 +1,23 @@
+{
+  "completed": true,
+  "expected_unique_score_configurations": 22,
+  "expected_grouped_metric_rows": 4680,
+  "actual_grouped_metric_rows": 4680,
+  "all_26_configuration_checks_passed": true,
+  "variance_rows": 180,
+  "clean160_rows": 160,
+  "undefined_variance_quantities_intentionally_preserved": true,
+  "metric_nan_count": 0,
+  "isolated_timing_rows": 3960,
+  "holm_comparisons": 84,
+  "max_covariance_identity_error": 1.3322676295501878e-15,
+  "max_official_baseline_parity_error": 6.661338147750939e-16,
+  "frozen_model_sha256": "c454732bc1dfdf8eaf16b46076786c641744cbade97ea1f97a89ba05dac10227",
+  "isolated_score_hash_mismatches": 0,
+  "official_synthetic_and_real_ablation_parity_cases": 82,
+  "vector_pdf_count": 5,
+  "latex_table_count": 6,
+  "figure_manual_review_passed": true,
+  "all_requested_core_outputs_present": true,
+  "frozen_source_verified": true
+}

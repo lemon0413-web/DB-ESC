@@ -1,0 +1,1769 @@
+group,experiment_config,dataset,n_series,metric,mean
+s2a_core_ablation,Branch A only,CATSv2,5,VUS-PR,0.11101590820421396
+s2a_core_ablation,Branch A only,CreditCard,1,VUS-PR,0.0479001692106413
+s2a_core_ablation,Branch A only,Daphnet,1,VUS-PR,0.3885025685631957
+s2a_core_ablation,Branch A only,Exathlon,25,VUS-PR,0.9829992619593133
+s2a_core_ablation,Branch A only,GECCO,1,VUS-PR,0.0760400071637144
+s2a_core_ablation,Branch A only,GHL,23,VUS-PR,0.029513868028298966
+s2a_core_ablation,Branch A only,Genesis,1,VUS-PR,0.4677955643839289
+s2a_core_ablation,Branch A only,LTDB,4,VUS-PR,0.42786719292834297
+s2a_core_ablation,Branch A only,MITDB,11,VUS-PR,0.1634730012681248
+s2a_core_ablation,Branch A only,MSL,14,VUS-PR,0.22629940095731263
+s2a_core_ablation,Branch A only,OPPORTUNITY,7,VUS-PR,0.1314548046182799
+s2a_core_ablation,Branch A only,PSM,1,VUS-PR,0.3662658761709125
+s2a_core_ablation,Branch A only,SMAP,25,VUS-PR,0.22072903084162004
+s2a_core_ablation,Branch A only,SMD,20,VUS-PR,0.2556244901079288
+s2a_core_ablation,Branch A only,SVDB,28,VUS-PR,0.5858215008851432
+s2a_core_ablation,Branch A only,SWaT,2,VUS-PR,0.43400126547225276
+s2a_core_ablation,Branch A only,TAO,11,VUS-PR,0.7698709707949796
+s2a_core_ablation,Branch A only,CATSv2,5,VUS-ROC,0.6507983159027233
+s2a_core_ablation,Branch A only,CreditCard,1,VUS-ROC,0.7457805704759272
+s2a_core_ablation,Branch A only,Daphnet,1,VUS-ROC,0.9490145467362424
+s2a_core_ablation,Branch A only,Exathlon,25,VUS-ROC,0.9977754960642092
+s2a_core_ablation,Branch A only,GECCO,1,VUS-ROC,0.7130248991340429
+s2a_core_ablation,Branch A only,GHL,23,VUS-ROC,0.5105861618375281
+s2a_core_ablation,Branch A only,Genesis,1,VUS-ROC,0.9978119275044334
+s2a_core_ablation,Branch A only,LTDB,4,VUS-ROC,0.7347808709748707
+s2a_core_ablation,Branch A only,MITDB,11,VUS-ROC,0.6980912659507735
+s2a_core_ablation,Branch A only,MSL,14,VUS-ROC,0.7108586352384189
+s2a_core_ablation,Branch A only,OPPORTUNITY,7,VUS-ROC,0.6372083958880392
+s2a_core_ablation,Branch A only,PSM,1,VUS-ROC,0.8135314251574624
+s2a_core_ablation,Branch A only,SMAP,25,VUS-ROC,0.7190522259956426
+s2a_core_ablation,Branch A only,SMD,20,VUS-ROC,0.7602024494518979
+s2a_core_ablation,Branch A only,SVDB,28,VUS-ROC,0.9058199825019664
+s2a_core_ablation,Branch A only,SWaT,2,VUS-ROC,0.7753765336064073
+s2a_core_ablation,Branch A only,TAO,11,VUS-ROC,0.874889598579715
+s2a_core_ablation,Branch A only,CATSv2,5,AUC-PR,0.15375094184499166
+s2a_core_ablation,Branch A only,CreditCard,1,AUC-PR,0.0087455821680801
+s2a_core_ablation,Branch A only,Daphnet,1,AUC-PR,0.3652107181956113
+s2a_core_ablation,Branch A only,Exathlon,25,AUC-PR,0.9810810329222787
+s2a_core_ablation,Branch A only,GECCO,1,AUC-PR,0.3254162751860187
+s2a_core_ablation,Branch A only,GHL,23,AUC-PR,0.02543727681392537
+s2a_core_ablation,Branch A only,Genesis,1,AUC-PR,0.3358894918097715
+s2a_core_ablation,Branch A only,LTDB,4,AUC-PR,0.3934667050275065
+s2a_core_ablation,Branch A only,MITDB,11,AUC-PR,0.24051337688419275
+s2a_core_ablation,Branch A only,MSL,14,AUC-PR,0.20013087280614653
+s2a_core_ablation,Branch A only,OPPORTUNITY,7,AUC-PR,0.12920634669933284
+s2a_core_ablation,Branch A only,PSM,1,AUC-PR,0.4902767593689278
+s2a_core_ablation,Branch A only,SMAP,25,AUC-PR,0.20799969603494858
+s2a_core_ablation,Branch A only,SMD,20,AUC-PR,0.36669779896457005
+s2a_core_ablation,Branch A only,SVDB,28,AUC-PR,0.57036609962367
+s2a_core_ablation,Branch A only,SWaT,2,AUC-PR,0.5379902702992989
+s2a_core_ablation,Branch A only,TAO,11,AUC-PR,0.1297036895365922
+s2a_core_ablation,Branch A only,CATSv2,5,AUC-ROC,0.6687920997804702
+s2a_core_ablation,Branch A only,CreditCard,1,AUC-ROC,0.7066466377825237
+s2a_core_ablation,Branch A only,Daphnet,1,AUC-ROC,0.9451626898883464
+s2a_core_ablation,Branch A only,Exathlon,25,AUC-ROC,0.996735123196392
+s2a_core_ablation,Branch A only,GECCO,1,AUC-ROC,0.7998224669650355
+s2a_core_ablation,Branch A only,GHL,23,AUC-ROC,0.5016656591402257
+s2a_core_ablation,Branch A only,Genesis,1,AUC-ROC,0.9973160173160172
+s2a_core_ablation,Branch A only,LTDB,4,AUC-ROC,0.7197973145463005
+s2a_core_ablation,Branch A only,MITDB,11,AUC-ROC,0.6722528788913551
+s2a_core_ablation,Branch A only,MSL,14,AUC-ROC,0.6219763248489311
+s2a_core_ablation,Branch A only,OPPORTUNITY,7,AUC-ROC,0.6373884960865768
+s2a_core_ablation,Branch A only,PSM,1,AUC-ROC,0.8551674243100152
+s2a_core_ablation,Branch A only,SMAP,25,AUC-ROC,0.6881401144327981
+s2a_core_ablation,Branch A only,SMD,20,AUC-ROC,0.818449592821499
+s2a_core_ablation,Branch A only,SVDB,28,AUC-ROC,0.8698901059342089
+s2a_core_ablation,Branch A only,SWaT,2,AUC-ROC,0.8455115922963089
+s2a_core_ablation,Branch A only,TAO,11,AUC-ROC,0.6272683518498483
+s2a_core_ablation,Branch B only,CATSv2,5,VUS-PR,0.11517176169415415
+s2a_core_ablation,Branch B only,CreditCard,1,VUS-PR,0.094545173652533
+s2a_core_ablation,Branch B only,Daphnet,1,VUS-PR,0.0656033617435739
+s2a_core_ablation,Branch B only,Exathlon,25,VUS-PR,0.9579799090804153
+s2a_core_ablation,Branch B only,GECCO,1,VUS-PR,0.2159726970216088
+s2a_core_ablation,Branch B only,GHL,23,VUS-PR,0.5526237497677952
+s2a_core_ablation,Branch B only,Genesis,1,VUS-PR,0.0046420947860321
+s2a_core_ablation,Branch B only,LTDB,4,VUS-PR,0.5041486088688638
+s2a_core_ablation,Branch B only,MITDB,11,VUS-PR,0.2358281144460464
+s2a_core_ablation,Branch B only,MSL,14,VUS-PR,0.26273729517037564
+s2a_core_ablation,Branch B only,OPPORTUNITY,7,VUS-PR,0.14001092156004577
+s2a_core_ablation,Branch B only,PSM,1,VUS-PR,0.1229322991038474
+s2a_core_ablation,Branch B only,SMAP,25,VUS-PR,0.2495659296919874
+s2a_core_ablation,Branch B only,SMD,20,VUS-PR,0.364347738260861
+s2a_core_ablation,Branch B only,SVDB,28,VUS-PR,0.4594870937983787
+s2a_core_ablation,Branch B only,SWaT,2,VUS-PR,0.31742243991691177
+s2a_core_ablation,Branch B only,TAO,11,VUS-PR,0.6314565696896405
+s2a_core_ablation,Branch B only,CATSv2,5,VUS-ROC,0.6394666983555333
+s2a_core_ablation,Branch B only,CreditCard,1,VUS-ROC,0.6926132385623832
+s2a_core_ablation,Branch B only,Daphnet,1,VUS-ROC,0.2185048411523436
+s2a_core_ablation,Branch B only,Exathlon,25,VUS-ROC,0.9960506614620079
+s2a_core_ablation,Branch B only,GECCO,1,VUS-ROC,0.8022593172228357
+s2a_core_ablation,Branch B only,GHL,23,VUS-ROC,0.8304057967818316
+s2a_core_ablation,Branch B only,Genesis,1,VUS-ROC,0.5000104970644762
+s2a_core_ablation,Branch B only,LTDB,4,VUS-ROC,0.8496167743583689
+s2a_core_ablation,Branch B only,MITDB,11,VUS-ROC,0.6923717634453294
+s2a_core_ablation,Branch B only,MSL,14,VUS-ROC,0.7500207459315927
+s2a_core_ablation,Branch B only,OPPORTUNITY,7,VUS-ROC,0.5350459488158589
+s2a_core_ablation,Branch B only,PSM,1,VUS-ROC,0.411454771339733
+s2a_core_ablation,Branch B only,SMAP,25,VUS-ROC,0.7271430521130442
+s2a_core_ablation,Branch B only,SMD,20,VUS-ROC,0.8283261279347383
+s2a_core_ablation,Branch B only,SVDB,28,VUS-ROC,0.7868879930158659
+s2a_core_ablation,Branch B only,SWaT,2,VUS-ROC,0.615712577447753
+s2a_core_ablation,Branch B only,TAO,11,VUS-ROC,0.8021475647776473
+s2a_core_ablation,Branch B only,CATSv2,5,AUC-PR,0.20422716616029427
+s2a_core_ablation,Branch B only,CreditCard,1,AUC-PR,0.0318002483435213
+s2a_core_ablation,Branch B only,Daphnet,1,AUC-PR,0.0791238273110504
+s2a_core_ablation,Branch B only,Exathlon,25,AUC-PR,0.9465500153585874
+s2a_core_ablation,Branch B only,GECCO,1,AUC-PR,0.3702783909857318
+s2a_core_ablation,Branch B only,GHL,23,AUC-PR,0.6260395474293622
+s2a_core_ablation,Branch B only,Genesis,1,AUC-PR,0.0023970507624408
+s2a_core_ablation,Branch B only,LTDB,4,AUC-PR,0.4479360570222879
+s2a_core_ablation,Branch B only,MITDB,11,AUC-PR,0.2981778021859436
+s2a_core_ablation,Branch B only,MSL,14,AUC-PR,0.22432891411764705
+s2a_core_ablation,Branch B only,OPPORTUNITY,7,AUC-PR,0.14973410437519727
+s2a_core_ablation,Branch B only,PSM,1,AUC-PR,0.113265532251022
+s2a_core_ablation,Branch B only,SMAP,25,AUC-PR,0.2573331752151072
+s2a_core_ablation,Branch B only,SMD,20,AUC-PR,0.4403170844567688
+s2a_core_ablation,Branch B only,SVDB,28,AUC-PR,0.4637909606790873
+s2a_core_ablation,Branch B only,SWaT,2,AUC-PR,0.4564519663905814
+s2a_core_ablation,Branch B only,TAO,11,AUC-PR,0.07903790646634974
+s2a_core_ablation,Branch B only,CATSv2,5,AUC-ROC,0.6412259731208436
+s2a_core_ablation,Branch B only,CreditCard,1,AUC-ROC,0.7262498339683641
+s2a_core_ablation,Branch B only,Daphnet,1,AUC-ROC,0.3119737214990895
+s2a_core_ablation,Branch B only,Exathlon,25,AUC-ROC,0.9952904633098762
+s2a_core_ablation,Branch B only,GECCO,1,AUC-ROC,0.8530235781337003
+s2a_core_ablation,Branch B only,GHL,23,AUC-ROC,0.842525580440153
+s2a_core_ablation,Branch B only,Genesis,1,AUC-ROC,0.3845231910946196
+s2a_core_ablation,Branch B only,LTDB,4,AUC-ROC,0.826091796424636
+s2a_core_ablation,Branch B only,MITDB,11,AUC-ROC,0.6634403010790872
+s2a_core_ablation,Branch B only,MSL,14,AUC-ROC,0.7115152085422999
+s2a_core_ablation,Branch B only,OPPORTUNITY,7,AUC-ROC,0.5353310604759564
+s2a_core_ablation,Branch B only,PSM,1,AUC-ROC,0.4978863474148781
+s2a_core_ablation,Branch B only,SMAP,25,AUC-ROC,0.7247616769827994
+s2a_core_ablation,Branch B only,SMD,20,AUC-ROC,0.8704007696386264
+s2a_core_ablation,Branch B only,SVDB,28,AUC-ROC,0.7526161579685455
+s2a_core_ablation,Branch B only,SWaT,2,AUC-ROC,0.6591623361979976
+s2a_core_ablation,Branch B only,TAO,11,AUC-ROC,0.45572927847258404
+s2a_core_ablation,A+B Raw Fusion,CATSv2,5,VUS-PR,0.18341998376390412
+s2a_core_ablation,A+B Raw Fusion,CreditCard,1,VUS-PR,0.0945731649029078
+s2a_core_ablation,A+B Raw Fusion,Daphnet,1,VUS-PR,0.3877536497858915
+s2a_core_ablation,A+B Raw Fusion,Exathlon,25,VUS-PR,0.992580068383324
+s2a_core_ablation,A+B Raw Fusion,GECCO,1,VUS-PR,0.200828500449798
+s2a_core_ablation,A+B Raw Fusion,GHL,23,VUS-PR,0.12611724058486293
+s2a_core_ablation,A+B Raw Fusion,Genesis,1,VUS-PR,0.4630542938560847
+s2a_core_ablation,A+B Raw Fusion,LTDB,4,VUS-PR,0.4919757400239345
+s2a_core_ablation,A+B Raw Fusion,MITDB,11,VUS-PR,0.2324699123669034
+s2a_core_ablation,A+B Raw Fusion,MSL,14,VUS-PR,0.31661025304139007
+s2a_core_ablation,A+B Raw Fusion,OPPORTUNITY,7,VUS-PR,0.18177432468867136
+s2a_core_ablation,A+B Raw Fusion,PSM,1,VUS-PR,0.3370011582718029
+s2a_core_ablation,A+B Raw Fusion,SMAP,25,VUS-PR,0.2834769135905662
+s2a_core_ablation,A+B Raw Fusion,SMD,20,VUS-PR,0.3711630139641656
+s2a_core_ablation,A+B Raw Fusion,SVDB,28,VUS-PR,0.5390941427263644
+s2a_core_ablation,A+B Raw Fusion,SWaT,2,VUS-PR,0.42931036781922105
+s2a_core_ablation,A+B Raw Fusion,TAO,11,VUS-PR,0.6454733521987976
+s2a_core_ablation,A+B Raw Fusion,CATSv2,5,VUS-ROC,0.6850184424473441
+s2a_core_ablation,A+B Raw Fusion,CreditCard,1,VUS-ROC,0.6926783750418072
+s2a_core_ablation,A+B Raw Fusion,Daphnet,1,VUS-ROC,0.9482481994839635
+s2a_core_ablation,A+B Raw Fusion,Exathlon,25,VUS-ROC,0.9995733876991543
+s2a_core_ablation,A+B Raw Fusion,GECCO,1,VUS-ROC,0.8165464601429521
+s2a_core_ablation,A+B Raw Fusion,GHL,23,VUS-ROC,0.7045214284402216
+s2a_core_ablation,A+B Raw Fusion,Genesis,1,VUS-ROC,0.997619156651122
+s2a_core_ablation,A+B Raw Fusion,LTDB,4,VUS-ROC,0.8235467460846535
+s2a_core_ablation,A+B Raw Fusion,MITDB,11,VUS-ROC,0.7426664867308094
+s2a_core_ablation,A+B Raw Fusion,MSL,14,VUS-ROC,0.7933278471294957
+s2a_core_ablation,A+B Raw Fusion,OPPORTUNITY,7,VUS-ROC,0.6694626216168251
+s2a_core_ablation,A+B Raw Fusion,PSM,1,VUS-ROC,0.7824040816244939
+s2a_core_ablation,A+B Raw Fusion,SMAP,25,VUS-ROC,0.7802828624814725
+s2a_core_ablation,A+B Raw Fusion,SMD,20,VUS-ROC,0.8346050213135069
+s2a_core_ablation,A+B Raw Fusion,SVDB,28,VUS-ROC,0.8793917784363229
+s2a_core_ablation,A+B Raw Fusion,SWaT,2,VUS-ROC,0.7736150324751006
+s2a_core_ablation,A+B Raw Fusion,TAO,11,VUS-ROC,0.8167082878345802
+s2a_core_ablation,A+B Raw Fusion,CATSv2,5,AUC-PR,0.27491645215369787
+s2a_core_ablation,A+B Raw Fusion,CreditCard,1,AUC-PR,0.0318037489275576
+s2a_core_ablation,A+B Raw Fusion,Daphnet,1,AUC-PR,0.3629784501495298
+s2a_core_ablation,A+B Raw Fusion,Exathlon,25,AUC-PR,0.9892662207868667
+s2a_core_ablation,A+B Raw Fusion,GECCO,1,AUC-PR,0.3873196753142082
+s2a_core_ablation,A+B Raw Fusion,GHL,23,AUC-PR,0.1509693810960574
+s2a_core_ablation,A+B Raw Fusion,Genesis,1,AUC-PR,0.3184363189350623
+s2a_core_ablation,A+B Raw Fusion,LTDB,4,AUC-PR,0.46480834560717293
+s2a_core_ablation,A+B Raw Fusion,MITDB,11,AUC-PR,0.3140521184165482
+s2a_core_ablation,A+B Raw Fusion,MSL,14,AUC-PR,0.2799423702295901
+s2a_core_ablation,A+B Raw Fusion,OPPORTUNITY,7,AUC-PR,0.18667515121509862
+s2a_core_ablation,A+B Raw Fusion,PSM,1,AUC-PR,0.3917065143744332
+s2a_core_ablation,A+B Raw Fusion,SMAP,25,AUC-PR,0.28691083980239557
+s2a_core_ablation,A+B Raw Fusion,SMD,20,AUC-PR,0.45157906190988406
+s2a_core_ablation,A+B Raw Fusion,SVDB,28,AUC-PR,0.5232908618247116
+s2a_core_ablation,A+B Raw Fusion,SWaT,2,AUC-PR,0.5394897464398275
+s2a_core_ablation,A+B Raw Fusion,TAO,11,AUC-PR,0.08403119084080934
+s2a_core_ablation,A+B Raw Fusion,CATSv2,5,AUC-ROC,0.6955683516912513
+s2a_core_ablation,A+B Raw Fusion,CreditCard,1,AUC-ROC,0.726318870244257
+s2a_core_ablation,A+B Raw Fusion,Daphnet,1,AUC-ROC,0.944595535098742
+s2a_core_ablation,A+B Raw Fusion,Exathlon,25,AUC-ROC,0.9993444474637936
+s2a_core_ablation,A+B Raw Fusion,GECCO,1,AUC-ROC,0.8730586154642594
+s2a_core_ablation,A+B Raw Fusion,GHL,23,AUC-ROC,0.7078154410468697
+s2a_core_ablation,A+B Raw Fusion,Genesis,1,AUC-ROC,0.9970859616573902
+s2a_core_ablation,A+B Raw Fusion,LTDB,4,AUC-ROC,0.8049146637160098
+s2a_core_ablation,A+B Raw Fusion,MITDB,11,AUC-ROC,0.710571286768536
+s2a_core_ablation,A+B Raw Fusion,MSL,14,AUC-ROC,0.7506639398601159
+s2a_core_ablation,A+B Raw Fusion,OPPORTUNITY,7,AUC-ROC,0.6760271333731572
+s2a_core_ablation,A+B Raw Fusion,PSM,1,AUC-ROC,0.8469322955167524
+s2a_core_ablation,A+B Raw Fusion,SMAP,25,AUC-ROC,0.7790441842919043
+s2a_core_ablation,A+B Raw Fusion,SMD,20,AUC-ROC,0.8817464626527484
+s2a_core_ablation,A+B Raw Fusion,SVDB,28,AUC-ROC,0.8510416009507411
+s2a_core_ablation,A+B Raw Fusion,SWaT,2,AUC-ROC,0.8391926008959288
+s2a_core_ablation,A+B Raw Fusion,TAO,11,AUC-ROC,0.4986325246406631
+s2a_core_ablation,A+B Std-Scaled Fusion,CATSv2,5,VUS-PR,0.18127339003643822
+s2a_core_ablation,A+B Std-Scaled Fusion,CreditCard,1,VUS-PR,0.0945777962190148
+s2a_core_ablation,A+B Std-Scaled Fusion,Daphnet,1,VUS-PR,0.3546646648312593
+s2a_core_ablation,A+B Std-Scaled Fusion,Exathlon,25,VUS-PR,0.9912430519458967
+s2a_core_ablation,A+B Std-Scaled Fusion,GECCO,1,VUS-PR,0.1892934034683581
+s2a_core_ablation,A+B Std-Scaled Fusion,GHL,23,VUS-PR,0.49175356118754004
+s2a_core_ablation,A+B Std-Scaled Fusion,Genesis,1,VUS-PR,0.4409206454342683
+s2a_core_ablation,A+B Std-Scaled Fusion,LTDB,4,VUS-PR,0.5099804068193594
+s2a_core_ablation,A+B Std-Scaled Fusion,MITDB,11,VUS-PR,0.25626126329005594
+s2a_core_ablation,A+B Std-Scaled Fusion,MSL,14,VUS-PR,0.3058105709463462
+s2a_core_ablation,A+B Std-Scaled Fusion,OPPORTUNITY,7,VUS-PR,0.1606216642896417
+s2a_core_ablation,A+B Std-Scaled Fusion,PSM,1,VUS-PR,0.3604867619815225
+s2a_core_ablation,A+B Std-Scaled Fusion,SMAP,25,VUS-PR,0.2775269391538952
+s2a_core_ablation,A+B Std-Scaled Fusion,SMD,20,VUS-PR,0.37238245518096486
+s2a_core_ablation,A+B Std-Scaled Fusion,SVDB,28,VUS-PR,0.5641433488945248
+s2a_core_ablation,A+B Std-Scaled Fusion,SWaT,2,VUS-PR,0.4163302513516898
+s2a_core_ablation,A+B Std-Scaled Fusion,TAO,11,VUS-PR,0.6476581784406906
+s2a_core_ablation,A+B Std-Scaled Fusion,CATSv2,5,VUS-ROC,0.6853368767216684
+s2a_core_ablation,A+B Std-Scaled Fusion,CreditCard,1,VUS-ROC,0.6926968744955395
+s2a_core_ablation,A+B Std-Scaled Fusion,Daphnet,1,VUS-ROC,0.9367088529051378
+s2a_core_ablation,A+B Std-Scaled Fusion,Exathlon,25,VUS-ROC,0.999535920961246
+s2a_core_ablation,A+B Std-Scaled Fusion,GECCO,1,VUS-ROC,0.7949943780457412
+s2a_core_ablation,A+B Std-Scaled Fusion,GHL,23,VUS-ROC,0.830996619783696
+s2a_core_ablation,A+B Std-Scaled Fusion,Genesis,1,VUS-ROC,0.9973971273085598
+s2a_core_ablation,A+B Std-Scaled Fusion,LTDB,4,VUS-ROC,0.8329952041050096
+s2a_core_ablation,A+B Std-Scaled Fusion,MITDB,11,VUS-ROC,0.7387369313625349
+s2a_core_ablation,A+B Std-Scaled Fusion,MSL,14,VUS-ROC,0.7866063056964449
+s2a_core_ablation,A+B Std-Scaled Fusion,OPPORTUNITY,7,VUS-ROC,0.6491222553233416
+s2a_core_ablation,A+B Std-Scaled Fusion,PSM,1,VUS-ROC,0.8048527398338527
+s2a_core_ablation,A+B Std-Scaled Fusion,SMAP,25,VUS-ROC,0.7690132589414109
+s2a_core_ablation,A+B Std-Scaled Fusion,SMD,20,VUS-ROC,0.8370208810535853
+s2a_core_ablation,A+B Std-Scaled Fusion,SVDB,28,VUS-ROC,0.8863815193768186
+s2a_core_ablation,A+B Std-Scaled Fusion,SWaT,2,VUS-ROC,0.7680514967309153
+s2a_core_ablation,A+B Std-Scaled Fusion,TAO,11,VUS-ROC,0.8177961113177278
+s2a_core_ablation,A+B Std-Scaled Fusion,CATSv2,5,AUC-PR,0.27421865771139387
+s2a_core_ablation,A+B Std-Scaled Fusion,CreditCard,1,AUC-PR,0.0318056624707584
+s2a_core_ablation,A+B Std-Scaled Fusion,Daphnet,1,AUC-PR,0.3296207154324491
+s2a_core_ablation,A+B Std-Scaled Fusion,Exathlon,25,AUC-PR,0.9872229481076163
+s2a_core_ablation,A+B Std-Scaled Fusion,GECCO,1,AUC-PR,0.394771629746745
+s2a_core_ablation,A+B Std-Scaled Fusion,GHL,23,AUC-PR,0.5750737640913876
+s2a_core_ablation,A+B Std-Scaled Fusion,Genesis,1,AUC-PR,0.3089144200831168
+s2a_core_ablation,A+B Std-Scaled Fusion,LTDB,4,AUC-PR,0.4824527118820744
+s2a_core_ablation,A+B Std-Scaled Fusion,MITDB,11,AUC-PR,0.3302349820075748
+s2a_core_ablation,A+B Std-Scaled Fusion,MSL,14,AUC-PR,0.27044255677873624
+s2a_core_ablation,A+B Std-Scaled Fusion,OPPORTUNITY,7,AUC-PR,0.1692473808225096
+s2a_core_ablation,A+B Std-Scaled Fusion,PSM,1,AUC-PR,0.4400143292191029
+s2a_core_ablation,A+B Std-Scaled Fusion,SMAP,25,AUC-PR,0.2829879736269796
+s2a_core_ablation,A+B Std-Scaled Fusion,SMD,20,AUC-PR,0.45420082885668417
+s2a_core_ablation,A+B Std-Scaled Fusion,SVDB,28,AUC-PR,0.544387577008832
+s2a_core_ablation,A+B Std-Scaled Fusion,SWaT,2,AUC-PR,0.5351410957225102
+s2a_core_ablation,A+B Std-Scaled Fusion,TAO,11,AUC-PR,0.08537084706819205
+s2a_core_ablation,A+B Std-Scaled Fusion,CATSv2,5,AUC-ROC,0.6955698670972259
+s2a_core_ablation,A+B Std-Scaled Fusion,CreditCard,1,AUC-ROC,0.72633853668259
+s2a_core_ablation,A+B Std-Scaled Fusion,Daphnet,1,AUC-ROC,0.9336701682217136
+s2a_core_ablation,A+B Std-Scaled Fusion,Exathlon,25,AUC-ROC,0.999283071583819
+s2a_core_ablation,A+B Std-Scaled Fusion,GECCO,1,AUC-ROC,0.8635526123471288
+s2a_core_ablation,A+B Std-Scaled Fusion,GHL,23,AUC-ROC,0.8377591919750873
+s2a_core_ablation,A+B Std-Scaled Fusion,Genesis,1,AUC-ROC,0.996935064935065
+s2a_core_ablation,A+B Std-Scaled Fusion,LTDB,4,AUC-ROC,0.8120846036095323
+s2a_core_ablation,A+B Std-Scaled Fusion,MITDB,11,AUC-ROC,0.7055020643024098
+s2a_core_ablation,A+B Std-Scaled Fusion,MSL,14,AUC-ROC,0.755266258071619
+s2a_core_ablation,A+B Std-Scaled Fusion,OPPORTUNITY,7,AUC-ROC,0.6543358798447955
+s2a_core_ablation,A+B Std-Scaled Fusion,PSM,1,AUC-ROC,0.8591110639741061
+s2a_core_ablation,A+B Std-Scaled Fusion,SMAP,25,AUC-ROC,0.763558998948943
+s2a_core_ablation,A+B Std-Scaled Fusion,SMD,20,AUC-ROC,0.8836566563738677
+s2a_core_ablation,A+B Std-Scaled Fusion,SVDB,28,AUC-ROC,0.8591873727298138
+s2a_core_ablation,A+B Std-Scaled Fusion,SWaT,2,AUC-ROC,0.8359435063937717
+s2a_core_ablation,A+B Std-Scaled Fusion,TAO,11,AUC-ROC,0.5025005743557901
+s2a_core_ablation,A+B ECDF without Smoothing,CATSv2,5,VUS-PR,0.16872520219193538
+s2a_core_ablation,A+B ECDF without Smoothing,CreditCard,1,VUS-PR,0.0481103513410702
+s2a_core_ablation,A+B ECDF without Smoothing,Daphnet,1,VUS-PR,0.3246295066112016
+s2a_core_ablation,A+B ECDF without Smoothing,Exathlon,25,VUS-PR,0.9886263798782234
+s2a_core_ablation,A+B ECDF without Smoothing,GECCO,1,VUS-PR,0.1823445839196056
+s2a_core_ablation,A+B ECDF without Smoothing,GHL,23,VUS-PR,0.42721285496465383
+s2a_core_ablation,A+B ECDF without Smoothing,Genesis,1,VUS-PR,0.2095437865444511
+s2a_core_ablation,A+B ECDF without Smoothing,LTDB,4,VUS-PR,0.48138111899627595
+s2a_core_ablation,A+B ECDF without Smoothing,MITDB,11,VUS-PR,0.2915301602417874
+s2a_core_ablation,A+B ECDF without Smoothing,MSL,14,VUS-PR,0.25190363526747744
+s2a_core_ablation,A+B ECDF without Smoothing,OPPORTUNITY,7,VUS-PR,0.1538648579996064
+s2a_core_ablation,A+B ECDF without Smoothing,PSM,1,VUS-PR,0.3231996397852031
+s2a_core_ablation,A+B ECDF without Smoothing,SMAP,25,VUS-PR,0.26583859293515255
+s2a_core_ablation,A+B ECDF without Smoothing,SMD,20,VUS-PR,0.20897935583589883
+s2a_core_ablation,A+B ECDF without Smoothing,SVDB,28,VUS-PR,0.3813400769124253
+s2a_core_ablation,A+B ECDF without Smoothing,SWaT,2,VUS-PR,0.41279848387645457
+s2a_core_ablation,A+B ECDF without Smoothing,TAO,11,VUS-PR,0.7184650337792821
+s2a_core_ablation,A+B ECDF without Smoothing,CATSv2,5,VUS-ROC,0.6938948692227307
+s2a_core_ablation,A+B ECDF without Smoothing,CreditCard,1,VUS-ROC,0.7657167322113926
+s2a_core_ablation,A+B ECDF without Smoothing,Daphnet,1,VUS-ROC,0.917626699368112
+s2a_core_ablation,A+B ECDF without Smoothing,Exathlon,25,VUS-ROC,0.9994232389798718
+s2a_core_ablation,A+B ECDF without Smoothing,GECCO,1,VUS-ROC,0.8504335761014592
+s2a_core_ablation,A+B ECDF without Smoothing,GHL,23,VUS-ROC,0.836935879878235
+s2a_core_ablation,A+B ECDF without Smoothing,Genesis,1,VUS-ROC,0.9915882988803002
+s2a_core_ablation,A+B ECDF without Smoothing,LTDB,4,VUS-ROC,0.8200365210711783
+s2a_core_ablation,A+B ECDF without Smoothing,MITDB,11,VUS-ROC,0.7468486090036599
+s2a_core_ablation,A+B ECDF without Smoothing,MSL,14,VUS-ROC,0.772091051372531
+s2a_core_ablation,A+B ECDF without Smoothing,OPPORTUNITY,7,VUS-ROC,0.6510679500028783
+s2a_core_ablation,A+B ECDF without Smoothing,PSM,1,VUS-ROC,0.7834349081186802
+s2a_core_ablation,A+B ECDF without Smoothing,SMAP,25,VUS-ROC,0.7871859314960852
+s2a_core_ablation,A+B ECDF without Smoothing,SMD,20,VUS-ROC,0.8139181903157751
+s2a_core_ablation,A+B ECDF without Smoothing,SVDB,28,VUS-ROC,0.851208078314808
+s2a_core_ablation,A+B ECDF without Smoothing,SWaT,2,VUS-ROC,0.7782733843553544
+s2a_core_ablation,A+B ECDF without Smoothing,TAO,11,VUS-ROC,0.8382355584493403
+s2a_core_ablation,A+B ECDF without Smoothing,CATSv2,5,AUC-PR,0.2349148460851116
+s2a_core_ablation,A+B ECDF without Smoothing,CreditCard,1,AUC-PR,0.0084937788562
+s2a_core_ablation,A+B ECDF without Smoothing,Daphnet,1,AUC-PR,0.3183779910038997
+s2a_core_ablation,A+B ECDF without Smoothing,Exathlon,25,AUC-PR,0.985728080519779
+s2a_core_ablation,A+B ECDF without Smoothing,GECCO,1,AUC-PR,0.1920115624117976
+s2a_core_ablation,A+B ECDF without Smoothing,GHL,23,AUC-PR,0.5015142242897641
+s2a_core_ablation,A+B ECDF without Smoothing,Genesis,1,AUC-PR,0.1415853103338107
+s2a_core_ablation,A+B ECDF without Smoothing,LTDB,4,AUC-PR,0.4188742011212263
+s2a_core_ablation,A+B ECDF without Smoothing,MITDB,11,AUC-PR,0.3166003306825225
+s2a_core_ablation,A+B ECDF without Smoothing,MSL,14,AUC-PR,0.21331999778093488
+s2a_core_ablation,A+B ECDF without Smoothing,OPPORTUNITY,7,AUC-PR,0.15482857917152743
+s2a_core_ablation,A+B ECDF without Smoothing,PSM,1,AUC-PR,0.3313831946352352
+s2a_core_ablation,A+B ECDF without Smoothing,SMAP,25,AUC-PR,0.25593123871001316
+s2a_core_ablation,A+B ECDF without Smoothing,SMD,20,AUC-PR,0.20134777326743764
+s2a_core_ablation,A+B ECDF without Smoothing,SVDB,28,AUC-PR,0.3433318914661974
+s2a_core_ablation,A+B ECDF without Smoothing,SWaT,2,AUC-PR,0.4992708984953388
+s2a_core_ablation,A+B ECDF without Smoothing,TAO,11,AUC-PR,0.1013406176496618
+s2a_core_ablation,A+B ECDF without Smoothing,CATSv2,5,AUC-ROC,0.6873991254122777
+s2a_core_ablation,A+B ECDF without Smoothing,CreditCard,1,AUC-ROC,0.7038107352302618
+s2a_core_ablation,A+B ECDF without Smoothing,Daphnet,1,AUC-ROC,0.9146766424550612
+s2a_core_ablation,A+B ECDF without Smoothing,Exathlon,25,AUC-ROC,0.9992630155090909
+s2a_core_ablation,A+B ECDF without Smoothing,GECCO,1,AUC-ROC,0.8864973499222835
+s2a_core_ablation,A+B ECDF without Smoothing,GHL,23,AUC-ROC,0.8415966126592822
+s2a_core_ablation,A+B ECDF without Smoothing,Genesis,1,AUC-ROC,0.9914811379097092
+s2a_core_ablation,A+B ECDF without Smoothing,LTDB,4,AUC-ROC,0.7966400336332395
+s2a_core_ablation,A+B ECDF without Smoothing,MITDB,11,AUC-ROC,0.7136280269961623
+s2a_core_ablation,A+B ECDF without Smoothing,MSL,14,AUC-ROC,0.7280203816795331
+s2a_core_ablation,A+B ECDF without Smoothing,OPPORTUNITY,7,AUC-ROC,0.6542410270037224
+s2a_core_ablation,A+B ECDF without Smoothing,PSM,1,AUC-ROC,0.8432384707940604
+s2a_core_ablation,A+B ECDF without Smoothing,SMAP,25,AUC-ROC,0.7765117326745782
+s2a_core_ablation,A+B ECDF without Smoothing,SMD,20,AUC-ROC,0.8343931670727379
+s2a_core_ablation,A+B ECDF without Smoothing,SVDB,28,AUC-ROC,0.8210244388349129
+s2a_core_ablation,A+B ECDF without Smoothing,SWaT,2,AUC-ROC,0.8362027940066965
+s2a_core_ablation,A+B ECDF without Smoothing,TAO,11,AUC-ROC,0.5242862560858019
+s2a_core_ablation,A+B ECDF with Smoothing,CATSv2,5,VUS-PR,0.16779982563122595
+s2a_core_ablation,A+B ECDF with Smoothing,CreditCard,1,VUS-PR,0.0482425156117819
+s2a_core_ablation,A+B ECDF with Smoothing,Daphnet,1,VUS-PR,0.3275251049487614
+s2a_core_ablation,A+B ECDF with Smoothing,Exathlon,25,VUS-PR,0.9908076206416067
+s2a_core_ablation,A+B ECDF with Smoothing,GECCO,1,VUS-PR,0.1846535467455806
+s2a_core_ablation,A+B ECDF with Smoothing,GHL,23,VUS-PR,0.43342665117612833
+s2a_core_ablation,A+B ECDF with Smoothing,Genesis,1,VUS-PR,0.2703603525584152
+s2a_core_ablation,A+B ECDF with Smoothing,LTDB,4,VUS-PR,0.49306637608528875
+s2a_core_ablation,A+B ECDF with Smoothing,MITDB,11,VUS-PR,0.29106200389745246
+s2a_core_ablation,A+B ECDF with Smoothing,MSL,14,VUS-PR,0.2593121924632996
+s2a_core_ablation,A+B ECDF with Smoothing,OPPORTUNITY,7,VUS-PR,0.15082370663692873
+s2a_core_ablation,A+B ECDF with Smoothing,PSM,1,VUS-PR,0.322575994591102
+s2a_core_ablation,A+B ECDF with Smoothing,SMAP,25,VUS-PR,0.27155796408784294
+s2a_core_ablation,A+B ECDF with Smoothing,SMD,20,VUS-PR,0.22757069535346255
+s2a_core_ablation,A+B ECDF with Smoothing,SVDB,28,VUS-PR,0.3973811113687809
+s2a_core_ablation,A+B ECDF with Smoothing,SWaT,2,VUS-PR,0.41179976503968874
+s2a_core_ablation,A+B ECDF with Smoothing,TAO,11,VUS-PR,0.7152282494420974
+s2a_core_ablation,A+B ECDF with Smoothing,CATSv2,5,VUS-ROC,0.6937185737781092
+s2a_core_ablation,A+B ECDF with Smoothing,CreditCard,1,VUS-ROC,0.7464845077589836
+s2a_core_ablation,A+B ECDF with Smoothing,Daphnet,1,VUS-ROC,0.9186070230354534
+s2a_core_ablation,A+B ECDF with Smoothing,Exathlon,25,VUS-ROC,0.9995166460922897
+s2a_core_ablation,A+B ECDF with Smoothing,GECCO,1,VUS-ROC,0.848742051474527
+s2a_core_ablation,A+B ECDF with Smoothing,GHL,23,VUS-ROC,0.8371950384361581
+s2a_core_ablation,A+B ECDF with Smoothing,Genesis,1,VUS-ROC,0.9940076400454464
+s2a_core_ablation,A+B ECDF with Smoothing,LTDB,4,VUS-ROC,0.8204054375052168
+s2a_core_ablation,A+B ECDF with Smoothing,MITDB,11,VUS-ROC,0.7479332218254644
+s2a_core_ablation,A+B ECDF with Smoothing,MSL,14,VUS-ROC,0.7700603620918768
+s2a_core_ablation,A+B ECDF with Smoothing,OPPORTUNITY,7,VUS-ROC,0.6480650803813017
+s2a_core_ablation,A+B ECDF with Smoothing,PSM,1,VUS-ROC,0.7816979150749417
+s2a_core_ablation,A+B ECDF with Smoothing,SMAP,25,VUS-ROC,0.7902213715558473
+s2a_core_ablation,A+B ECDF with Smoothing,SMD,20,VUS-ROC,0.8182683717176081
+s2a_core_ablation,A+B ECDF with Smoothing,SVDB,28,VUS-ROC,0.8552354975884926
+s2a_core_ablation,A+B ECDF with Smoothing,SWaT,2,VUS-ROC,0.7750410366890363
+s2a_core_ablation,A+B ECDF with Smoothing,TAO,11,VUS-ROC,0.8324618945013554
+s2a_core_ablation,A+B ECDF with Smoothing,CATSv2,5,AUC-PR,0.2378533579499978
+s2a_core_ablation,A+B ECDF with Smoothing,CreditCard,1,AUC-PR,0.009179687782739
+s2a_core_ablation,A+B ECDF with Smoothing,Daphnet,1,AUC-PR,0.3180362922178935
+s2a_core_ablation,A+B ECDF with Smoothing,Exathlon,25,AUC-PR,0.989398864193911
+s2a_core_ablation,A+B ECDF with Smoothing,GECCO,1,AUC-PR,0.2219575074813702
+s2a_core_ablation,A+B ECDF with Smoothing,GHL,23,AUC-PR,0.5101951090134507
+s2a_core_ablation,A+B ECDF with Smoothing,Genesis,1,AUC-PR,0.1876973419748915
+s2a_core_ablation,A+B ECDF with Smoothing,LTDB,4,AUC-PR,0.4440343548290673
+s2a_core_ablation,A+B ECDF with Smoothing,MITDB,11,AUC-PR,0.3199191520972782
+s2a_core_ablation,A+B ECDF with Smoothing,MSL,14,AUC-PR,0.22147900352145247
+s2a_core_ablation,A+B ECDF with Smoothing,OPPORTUNITY,7,AUC-PR,0.1501588285361807
+s2a_core_ablation,A+B ECDF with Smoothing,PSM,1,AUC-PR,0.3317691041012438
+s2a_core_ablation,A+B ECDF with Smoothing,SMAP,25,AUC-PR,0.2650229115133769
+s2a_core_ablation,A+B ECDF with Smoothing,SMD,20,AUC-PR,0.2297158532206678
+s2a_core_ablation,A+B ECDF with Smoothing,SVDB,28,AUC-PR,0.364014270234103
+s2a_core_ablation,A+B ECDF with Smoothing,SWaT,2,AUC-PR,0.5025988979370855
+s2a_core_ablation,A+B ECDF with Smoothing,TAO,11,AUC-PR,0.10199062807207832
+s2a_core_ablation,A+B ECDF with Smoothing,CATSv2,5,AUC-ROC,0.6882168485467537
+s2a_core_ablation,A+B ECDF with Smoothing,CreditCard,1,AUC-ROC,0.7073601556100677
+s2a_core_ablation,A+B ECDF with Smoothing,Daphnet,1,AUC-ROC,0.9160099229435286
+s2a_core_ablation,A+B ECDF with Smoothing,Exathlon,25,AUC-ROC,0.9994320401873467
+s2a_core_ablation,A+B ECDF with Smoothing,GECCO,1,AUC-ROC,0.8873120273644067
+s2a_core_ablation,A+B ECDF with Smoothing,GHL,23,AUC-ROC,0.8425505039255418
+s2a_core_ablation,A+B ECDF with Smoothing,Genesis,1,AUC-ROC,0.9939245516388374
+s2a_core_ablation,A+B ECDF with Smoothing,LTDB,4,AUC-ROC,0.8000977407264559
+s2a_core_ablation,A+B ECDF with Smoothing,MITDB,11,AUC-ROC,0.7151813404728053
+s2a_core_ablation,A+B ECDF with Smoothing,MSL,14,AUC-ROC,0.7291594405178479
+s2a_core_ablation,A+B ECDF with Smoothing,OPPORTUNITY,7,AUC-ROC,0.6536931274176936
+s2a_core_ablation,A+B ECDF with Smoothing,PSM,1,AUC-ROC,0.8440629837885139
+s2a_core_ablation,A+B ECDF with Smoothing,SMAP,25,AUC-ROC,0.7799492508095786
+s2a_core_ablation,A+B ECDF with Smoothing,SMD,20,AUC-ROC,0.8433808715250339
+s2a_core_ablation,A+B ECDF with Smoothing,SVDB,28,AUC-ROC,0.8267444227340858
+s2a_core_ablation,A+B ECDF with Smoothing,SWaT,2,AUC-ROC,0.8366115466268582
+s2a_core_ablation,A+B ECDF with Smoothing,TAO,11,AUC-ROC,0.5240151931024797
+s2a_core_ablation,A+B POT without Smoothing,CATSv2,5,VUS-PR,0.18451203013150033
+s2a_core_ablation,A+B POT without Smoothing,CreditCard,1,VUS-PR,0.0946560584837819
+s2a_core_ablation,A+B POT without Smoothing,Daphnet,1,VUS-PR,0.3280568567652039
+s2a_core_ablation,A+B POT without Smoothing,Exathlon,25,VUS-PR,0.9856798202448696
+s2a_core_ablation,A+B POT without Smoothing,GECCO,1,VUS-PR,0.2054400440712225
+s2a_core_ablation,A+B POT without Smoothing,GHL,23,VUS-PR,0.5070008900208992
+s2a_core_ablation,A+B POT without Smoothing,Genesis,1,VUS-PR,0.2975792081821508
+s2a_core_ablation,A+B POT without Smoothing,LTDB,4,VUS-PR,0.46661308573092697
+s2a_core_ablation,A+B POT without Smoothing,MITDB,11,VUS-PR,0.25157787661622827
+s2a_core_ablation,A+B POT without Smoothing,MSL,14,VUS-PR,0.3061336441319911
+s2a_core_ablation,A+B POT without Smoothing,OPPORTUNITY,7,VUS-PR,0.1556070569896703
+s2a_core_ablation,A+B POT without Smoothing,PSM,1,VUS-PR,0.330016791153429
+s2a_core_ablation,A+B POT without Smoothing,SMAP,25,VUS-PR,0.26479677120847894
+s2a_core_ablation,A+B POT without Smoothing,SMD,20,VUS-PR,0.3741403232961388
+s2a_core_ablation,A+B POT without Smoothing,SVDB,28,VUS-PR,0.5455586658434404
+s2a_core_ablation,A+B POT without Smoothing,SWaT,2,VUS-PR,0.4143968438204346
+s2a_core_ablation,A+B POT without Smoothing,TAO,11,VUS-PR,0.6406348490422161
+s2a_core_ablation,A+B POT without Smoothing,CATSv2,5,VUS-ROC,0.6762879141684389
+s2a_core_ablation,A+B POT without Smoothing,CreditCard,1,VUS-ROC,0.6929989593399077
+s2a_core_ablation,A+B POT without Smoothing,Daphnet,1,VUS-ROC,0.924844986776068
+s2a_core_ablation,A+B POT without Smoothing,Exathlon,25,VUS-ROC,0.9993085251113157
+s2a_core_ablation,A+B POT without Smoothing,GECCO,1,VUS-ROC,0.824432621653531
+s2a_core_ablation,A+B POT without Smoothing,GHL,23,VUS-ROC,0.8372886093746014
+s2a_core_ablation,A+B POT without Smoothing,Genesis,1,VUS-ROC,0.994446968107097
+s2a_core_ablation,A+B POT without Smoothing,LTDB,4,VUS-ROC,0.8015415476279597
+s2a_core_ablation,A+B POT without Smoothing,MITDB,11,VUS-ROC,0.7465654452068421
+s2a_core_ablation,A+B POT without Smoothing,MSL,14,VUS-ROC,0.7868660288567753
+s2a_core_ablation,A+B POT without Smoothing,OPPORTUNITY,7,VUS-ROC,0.6486065397510122
+s2a_core_ablation,A+B POT without Smoothing,PSM,1,VUS-ROC,0.7872400470728552
+s2a_core_ablation,A+B POT without Smoothing,SMAP,25,VUS-ROC,0.7725958577154273
+s2a_core_ablation,A+B POT without Smoothing,SMD,20,VUS-ROC,0.8371006917612325
+s2a_core_ablation,A+B POT without Smoothing,SVDB,28,VUS-ROC,0.8873809502172166
+s2a_core_ablation,A+B POT without Smoothing,SWaT,2,VUS-ROC,0.7725880808326896
+s2a_core_ablation,A+B POT without Smoothing,TAO,11,VUS-ROC,0.8203344699500339
+s2a_core_ablation,A+B POT without Smoothing,CATSv2,5,AUC-PR,0.27157313621128104
+s2a_core_ablation,A+B POT without Smoothing,CreditCard,1,AUC-PR,0.0319574495071761
+s2a_core_ablation,A+B POT without Smoothing,Daphnet,1,AUC-PR,0.3040720591392127
+s2a_core_ablation,A+B POT without Smoothing,Exathlon,25,AUC-PR,0.9808668826717212
+s2a_core_ablation,A+B POT without Smoothing,GECCO,1,AUC-PR,0.3888456739367902
+s2a_core_ablation,A+B POT without Smoothing,GHL,23,AUC-PR,0.5865198069265909
+s2a_core_ablation,A+B POT without Smoothing,Genesis,1,AUC-PR,0.1860611842941689
+s2a_core_ablation,A+B POT without Smoothing,LTDB,4,AUC-PR,0.4248082249052228
+s2a_core_ablation,A+B POT without Smoothing,MITDB,11,AUC-PR,0.3270990465912296
+s2a_core_ablation,A+B POT without Smoothing,MSL,14,AUC-PR,0.26824872258937316
+s2a_core_ablation,A+B POT without Smoothing,OPPORTUNITY,7,AUC-PR,0.1640401486242296
+s2a_core_ablation,A+B POT without Smoothing,PSM,1,AUC-PR,0.3556841387016747
+s2a_core_ablation,A+B POT without Smoothing,SMAP,25,AUC-PR,0.26523073429534777
+s2a_core_ablation,A+B POT without Smoothing,SMD,20,AUC-PR,0.456818593711669
+s2a_core_ablation,A+B POT without Smoothing,SVDB,28,AUC-PR,0.5297605031914193
+s2a_core_ablation,A+B POT without Smoothing,SWaT,2,AUC-PR,0.5313534107599203
+s2a_core_ablation,A+B POT without Smoothing,TAO,11,AUC-PR,0.08389171401380861
+s2a_core_ablation,A+B POT without Smoothing,CATSv2,5,AUC-ROC,0.6938693890570701
+s2a_core_ablation,A+B POT without Smoothing,CreditCard,1,AUC-ROC,0.726382366174927
+s2a_core_ablation,A+B POT without Smoothing,Daphnet,1,AUC-ROC,0.92163098044778
+s2a_core_ablation,A+B POT without Smoothing,Exathlon,25,AUC-ROC,0.9990492747584715
+s2a_core_ablation,A+B POT without Smoothing,GECCO,1,AUC-ROC,0.8769212179315947
+s2a_core_ablation,A+B POT without Smoothing,GHL,23,AUC-ROC,0.8416797864211389
+s2a_core_ablation,A+B POT without Smoothing,Genesis,1,AUC-ROC,0.9938280766852196
+s2a_core_ablation,A+B POT without Smoothing,LTDB,4,AUC-ROC,0.7838784215996597
+s2a_core_ablation,A+B POT without Smoothing,MITDB,11,AUC-ROC,0.7135053702730538
+s2a_core_ablation,A+B POT without Smoothing,MSL,14,AUC-ROC,0.7514028333351258
+s2a_core_ablation,A+B POT without Smoothing,OPPORTUNITY,7,AUC-ROC,0.6530360186411206
+s2a_core_ablation,A+B POT without Smoothing,PSM,1,AUC-ROC,0.8465267624165724
+s2a_core_ablation,A+B POT without Smoothing,SMAP,25,AUC-ROC,0.76728545299815
+s2a_core_ablation,A+B POT without Smoothing,SMD,20,AUC-ROC,0.8812715216235467
+s2a_core_ablation,A+B POT without Smoothing,SVDB,28,AUC-ROC,0.8593153223399409
+s2a_core_ablation,A+B POT without Smoothing,SWaT,2,AUC-ROC,0.8316448835800608
+s2a_core_ablation,A+B POT without Smoothing,TAO,11,AUC-ROC,0.4992637402251425
+s2a_core_ablation,Full DB-ESC,CATSv2,5,VUS-PR,0.1839253974617509
+s2a_core_ablation,Full DB-ESC,CreditCard,1,VUS-PR,0.0945721592401964
+s2a_core_ablation,Full DB-ESC,Daphnet,1,VUS-PR,0.333934840336258
+s2a_core_ablation,Full DB-ESC,Exathlon,25,VUS-PR,0.985983907486818
+s2a_core_ablation,Full DB-ESC,GECCO,1,VUS-PR,0.2017196359895705
+s2a_core_ablation,Full DB-ESC,GHL,23,VUS-PR,0.5088557449337117
+s2a_core_ablation,Full DB-ESC,Genesis,1,VUS-PR,0.3236020621239201
+s2a_core_ablation,Full DB-ESC,LTDB,4,VUS-PR,0.4677771289033161
+s2a_core_ablation,Full DB-ESC,MITDB,11,VUS-PR,0.254559428296057
+s2a_core_ablation,Full DB-ESC,MSL,14,VUS-PR,0.30996980402887225
+s2a_core_ablation,Full DB-ESC,OPPORTUNITY,7,VUS-PR,0.15619596921221374
+s2a_core_ablation,Full DB-ESC,PSM,1,VUS-PR,0.3291869599783548
+s2a_core_ablation,Full DB-ESC,SMAP,25,VUS-PR,0.2659798816616762
+s2a_core_ablation,Full DB-ESC,SMD,20,VUS-PR,0.37328533485118787
+s2a_core_ablation,Full DB-ESC,SVDB,28,VUS-PR,0.5454691481993467
+s2a_core_ablation,Full DB-ESC,SWaT,2,VUS-PR,0.41299221734109104
+s2a_core_ablation,Full DB-ESC,TAO,11,VUS-PR,0.6402995455788804
+s2a_core_ablation,Full DB-ESC,CATSv2,5,VUS-ROC,0.6763201463774997
+s2a_core_ablation,Full DB-ESC,CreditCard,1,VUS-ROC,0.6926650436152416
+s2a_core_ablation,Full DB-ESC,Daphnet,1,VUS-ROC,0.9259370612837968
+s2a_core_ablation,Full DB-ESC,Exathlon,25,VUS-ROC,0.9993216510886619
+s2a_core_ablation,Full DB-ESC,GECCO,1,VUS-ROC,0.8197525577393976
+s2a_core_ablation,Full DB-ESC,GHL,23,VUS-ROC,0.8377276896889164
+s2a_core_ablation,Full DB-ESC,Genesis,1,VUS-ROC,0.9948110928313274
+s2a_core_ablation,Full DB-ESC,LTDB,4,VUS-ROC,0.7997269130202224
+s2a_core_ablation,Full DB-ESC,MITDB,11,VUS-ROC,0.7477437980975938
+s2a_core_ablation,Full DB-ESC,MSL,14,VUS-ROC,0.7854994965991404
+s2a_core_ablation,Full DB-ESC,OPPORTUNITY,7,VUS-ROC,0.6475517895111829
+s2a_core_ablation,Full DB-ESC,PSM,1,VUS-ROC,0.7846603958690066
+s2a_core_ablation,Full DB-ESC,SMAP,25,VUS-ROC,0.7748956841771468
+s2a_core_ablation,Full DB-ESC,SMD,20,VUS-ROC,0.8344661336731087
+s2a_core_ablation,Full DB-ESC,SVDB,28,VUS-ROC,0.8869299567080569
+s2a_core_ablation,Full DB-ESC,SWaT,2,VUS-ROC,0.7693652119037675
+s2a_core_ablation,Full DB-ESC,TAO,11,VUS-ROC,0.8159473721036652
+s2a_core_ablation,Full DB-ESC,CATSv2,5,AUC-PR,0.27225910139162823
+s2a_core_ablation,Full DB-ESC,CreditCard,1,AUC-PR,0.0318031012742223
+s2a_core_ablation,Full DB-ESC,Daphnet,1,AUC-PR,0.3086752083232432
+s2a_core_ablation,Full DB-ESC,Exathlon,25,AUC-PR,0.98128829867801
+s2a_core_ablation,Full DB-ESC,GECCO,1,AUC-PR,0.3894936505355769
+s2a_core_ablation,Full DB-ESC,GHL,23,AUC-PR,0.5890190386769553
+s2a_core_ablation,Full DB-ESC,Genesis,1,AUC-PR,0.2101760688223688
+s2a_core_ablation,Full DB-ESC,LTDB,4,AUC-PR,0.42586790638637007
+s2a_core_ablation,Full DB-ESC,MITDB,11,AUC-PR,0.329549743978541
+s2a_core_ablation,Full DB-ESC,MSL,14,AUC-PR,0.2744025417713426
+s2a_core_ablation,Full DB-ESC,OPPORTUNITY,7,AUC-PR,0.16499666410787536
+s2a_core_ablation,Full DB-ESC,PSM,1,AUC-PR,0.3560617359577582
+s2a_core_ablation,Full DB-ESC,SMAP,25,AUC-PR,0.26863912233204057
+s2a_core_ablation,Full DB-ESC,SMD,20,AUC-PR,0.4580247489281895
+s2a_core_ablation,Full DB-ESC,SVDB,28,AUC-PR,0.5301400506905756
+s2a_core_ablation,Full DB-ESC,SWaT,2,AUC-PR,0.5315821439989918
+s2a_core_ablation,Full DB-ESC,TAO,11,AUC-PR,0.08362578015888728
+s2a_core_ablation,Full DB-ESC,CATSv2,5,AUC-ROC,0.6949739228752521
+s2a_core_ablation,Full DB-ESC,CreditCard,1,AUC-ROC,0.7263004262562893
+s2a_core_ablation,Full DB-ESC,Daphnet,1,AUC-ROC,0.9231629821285418
+s2a_core_ablation,Full DB-ESC,Exathlon,25,AUC-ROC,0.9990676710419115
+s2a_core_ablation,Full DB-ESC,GECCO,1,AUC-ROC,0.8754772992395817
+s2a_core_ablation,Full DB-ESC,GHL,23,AUC-ROC,0.8430823623147335
+s2a_core_ablation,Full DB-ESC,Genesis,1,AUC-ROC,0.9947186147186148
+s2a_core_ablation,Full DB-ESC,LTDB,4,AUC-ROC,0.7831923144665673
+s2a_core_ablation,Full DB-ESC,MITDB,11,AUC-ROC,0.7150989434328857
+s2a_core_ablation,Full DB-ESC,MSL,14,AUC-ROC,0.7503464102884453
+s2a_core_ablation,Full DB-ESC,OPPORTUNITY,7,AUC-ROC,0.6542518631184348
+s2a_core_ablation,Full DB-ESC,PSM,1,AUC-ROC,0.847293511970476
+s2a_core_ablation,Full DB-ESC,SMAP,25,AUC-ROC,0.7711562535574504
+s2a_core_ablation,Full DB-ESC,SMD,20,AUC-ROC,0.8820133492556202
+s2a_core_ablation,Full DB-ESC,SVDB,28,AUC-ROC,0.8604738273732572
+s2a_core_ablation,Full DB-ESC,SWaT,2,AUC-ROC,0.8319268593121297
+s2a_core_ablation,Full DB-ESC,TAO,11,AUC-ROC,0.4967134160559576
+s2b_multiscale_ablation,W = {48},CATSv2,5,VUS-PR,0.13629430211249388
+s2b_multiscale_ablation,W = {48},CreditCard,1,VUS-PR,0.0756801013550596
+s2b_multiscale_ablation,W = {48},Daphnet,1,VUS-PR,0.3490425042094773
+s2b_multiscale_ablation,W = {48},Exathlon,25,VUS-PR,0.9904055654096661
+s2b_multiscale_ablation,W = {48},GECCO,1,VUS-PR,0.3307926867933889
+s2b_multiscale_ablation,W = {48},GHL,23,VUS-PR,0.16615421675672695
+s2b_multiscale_ablation,W = {48},Genesis,1,VUS-PR,0.3425900870155009
+s2b_multiscale_ablation,W = {48},LTDB,4,VUS-PR,0.4407073177325964
+s2b_multiscale_ablation,W = {48},MITDB,11,VUS-PR,0.19253006535517844
+s2b_multiscale_ablation,W = {48},MSL,14,VUS-PR,0.24363955238562998
+s2b_multiscale_ablation,W = {48},OPPORTUNITY,7,VUS-PR,0.14019427218663197
+s2b_multiscale_ablation,W = {48},PSM,1,VUS-PR,0.3500492747999483
+s2b_multiscale_ablation,W = {48},SMAP,25,VUS-PR,0.28508770196940886
+s2b_multiscale_ablation,W = {48},SMD,20,VUS-PR,0.39659956528951
+s2b_multiscale_ablation,W = {48},SVDB,28,VUS-PR,0.5150080064537039
+s2b_multiscale_ablation,W = {48},SWaT,2,VUS-PR,0.39868689520875994
+s2b_multiscale_ablation,W = {48},TAO,11,VUS-PR,0.6498161983153067
+s2b_multiscale_ablation,W = {48},CATSv2,5,VUS-ROC,0.6463323232011806
+s2b_multiscale_ablation,W = {48},CreditCard,1,VUS-ROC,0.6696277389416984
+s2b_multiscale_ablation,W = {48},Daphnet,1,VUS-ROC,0.925511100055782
+s2b_multiscale_ablation,W = {48},Exathlon,25,VUS-ROC,0.9992402623793724
+s2b_multiscale_ablation,W = {48},GECCO,1,VUS-ROC,0.8525937442988144
+s2b_multiscale_ablation,W = {48},GHL,23,VUS-ROC,0.779212512335809
+s2b_multiscale_ablation,W = {48},Genesis,1,VUS-ROC,0.996084315421973
+s2b_multiscale_ablation,W = {48},LTDB,4,VUS-ROC,0.7534669123165617
+s2b_multiscale_ablation,W = {48},MITDB,11,VUS-ROC,0.7042505959050646
+s2b_multiscale_ablation,W = {48},MSL,14,VUS-ROC,0.795283355357664
+s2b_multiscale_ablation,W = {48},OPPORTUNITY,7,VUS-ROC,0.6698106066574907
+s2b_multiscale_ablation,W = {48},PSM,1,VUS-ROC,0.8106064000746211
+s2b_multiscale_ablation,W = {48},SMAP,25,VUS-ROC,0.7611806847989823
+s2b_multiscale_ablation,W = {48},SMD,20,VUS-ROC,0.8413947353784108
+s2b_multiscale_ablation,W = {48},SVDB,28,VUS-ROC,0.8859553840005018
+s2b_multiscale_ablation,W = {48},SWaT,2,VUS-ROC,0.7715594508224493
+s2b_multiscale_ablation,W = {48},TAO,11,VUS-ROC,0.8283530603791843
+s2b_multiscale_ablation,W = {48},CATSv2,5,AUC-PR,0.1952935868303149
+s2b_multiscale_ablation,W = {48},CreditCard,1,AUC-PR,0.0272674841170075
+s2b_multiscale_ablation,W = {48},Daphnet,1,AUC-PR,0.3506396452503887
+s2b_multiscale_ablation,W = {48},Exathlon,25,AUC-PR,0.9871561851332715
+s2b_multiscale_ablation,W = {48},GECCO,1,AUC-PR,0.4063994784446488
+s2b_multiscale_ablation,W = {48},GHL,23,AUC-PR,0.18920311703772155
+s2b_multiscale_ablation,W = {48},Genesis,1,AUC-PR,0.2683581700966039
+s2b_multiscale_ablation,W = {48},LTDB,4,AUC-PR,0.4019208169233116
+s2b_multiscale_ablation,W = {48},MITDB,11,AUC-PR,0.26680041036834634
+s2b_multiscale_ablation,W = {48},MSL,14,AUC-PR,0.21470286913666725
+s2b_multiscale_ablation,W = {48},OPPORTUNITY,7,AUC-PR,0.1406869164137429
+s2b_multiscale_ablation,W = {48},PSM,1,AUC-PR,0.3897842684426319
+s2b_multiscale_ablation,W = {48},SMAP,25,AUC-PR,0.2805478173093313
+s2b_multiscale_ablation,W = {48},SMD,20,AUC-PR,0.4737615515428903
+s2b_multiscale_ablation,W = {48},SVDB,28,AUC-PR,0.5066997726862451
+s2b_multiscale_ablation,W = {48},SWaT,2,AUC-PR,0.52635917588789
+s2b_multiscale_ablation,W = {48},TAO,11,AUC-PR,0.08911010968490936
+s2b_multiscale_ablation,W = {48},CATSv2,5,AUC-ROC,0.660666253712634
+s2b_multiscale_ablation,W = {48},CreditCard,1,AUC-ROC,0.6936322774936592
+s2b_multiscale_ablation,W = {48},Daphnet,1,AUC-ROC,0.9230685415511428
+s2b_multiscale_ablation,W = {48},Exathlon,25,AUC-ROC,0.9984167052707745
+s2b_multiscale_ablation,W = {48},GECCO,1,AUC-ROC,0.8804022071747876
+s2b_multiscale_ablation,W = {48},GHL,23,AUC-ROC,0.785973354646247
+s2b_multiscale_ablation,W = {48},Genesis,1,AUC-ROC,0.9959938157081014
+s2b_multiscale_ablation,W = {48},LTDB,4,AUC-ROC,0.7267565986638467
+s2b_multiscale_ablation,W = {48},MITDB,11,AUC-ROC,0.6709310423168117
+s2b_multiscale_ablation,W = {48},MSL,14,AUC-ROC,0.7258688574194057
+s2b_multiscale_ablation,W = {48},OPPORTUNITY,7,AUC-ROC,0.6769210083129931
+s2b_multiscale_ablation,W = {48},PSM,1,AUC-ROC,0.8536609393475675
+s2b_multiscale_ablation,W = {48},SMAP,25,AUC-ROC,0.7388503140066013
+s2b_multiscale_ablation,W = {48},SMD,20,AUC-ROC,0.8734135194689994
+s2b_multiscale_ablation,W = {48},SVDB,28,AUC-ROC,0.8517471477055961
+s2b_multiscale_ablation,W = {48},SWaT,2,AUC-ROC,0.8355760564727841
+s2b_multiscale_ablation,W = {48},TAO,11,AUC-ROC,0.5124482492687688
+s2b_multiscale_ablation,W = {96},CATSv2,5,VUS-PR,0.16764256851975723
+s2b_multiscale_ablation,W = {96},CreditCard,1,VUS-PR,0.0931997898175501
+s2b_multiscale_ablation,W = {96},Daphnet,1,VUS-PR,0.3500760508130378
+s2b_multiscale_ablation,W = {96},Exathlon,25,VUS-PR,0.9880309019624451
+s2b_multiscale_ablation,W = {96},GECCO,1,VUS-PR,0.2108700908628951
+s2b_multiscale_ablation,W = {96},GHL,23,VUS-PR,0.47950375453026306
+s2b_multiscale_ablation,W = {96},Genesis,1,VUS-PR,0.2956168145705568
+s2b_multiscale_ablation,W = {96},LTDB,4,VUS-PR,0.47493875151500214
+s2b_multiscale_ablation,W = {96},MITDB,11,VUS-PR,0.21124341474407704
+s2b_multiscale_ablation,W = {96},MSL,14,VUS-PR,0.33386861753292246
+s2b_multiscale_ablation,W = {96},OPPORTUNITY,7,VUS-PR,0.14535128267750827
+s2b_multiscale_ablation,W = {96},PSM,1,VUS-PR,0.3312458750744004
+s2b_multiscale_ablation,W = {96},SMAP,25,VUS-PR,0.2713358394674167
+s2b_multiscale_ablation,W = {96},SMD,20,VUS-PR,0.3884800268430596
+s2b_multiscale_ablation,W = {96},SVDB,28,VUS-PR,0.5852764164000064
+s2b_multiscale_ablation,W = {96},SWaT,2,VUS-PR,0.4110207117303268
+s2b_multiscale_ablation,W = {96},TAO,11,VUS-PR,0.6635788419645126
+s2b_multiscale_ablation,W = {96},CATSv2,5,VUS-ROC,0.665692467560036
+s2b_multiscale_ablation,W = {96},CreditCard,1,VUS-ROC,0.6910345882879796
+s2b_multiscale_ablation,W = {96},Daphnet,1,VUS-ROC,0.9264392936995156
+s2b_multiscale_ablation,W = {96},Exathlon,25,VUS-ROC,0.9994148177423458
+s2b_multiscale_ablation,W = {96},GECCO,1,VUS-ROC,0.8159290606380281
+s2b_multiscale_ablation,W = {96},GHL,23,VUS-ROC,0.8275601334075771
+s2b_multiscale_ablation,W = {96},Genesis,1,VUS-ROC,0.9946228198984866
+s2b_multiscale_ablation,W = {96},LTDB,4,VUS-ROC,0.7895803018890313
+s2b_multiscale_ablation,W = {96},MITDB,11,VUS-ROC,0.721497670536245
+s2b_multiscale_ablation,W = {96},MSL,14,VUS-ROC,0.787362159124077
+s2b_multiscale_ablation,W = {96},OPPORTUNITY,7,VUS-ROC,0.6498923783221505
+s2b_multiscale_ablation,W = {96},PSM,1,VUS-ROC,0.7835793078389465
+s2b_multiscale_ablation,W = {96},SMAP,25,VUS-ROC,0.8003433119086983
+s2b_multiscale_ablation,W = {96},SMD,20,VUS-ROC,0.8336840701738393
+s2b_multiscale_ablation,W = {96},SVDB,28,VUS-ROC,0.903947730608664
+s2b_multiscale_ablation,W = {96},SWaT,2,VUS-ROC,0.770175111753415
+s2b_multiscale_ablation,W = {96},TAO,11,VUS-ROC,0.82896921784514
+s2b_multiscale_ablation,W = {96},CATSv2,5,AUC-PR,0.24320494872296922
+s2b_multiscale_ablation,W = {96},CreditCard,1,AUC-PR,0.0314393578803478
+s2b_multiscale_ablation,W = {96},Daphnet,1,AUC-PR,0.3417939135555268
+s2b_multiscale_ablation,W = {96},Exathlon,25,AUC-PR,0.9835705933431953
+s2b_multiscale_ablation,W = {96},GECCO,1,AUC-PR,0.3903569153195871
+s2b_multiscale_ablation,W = {96},GHL,23,AUC-PR,0.5611938616050925
+s2b_multiscale_ablation,W = {96},Genesis,1,AUC-PR,0.1984801231088061
+s2b_multiscale_ablation,W = {96},LTDB,4,AUC-PR,0.4352832752300183
+s2b_multiscale_ablation,W = {96},MITDB,11,AUC-PR,0.2979110273542069
+s2b_multiscale_ablation,W = {96},MSL,14,AUC-PR,0.2988087496302168
+s2b_multiscale_ablation,W = {96},OPPORTUNITY,7,AUC-PR,0.14924677860147822
+s2b_multiscale_ablation,W = {96},PSM,1,AUC-PR,0.3669009352319465
+s2b_multiscale_ablation,W = {96},SMAP,25,AUC-PR,0.2675161576722772
+s2b_multiscale_ablation,W = {96},SMD,20,AUC-PR,0.4652346588132838
+s2b_multiscale_ablation,W = {96},SVDB,28,AUC-PR,0.5698183179234537
+s2b_multiscale_ablation,W = {96},SWaT,2,AUC-PR,0.5277064383804547
+s2b_multiscale_ablation,W = {96},TAO,11,AUC-PR,0.0899965823633504
+s2b_multiscale_ablation,W = {96},CATSv2,5,AUC-ROC,0.6828826957319742
+s2b_multiscale_ablation,W = {96},CreditCard,1,AUC-ROC,0.7234729414543499
+s2b_multiscale_ablation,W = {96},Daphnet,1,AUC-ROC,0.9236218905600424
+s2b_multiscale_ablation,W = {96},Exathlon,25,AUC-ROC,0.9991321397098382
+s2b_multiscale_ablation,W = {96},GECCO,1,AUC-ROC,0.867049433316941
+s2b_multiscale_ablation,W = {96},GHL,23,AUC-ROC,0.8328472483470858
+s2b_multiscale_ablation,W = {96},Genesis,1,AUC-ROC,0.9943710575139146
+s2b_multiscale_ablation,W = {96},LTDB,4,AUC-ROC,0.7713112640253725
+s2b_multiscale_ablation,W = {96},MITDB,11,AUC-ROC,0.6886427430400036
+s2b_multiscale_ablation,W = {96},MSL,14,AUC-ROC,0.730800698037205
+s2b_multiscale_ablation,W = {96},OPPORTUNITY,7,AUC-ROC,0.6531813767766217
+s2b_multiscale_ablation,W = {96},PSM,1,AUC-ROC,0.8474380394310342
+s2b_multiscale_ablation,W = {96},SMAP,25,AUC-ROC,0.7902188094719765
+s2b_multiscale_ablation,W = {96},SMD,20,AUC-ROC,0.881441290038039
+s2b_multiscale_ablation,W = {96},SVDB,28,AUC-ROC,0.8767363964456875
+s2b_multiscale_ablation,W = {96},SWaT,2,AUC-ROC,0.829978154792125
+s2b_multiscale_ablation,W = {96},TAO,11,AUC-ROC,0.5216717832104071
+s2b_multiscale_ablation,W = {192},CATSv2,5,VUS-PR,0.204284515197635
+s2b_multiscale_ablation,W = {192},CreditCard,1,VUS-PR,0.0919189767020338
+s2b_multiscale_ablation,W = {192},Daphnet,1,VUS-PR,0.339850505015452
+s2b_multiscale_ablation,W = {192},Exathlon,25,VUS-PR,0.9748630810788818
+s2b_multiscale_ablation,W = {192},GECCO,1,VUS-PR,0.1494778711927986
+s2b_multiscale_ablation,W = {192},GHL,23,VUS-PR,0.4693292929184302
+s2b_multiscale_ablation,W = {192},Genesis,1,VUS-PR,0.2385387134432962
+s2b_multiscale_ablation,W = {192},LTDB,4,VUS-PR,0.4651470401111534
+s2b_multiscale_ablation,W = {192},MITDB,11,VUS-PR,0.2681393870082389
+s2b_multiscale_ablation,W = {192},MSL,14,VUS-PR,0.34557150627688926
+s2b_multiscale_ablation,W = {192},OPPORTUNITY,7,VUS-PR,0.14557023272695663
+s2b_multiscale_ablation,W = {192},PSM,1,VUS-PR,0.307475854836779
+s2b_multiscale_ablation,W = {192},SMAP,25,VUS-PR,0.20954816360826084
+s2b_multiscale_ablation,W = {192},SMD,20,VUS-PR,0.3315938009834602
+s2b_multiscale_ablation,W = {192},SVDB,28,VUS-PR,0.5585147071341197
+s2b_multiscale_ablation,W = {192},SWaT,2,VUS-PR,0.4128615385687461
+s2b_multiscale_ablation,W = {192},TAO,11,VUS-PR,0.6751741217752991
+s2b_multiscale_ablation,W = {192},CATSv2,5,VUS-ROC,0.6961977485216109
+s2b_multiscale_ablation,W = {192},CreditCard,1,VUS-ROC,0.6868145579927711
+s2b_multiscale_ablation,W = {192},Daphnet,1,VUS-ROC,0.9270008398296607
+s2b_multiscale_ablation,W = {192},Exathlon,25,VUS-ROC,0.9987412489595137
+s2b_multiscale_ablation,W = {192},GECCO,1,VUS-ROC,0.7547413847392739
+s2b_multiscale_ablation,W = {192},GHL,23,VUS-ROC,0.820479617709215
+s2b_multiscale_ablation,W = {192},Genesis,1,VUS-ROC,0.992979886324687
+s2b_multiscale_ablation,W = {192},LTDB,4,VUS-ROC,0.813768778821385
+s2b_multiscale_ablation,W = {192},MITDB,11,VUS-ROC,0.7620673368792518
+s2b_multiscale_ablation,W = {192},MSL,14,VUS-ROC,0.768002814573997
+s2b_multiscale_ablation,W = {192},OPPORTUNITY,7,VUS-ROC,0.595544915742484
+s2b_multiscale_ablation,W = {192},PSM,1,VUS-ROC,0.768199063756178
+s2b_multiscale_ablation,W = {192},SMAP,25,VUS-ROC,0.751697491062533
+s2b_multiscale_ablation,W = {192},SMD,20,VUS-ROC,0.8199005682848218
+s2b_multiscale_ablation,W = {192},SVDB,28,VUS-ROC,0.8957742763866811
+s2b_multiscale_ablation,W = {192},SWaT,2,VUS-ROC,0.7708599800238838
+s2b_multiscale_ablation,W = {192},TAO,11,VUS-ROC,0.8260910244060345
+s2b_multiscale_ablation,W = {192},CATSv2,5,AUC-PR,0.29139171673645026
+s2b_multiscale_ablation,W = {192},CreditCard,1,AUC-PR,0.0307476256710722
+s2b_multiscale_ablation,W = {192},Daphnet,1,AUC-PR,0.3082936690883002
+s2b_multiscale_ablation,W = {192},Exathlon,25,AUC-PR,0.9688523820991983
+s2b_multiscale_ablation,W = {192},GECCO,1,AUC-PR,0.3447326167375331
+s2b_multiscale_ablation,W = {192},GHL,23,AUC-PR,0.5539397936866594
+s2b_multiscale_ablation,W = {192},Genesis,1,AUC-PR,0.1723797948659543
+s2b_multiscale_ablation,W = {192},LTDB,4,AUC-PR,0.4220618167663818
+s2b_multiscale_ablation,W = {192},MITDB,11,AUC-PR,0.34362572531340024
+s2b_multiscale_ablation,W = {192},MSL,14,AUC-PR,0.3245941037388735
+s2b_multiscale_ablation,W = {192},OPPORTUNITY,7,AUC-PR,0.1528404817367051
+s2b_multiscale_ablation,W = {192},PSM,1,AUC-PR,0.3161611145888283
+s2b_multiscale_ablation,W = {192},SMAP,25,AUC-PR,0.20947482777407966
+s2b_multiscale_ablation,W = {192},SMD,20,AUC-PR,0.42196928260324595
+s2b_multiscale_ablation,W = {192},SVDB,28,AUC-PR,0.5365800571658836
+s2b_multiscale_ablation,W = {192},SWaT,2,AUC-PR,0.5249010685268315
+s2b_multiscale_ablation,W = {192},TAO,11,AUC-PR,0.08840120286749835
+s2b_multiscale_ablation,W = {192},CATSv2,5,AUC-ROC,0.7091212575843323
+s2b_multiscale_ablation,W = {192},CreditCard,1,AUC-ROC,0.7219597194740919
+s2b_multiscale_ablation,W = {192},Daphnet,1,AUC-ROC,0.9236540208093664
+s2b_multiscale_ablation,W = {192},Exathlon,25,AUC-ROC,0.9983952567183415
+s2b_multiscale_ablation,W = {192},GECCO,1,AUC-ROC,0.8448082122698254
+s2b_multiscale_ablation,W = {192},GHL,23,AUC-ROC,0.8261284093000221
+s2b_multiscale_ablation,W = {192},Genesis,1,AUC-ROC,0.9928806431663574
+s2b_multiscale_ablation,W = {192},LTDB,4,AUC-ROC,0.801736396234914
+s2b_multiscale_ablation,W = {192},MITDB,11,AUC-ROC,0.7342507988551635
+s2b_multiscale_ablation,W = {192},MSL,14,AUC-ROC,0.7329991894321839
+s2b_multiscale_ablation,W = {192},OPPORTUNITY,7,AUC-ROC,0.598422332276223
+s2b_multiscale_ablation,W = {192},PSM,1,AUC-ROC,0.837471718569009
+s2b_multiscale_ablation,W = {192},SMAP,25,AUC-ROC,0.7471819423149255
+s2b_multiscale_ablation,W = {192},SMD,20,AUC-ROC,0.8798318004481576
+s2b_multiscale_ablation,W = {192},SVDB,28,AUC-ROC,0.8691988767373058
+s2b_multiscale_ablation,W = {192},SWaT,2,AUC-ROC,0.8295681458887328
+s2b_multiscale_ablation,W = {192},TAO,11,AUC-ROC,0.5199456910691438
+s2b_multiscale_ablation,"W = {48,96}",CATSv2,5,VUS-PR,0.1575476296649172
+s2b_multiscale_ablation,"W = {48,96}",CreditCard,1,VUS-PR,0.0933973442982338
+s2b_multiscale_ablation,"W = {48,96}",Daphnet,1,VUS-PR,0.3479191889548121
+s2b_multiscale_ablation,"W = {48,96}",Exathlon,25,VUS-PR,0.9896975054876671
+s2b_multiscale_ablation,"W = {48,96}",GECCO,1,VUS-PR,0.2507232259192696
+s2b_multiscale_ablation,"W = {48,96}",GHL,23,VUS-PR,0.41966398465399296
+s2b_multiscale_ablation,"W = {48,96}",Genesis,1,VUS-PR,0.3055969074676776
+s2b_multiscale_ablation,"W = {48,96}",LTDB,4,VUS-PR,0.4620122856251778
+s2b_multiscale_ablation,"W = {48,96}",MITDB,11,VUS-PR,0.2074529605542672
+s2b_multiscale_ablation,"W = {48,96}",MSL,14,VUS-PR,0.28786712807440334
+s2b_multiscale_ablation,"W = {48,96}",OPPORTUNITY,7,VUS-PR,0.1518823474638614
+s2b_multiscale_ablation,"W = {48,96}",PSM,1,VUS-PR,0.3418444075326288
+s2b_multiscale_ablation,"W = {48,96}",SMAP,25,VUS-PR,0.3024211408153414
+s2b_multiscale_ablation,"W = {48,96}",SMD,20,VUS-PR,0.4151862292910914
+s2b_multiscale_ablation,"W = {48,96}",SVDB,28,VUS-PR,0.5623893284146605
+s2b_multiscale_ablation,"W = {48,96}",SWaT,2,VUS-PR,0.40330839465664703
+s2b_multiscale_ablation,"W = {48,96}",TAO,11,VUS-PR,0.6348269696978268
+s2b_multiscale_ablation,"W = {48,96}",CATSv2,5,VUS-ROC,0.6586913183787584
+s2b_multiscale_ablation,"W = {48,96}",CreditCard,1,VUS-ROC,0.6931562074248853
+s2b_multiscale_ablation,"W = {48,96}",Daphnet,1,VUS-ROC,0.9245104026937512
+s2b_multiscale_ablation,"W = {48,96}",Exathlon,25,VUS-ROC,0.9994377989983435
+s2b_multiscale_ablation,"W = {48,96}",GECCO,1,VUS-ROC,0.842018517479248
+s2b_multiscale_ablation,"W = {48,96}",GHL,23,VUS-ROC,0.8275623260953708
+s2b_multiscale_ablation,"W = {48,96}",Genesis,1,VUS-ROC,0.9953002926881052
+s2b_multiscale_ablation,"W = {48,96}",LTDB,4,VUS-ROC,0.7796925963559083
+s2b_multiscale_ablation,"W = {48,96}",MITDB,11,VUS-ROC,0.7177973718235754
+s2b_multiscale_ablation,"W = {48,96}",MSL,14,VUS-ROC,0.7917283059069282
+s2b_multiscale_ablation,"W = {48,96}",OPPORTUNITY,7,VUS-ROC,0.6682393649195638
+s2b_multiscale_ablation,"W = {48,96}",PSM,1,VUS-ROC,0.7997922607892565
+s2b_multiscale_ablation,"W = {48,96}",SMAP,25,VUS-ROC,0.799775249426717
+s2b_multiscale_ablation,"W = {48,96}",SMD,20,VUS-ROC,0.8415619796752084
+s2b_multiscale_ablation,"W = {48,96}",SVDB,28,VUS-ROC,0.8932296311552984
+s2b_multiscale_ablation,"W = {48,96}",SWaT,2,VUS-ROC,0.7685603509201913
+s2b_multiscale_ablation,"W = {48,96}",TAO,11,VUS-ROC,0.8206945521715118
+s2b_multiscale_ablation,"W = {48,96}",CATSv2,5,AUC-PR,0.230842204253881
+s2b_multiscale_ablation,"W = {48,96}",CreditCard,1,AUC-PR,0.0309329560785308
+s2b_multiscale_ablation,"W = {48,96}",Daphnet,1,AUC-PR,0.350336618516942
+s2b_multiscale_ablation,"W = {48,96}",Exathlon,25,AUC-PR,0.9856699443817248
+s2b_multiscale_ablation,"W = {48,96}",GECCO,1,AUC-PR,0.4047160496462394
+s2b_multiscale_ablation,"W = {48,96}",GHL,23,AUC-PR,0.5174545448499649
+s2b_multiscale_ablation,"W = {48,96}",Genesis,1,AUC-PR,0.2162682566427767
+s2b_multiscale_ablation,"W = {48,96}",LTDB,4,AUC-PR,0.4229029318001912
+s2b_multiscale_ablation,"W = {48,96}",MITDB,11,AUC-PR,0.2860489565423315
+s2b_multiscale_ablation,"W = {48,96}",MSL,14,AUC-PR,0.24808469037069036
+s2b_multiscale_ablation,"W = {48,96}",OPPORTUNITY,7,AUC-PR,0.15484953165885398
+s2b_multiscale_ablation,"W = {48,96}",PSM,1,AUC-PR,0.3786266126121172
+s2b_multiscale_ablation,"W = {48,96}",SMAP,25,AUC-PR,0.3002045418678335
+s2b_multiscale_ablation,"W = {48,96}",SMD,20,AUC-PR,0.4861134938642593
+s2b_multiscale_ablation,"W = {48,96}",SVDB,28,AUC-PR,0.5481700641437973
+s2b_multiscale_ablation,"W = {48,96}",SWaT,2,AUC-PR,0.5279263032821578
+s2b_multiscale_ablation,"W = {48,96}",TAO,11,AUC-PR,0.08505296505153931
+s2b_multiscale_ablation,"W = {48,96}",CATSv2,5,AUC-ROC,0.675644030259279
+s2b_multiscale_ablation,"W = {48,96}",CreditCard,1,AUC-ROC,0.72472583869746
+s2b_multiscale_ablation,"W = {48,96}",Daphnet,1,AUC-ROC,0.9221847456516188
+s2b_multiscale_ablation,"W = {48,96}",Exathlon,25,AUC-ROC,0.9990908219416607
+s2b_multiscale_ablation,"W = {48,96}",GECCO,1,AUC-ROC,0.8796805337146952
+s2b_multiscale_ablation,"W = {48,96}",GHL,23,AUC-ROC,0.8325438985762039
+s2b_multiscale_ablation,"W = {48,96}",Genesis,1,AUC-ROC,0.994995670995671
+s2b_multiscale_ablation,"W = {48,96}",LTDB,4,AUC-ROC,0.7574028740452471
+s2b_multiscale_ablation,"W = {48,96}",MITDB,11,AUC-ROC,0.6841959223533773
+s2b_multiscale_ablation,"W = {48,96}",MSL,14,AUC-ROC,0.7307091399239203
+s2b_multiscale_ablation,"W = {48,96}",OPPORTUNITY,7,AUC-ROC,0.6744789253209277
+s2b_multiscale_ablation,"W = {48,96}",PSM,1,AUC-ROC,0.8527577127080336
+s2b_multiscale_ablation,"W = {48,96}",SMAP,25,AUC-ROC,0.790546923367797
+s2b_multiscale_ablation,"W = {48,96}",SMD,20,AUC-ROC,0.8801437882654556
+s2b_multiscale_ablation,"W = {48,96}",SVDB,28,AUC-ROC,0.8633774624164822
+s2b_multiscale_ablation,"W = {48,96}",SWaT,2,AUC-ROC,0.8337050689946672
+s2b_multiscale_ablation,"W = {48,96}",TAO,11,AUC-ROC,0.5013671923693154
+s2b_multiscale_ablation,"W = {48,192}",CATSv2,5,VUS-PR,0.19089688732956134
+s2b_multiscale_ablation,"W = {48,192}",CreditCard,1,VUS-PR,0.0952378555794766
+s2b_multiscale_ablation,"W = {48,192}",Daphnet,1,VUS-PR,0.3341943004407295
+s2b_multiscale_ablation,"W = {48,192}",Exathlon,25,VUS-PR,0.9848831449515645
+s2b_multiscale_ablation,"W = {48,192}",GECCO,1,VUS-PR,0.1963743194912113
+s2b_multiscale_ablation,"W = {48,192}",GHL,23,VUS-PR,0.43863295995363993
+s2b_multiscale_ablation,"W = {48,192}",Genesis,1,VUS-PR,0.4122449007707887
+s2b_multiscale_ablation,"W = {48,192}",LTDB,4,VUS-PR,0.45932750718289916
+s2b_multiscale_ablation,"W = {48,192}",MITDB,11,VUS-PR,0.25803081674990486
+s2b_multiscale_ablation,"W = {48,192}",MSL,14,VUS-PR,0.3201409486681553
+s2b_multiscale_ablation,"W = {48,192}",OPPORTUNITY,7,VUS-PR,0.16028981361023154
+s2b_multiscale_ablation,"W = {48,192}",PSM,1,VUS-PR,0.3266824260828382
+s2b_multiscale_ablation,"W = {48,192}",SMAP,25,VUS-PR,0.25512723307597174
+s2b_multiscale_ablation,"W = {48,192}",SMD,20,VUS-PR,0.36661415744967096
+s2b_multiscale_ablation,"W = {48,192}",SVDB,28,VUS-PR,0.5346169159970886
+s2b_multiscale_ablation,"W = {48,192}",SWaT,2,VUS-PR,0.4131623558083576
+s2b_multiscale_ablation,"W = {48,192}",TAO,11,VUS-PR,0.6450373885069974
+s2b_multiscale_ablation,"W = {48,192}",CATSv2,5,VUS-ROC,0.6863552910680488
+s2b_multiscale_ablation,"W = {48,192}",CreditCard,1,VUS-ROC,0.6909916538966658
+s2b_multiscale_ablation,"W = {48,192}",Daphnet,1,VUS-ROC,0.9262093314800508
+s2b_multiscale_ablation,"W = {48,192}",Exathlon,25,VUS-ROC,0.9992739767701573
+s2b_multiscale_ablation,"W = {48,192}",GECCO,1,VUS-ROC,0.818127628748048
+s2b_multiscale_ablation,"W = {48,192}",GHL,23,VUS-ROC,0.8314709152812018
+s2b_multiscale_ablation,"W = {48,192}",Genesis,1,VUS-ROC,0.9961039215622148
+s2b_multiscale_ablation,"W = {48,192}",LTDB,4,VUS-ROC,0.801004398817636
+s2b_multiscale_ablation,"W = {48,192}",MITDB,11,VUS-ROC,0.7528193419656245
+s2b_multiscale_ablation,"W = {48,192}",MSL,14,VUS-ROC,0.7844924126362517
+s2b_multiscale_ablation,"W = {48,192}",OPPORTUNITY,7,VUS-ROC,0.6413079938093558
+s2b_multiscale_ablation,"W = {48,192}",PSM,1,VUS-ROC,0.7857190219232639
+s2b_multiscale_ablation,"W = {48,192}",SMAP,25,VUS-ROC,0.7592151570520087
+s2b_multiscale_ablation,"W = {48,192}",SMD,20,VUS-ROC,0.8384069133218718
+s2b_multiscale_ablation,"W = {48,192}",SVDB,28,VUS-ROC,0.8863693640924358
+s2b_multiscale_ablation,"W = {48,192}",SWaT,2,VUS-ROC,0.7699679115624398
+s2b_multiscale_ablation,"W = {48,192}",TAO,11,VUS-ROC,0.8164469365189725
+s2b_multiscale_ablation,"W = {48,192}",CATSv2,5,AUC-PR,0.278831191648954
+s2b_multiscale_ablation,"W = {48,192}",CreditCard,1,AUC-PR,0.0316223456683815
+s2b_multiscale_ablation,"W = {48,192}",Daphnet,1,AUC-PR,0.3073453108060574
+s2b_multiscale_ablation,"W = {48,192}",Exathlon,25,AUC-PR,0.9803621761519601
+s2b_multiscale_ablation,"W = {48,192}",GECCO,1,AUC-PR,0.384812449266356
+s2b_multiscale_ablation,"W = {48,192}",GHL,23,AUC-PR,0.5368778771366243
+s2b_multiscale_ablation,"W = {48,192}",Genesis,1,AUC-PR,0.2481853650569726
+s2b_multiscale_ablation,"W = {48,192}",LTDB,4,AUC-PR,0.41327929696096727
+s2b_multiscale_ablation,"W = {48,192}",MITDB,11,AUC-PR,0.3292517727314977
+s2b_multiscale_ablation,"W = {48,192}",MSL,14,AUC-PR,0.29320185092002543
+s2b_multiscale_ablation,"W = {48,192}",OPPORTUNITY,7,AUC-PR,0.16930647142724223
+s2b_multiscale_ablation,"W = {48,192}",PSM,1,AUC-PR,0.348015226428929
+s2b_multiscale_ablation,"W = {48,192}",SMAP,25,AUC-PR,0.25744563190952485
+s2b_multiscale_ablation,"W = {48,192}",SMD,20,AUC-PR,0.4530294210607494
+s2b_multiscale_ablation,"W = {48,192}",SVDB,28,AUC-PR,0.5139120899522325
+s2b_multiscale_ablation,"W = {48,192}",SWaT,2,AUC-PR,0.5342247246226985
+s2b_multiscale_ablation,"W = {48,192}",TAO,11,AUC-PR,0.0834510764420246
+s2b_multiscale_ablation,"W = {48,192}",CATSv2,5,AUC-ROC,0.6987446036137133
+s2b_multiscale_ablation,"W = {48,192}",CreditCard,1,AUC-ROC,0.7251285181370886
+s2b_multiscale_ablation,"W = {48,192}",Daphnet,1,AUC-ROC,0.9232610614388396
+s2b_multiscale_ablation,"W = {48,192}",Exathlon,25,AUC-ROC,0.9990217901724169
+s2b_multiscale_ablation,"W = {48,192}",GECCO,1,AUC-ROC,0.8757514998316237
+s2b_multiscale_ablation,"W = {48,192}",GHL,23,AUC-ROC,0.8373537155904195
+s2b_multiscale_ablation,"W = {48,192}",Genesis,1,AUC-ROC,0.9957637600494744
+s2b_multiscale_ablation,"W = {48,192}",LTDB,4,AUC-ROC,0.7848605763776202
+s2b_multiscale_ablation,"W = {48,192}",MITDB,11,AUC-ROC,0.7216492050218303
+s2b_multiscale_ablation,"W = {48,192}",MSL,14,AUC-ROC,0.753089497572285
+s2b_multiscale_ablation,"W = {48,192}",OPPORTUNITY,7,AUC-ROC,0.6488208474210897
+s2b_multiscale_ablation,"W = {48,192}",PSM,1,AUC-ROC,0.8463223269562012
+s2b_multiscale_ablation,"W = {48,192}",SMAP,25,AUC-ROC,0.7535167420995873
+s2b_multiscale_ablation,"W = {48,192}",SMD,20,AUC-ROC,0.8815839961549383
+s2b_multiscale_ablation,"W = {48,192}",SVDB,28,AUC-ROC,0.8577192280348885
+s2b_multiscale_ablation,"W = {48,192}",SWaT,2,AUC-ROC,0.8325464971685361
+s2b_multiscale_ablation,"W = {48,192}",TAO,11,AUC-ROC,0.49733288247974805
+s2b_multiscale_ablation,"W = {96,192}",CATSv2,5,VUS-PR,0.19600928182273492
+s2b_multiscale_ablation,"W = {96,192}",CreditCard,1,VUS-PR,0.0947701690673477
+s2b_multiscale_ablation,"W = {96,192}",Daphnet,1,VUS-PR,0.3419363825774341
+s2b_multiscale_ablation,"W = {96,192}",Exathlon,25,VUS-PR,0.981862058591267
+s2b_multiscale_ablation,"W = {96,192}",GECCO,1,VUS-PR,0.1761960498988323
+s2b_multiscale_ablation,"W = {96,192}",GHL,23,VUS-PR,0.5149944476513544
+s2b_multiscale_ablation,"W = {96,192}",Genesis,1,VUS-PR,0.3381711334746677
+s2b_multiscale_ablation,"W = {96,192}",LTDB,4,VUS-PR,0.47099143057698356
+s2b_multiscale_ablation,"W = {96,192}",MITDB,11,VUS-PR,0.2615671877502251
+s2b_multiscale_ablation,"W = {96,192}",MSL,14,VUS-PR,0.341607750387766
+s2b_multiscale_ablation,"W = {96,192}",OPPORTUNITY,7,VUS-PR,0.15284311492732727
+s2b_multiscale_ablation,"W = {96,192}",PSM,1,VUS-PR,0.3188173044644259
+s2b_multiscale_ablation,"W = {96,192}",SMAP,25,VUS-PR,0.2348916273748928
+s2b_multiscale_ablation,"W = {96,192}",SMD,20,VUS-PR,0.3534952685758112
+s2b_multiscale_ablation,"W = {96,192}",SVDB,28,VUS-PR,0.5546695747104987
+s2b_multiscale_ablation,"W = {96,192}",SWaT,2,VUS-PR,0.41480099693378014
+s2b_multiscale_ablation,"W = {96,192}",TAO,11,VUS-PR,0.6589616032254249
+s2b_multiscale_ablation,"W = {96,192}",CATSv2,5,VUS-ROC,0.6907518272983595
+s2b_multiscale_ablation,"W = {96,192}",CreditCard,1,VUS-ROC,0.6907839441790968
+s2b_multiscale_ablation,"W = {96,192}",Daphnet,1,VUS-ROC,0.9272342231576242
+s2b_multiscale_ablation,"W = {96,192}",Exathlon,25,VUS-ROC,0.9991319470941774
+s2b_multiscale_ablation,"W = {96,192}",GECCO,1,VUS-ROC,0.7842578186349982
+s2b_multiscale_ablation,"W = {96,192}",GHL,23,VUS-ROC,0.8353451881674292
+s2b_multiscale_ablation,"W = {96,192}",Genesis,1,VUS-ROC,0.99493526182608
+s2b_multiscale_ablation,"W = {96,192}",LTDB,4,VUS-ROC,0.8082104763296869
+s2b_multiscale_ablation,"W = {96,192}",MITDB,11,VUS-ROC,0.7529045594148408
+s2b_multiscale_ablation,"W = {96,192}",MSL,14,VUS-ROC,0.7867987541730735
+s2b_multiscale_ablation,"W = {96,192}",OPPORTUNITY,7,VUS-ROC,0.6281226344038334
+s2b_multiscale_ablation,"W = {96,192}",PSM,1,VUS-ROC,0.7734126264211825
+s2b_multiscale_ablation,"W = {96,192}",SMAP,25,VUS-ROC,0.7768181427474913
+s2b_multiscale_ablation,"W = {96,192}",SMD,20,VUS-ROC,0.8294005637981439
+s2b_multiscale_ablation,"W = {96,192}",SVDB,28,VUS-ROC,0.8921338709917196
+s2b_multiscale_ablation,"W = {96,192}",SWaT,2,VUS-ROC,0.7707773317297046
+s2b_multiscale_ablation,"W = {96,192}",TAO,11,VUS-ROC,0.8212377229784625
+s2b_multiscale_ablation,"W = {96,192}",CATSv2,5,AUC-PR,0.28200876532752467
+s2b_multiscale_ablation,"W = {96,192}",CreditCard,1,AUC-PR,0.0316759447001542
+s2b_multiscale_ablation,"W = {96,192}",Daphnet,1,AUC-PR,0.3123699447283349
+s2b_multiscale_ablation,"W = {96,192}",Exathlon,25,AUC-PR,0.9766705520611353
+s2b_multiscale_ablation,"W = {96,192}",GECCO,1,AUC-PR,0.376224534801771
+s2b_multiscale_ablation,"W = {96,192}",GHL,23,AUC-PR,0.5944671299628174
+s2b_multiscale_ablation,"W = {96,192}",Genesis,1,AUC-PR,0.211781975806701
+s2b_multiscale_ablation,"W = {96,192}",LTDB,4,AUC-PR,0.42760698840359274
+s2b_multiscale_ablation,"W = {96,192}",MITDB,11,AUC-PR,0.34354533001438503
+s2b_multiscale_ablation,"W = {96,192}",MSL,14,AUC-PR,0.3073995288060489
+s2b_multiscale_ablation,"W = {96,192}",OPPORTUNITY,7,AUC-PR,0.16267560487670488
+s2b_multiscale_ablation,"W = {96,192}",PSM,1,AUC-PR,0.3410158156654864
+s2b_multiscale_ablation,"W = {96,192}",SMAP,25,AUC-PR,0.23384283063340916
+s2b_multiscale_ablation,"W = {96,192}",SMD,20,AUC-PR,0.4394111914829665
+s2b_multiscale_ablation,"W = {96,192}",SVDB,28,AUC-PR,0.5384927488611914
+s2b_multiscale_ablation,"W = {96,192}",SWaT,2,AUC-PR,0.5302591933501536
+s2b_multiscale_ablation,"W = {96,192}",TAO,11,AUC-PR,0.08614231600300527
+s2b_multiscale_ablation,"W = {96,192}",CATSv2,5,AUC-ROC,0.7030680253890531
+s2b_multiscale_ablation,"W = {96,192}",CreditCard,1,AUC-ROC,0.7249763051945277
+s2b_multiscale_ablation,"W = {96,192}",Daphnet,1,AUC-ROC,0.923967486946462
+s2b_multiscale_ablation,"W = {96,192}",Exathlon,25,AUC-ROC,0.9988533753389355
+s2b_multiscale_ablation,"W = {96,192}",GECCO,1,AUC-ROC,0.8580509814632844
+s2b_multiscale_ablation,"W = {96,192}",GHL,23,AUC-ROC,0.8408607368765716
+s2b_multiscale_ablation,"W = {96,192}",Genesis,1,AUC-ROC,0.9947755102040816
+s2b_multiscale_ablation,"W = {96,192}",LTDB,4,AUC-ROC,0.7939716626258473
+s2b_multiscale_ablation,"W = {96,192}",MITDB,11,AUC-ROC,0.7213670235782863
+s2b_multiscale_ablation,"W = {96,192}",MSL,14,AUC-ROC,0.7521246621353025
+s2b_multiscale_ablation,"W = {96,192}",OPPORTUNITY,7,AUC-ROC,0.6334287373040034
+s2b_multiscale_ablation,"W = {96,192}",PSM,1,AUC-ROC,0.842102959032413
+s2b_multiscale_ablation,"W = {96,192}",SMAP,25,AUC-ROC,0.7727830469450993
+s2b_multiscale_ablation,"W = {96,192}",SMD,20,AUC-ROC,0.8810898312195187
+s2b_multiscale_ablation,"W = {96,192}",SVDB,28,AUC-ROC,0.8680778109804932
+s2b_multiscale_ablation,"W = {96,192}",SWaT,2,AUC-ROC,0.830038292031819
+s2b_multiscale_ablation,"W = {96,192}",TAO,11,AUC-ROC,0.509332457333198
+s2b_multiscale_ablation,"W = {48,96,192}",CATSv2,5,VUS-PR,0.1839253974617509
+s2b_multiscale_ablation,"W = {48,96,192}",CreditCard,1,VUS-PR,0.0945721592401964
+s2b_multiscale_ablation,"W = {48,96,192}",Daphnet,1,VUS-PR,0.333934840336258
+s2b_multiscale_ablation,"W = {48,96,192}",Exathlon,25,VUS-PR,0.985983907486818
+s2b_multiscale_ablation,"W = {48,96,192}",GECCO,1,VUS-PR,0.2017196359895705
+s2b_multiscale_ablation,"W = {48,96,192}",GHL,23,VUS-PR,0.5088557449337117
+s2b_multiscale_ablation,"W = {48,96,192}",Genesis,1,VUS-PR,0.3236020621239201
+s2b_multiscale_ablation,"W = {48,96,192}",LTDB,4,VUS-PR,0.4677771289033161
+s2b_multiscale_ablation,"W = {48,96,192}",MITDB,11,VUS-PR,0.254559428296057
+s2b_multiscale_ablation,"W = {48,96,192}",MSL,14,VUS-PR,0.30996980402887225
+s2b_multiscale_ablation,"W = {48,96,192}",OPPORTUNITY,7,VUS-PR,0.15619596921221374
+s2b_multiscale_ablation,"W = {48,96,192}",PSM,1,VUS-PR,0.3291869599783548
+s2b_multiscale_ablation,"W = {48,96,192}",SMAP,25,VUS-PR,0.2659798816616762
+s2b_multiscale_ablation,"W = {48,96,192}",SMD,20,VUS-PR,0.37328533485118787
+s2b_multiscale_ablation,"W = {48,96,192}",SVDB,28,VUS-PR,0.5454691481993467
+s2b_multiscale_ablation,"W = {48,96,192}",SWaT,2,VUS-PR,0.41299221734109104
+s2b_multiscale_ablation,"W = {48,96,192}",TAO,11,VUS-PR,0.6402995455788804
+s2b_multiscale_ablation,"W = {48,96,192}",CATSv2,5,VUS-ROC,0.6763201463774997
+s2b_multiscale_ablation,"W = {48,96,192}",CreditCard,1,VUS-ROC,0.6926650436152416
+s2b_multiscale_ablation,"W = {48,96,192}",Daphnet,1,VUS-ROC,0.9259370612837968
+s2b_multiscale_ablation,"W = {48,96,192}",Exathlon,25,VUS-ROC,0.9993216510886619
+s2b_multiscale_ablation,"W = {48,96,192}",GECCO,1,VUS-ROC,0.8197525577393976
+s2b_multiscale_ablation,"W = {48,96,192}",GHL,23,VUS-ROC,0.8377276896889164
+s2b_multiscale_ablation,"W = {48,96,192}",Genesis,1,VUS-ROC,0.9948110928313274
+s2b_multiscale_ablation,"W = {48,96,192}",LTDB,4,VUS-ROC,0.7997269130202224
+s2b_multiscale_ablation,"W = {48,96,192}",MITDB,11,VUS-ROC,0.7477437980975938
+s2b_multiscale_ablation,"W = {48,96,192}",MSL,14,VUS-ROC,0.7854994965991404
+s2b_multiscale_ablation,"W = {48,96,192}",OPPORTUNITY,7,VUS-ROC,0.6475517895111829
+s2b_multiscale_ablation,"W = {48,96,192}",PSM,1,VUS-ROC,0.7846603958690066
+s2b_multiscale_ablation,"W = {48,96,192}",SMAP,25,VUS-ROC,0.7748956841771468
+s2b_multiscale_ablation,"W = {48,96,192}",SMD,20,VUS-ROC,0.8344661336731087
+s2b_multiscale_ablation,"W = {48,96,192}",SVDB,28,VUS-ROC,0.8869299567080569
+s2b_multiscale_ablation,"W = {48,96,192}",SWaT,2,VUS-ROC,0.7693652119037675
+s2b_multiscale_ablation,"W = {48,96,192}",TAO,11,VUS-ROC,0.8159473721036652
+s2b_multiscale_ablation,"W = {48,96,192}",CATSv2,5,AUC-PR,0.27225910139162823
+s2b_multiscale_ablation,"W = {48,96,192}",CreditCard,1,AUC-PR,0.0318031012742223
+s2b_multiscale_ablation,"W = {48,96,192}",Daphnet,1,AUC-PR,0.3086752083232432
+s2b_multiscale_ablation,"W = {48,96,192}",Exathlon,25,AUC-PR,0.98128829867801
+s2b_multiscale_ablation,"W = {48,96,192}",GECCO,1,AUC-PR,0.3894936505355769
+s2b_multiscale_ablation,"W = {48,96,192}",GHL,23,AUC-PR,0.5890190386769553
+s2b_multiscale_ablation,"W = {48,96,192}",Genesis,1,AUC-PR,0.2101760688223688
+s2b_multiscale_ablation,"W = {48,96,192}",LTDB,4,AUC-PR,0.42586790638637007
+s2b_multiscale_ablation,"W = {48,96,192}",MITDB,11,AUC-PR,0.329549743978541
+s2b_multiscale_ablation,"W = {48,96,192}",MSL,14,AUC-PR,0.2744025417713426
+s2b_multiscale_ablation,"W = {48,96,192}",OPPORTUNITY,7,AUC-PR,0.16499666410787536
+s2b_multiscale_ablation,"W = {48,96,192}",PSM,1,AUC-PR,0.3560617359577582
+s2b_multiscale_ablation,"W = {48,96,192}",SMAP,25,AUC-PR,0.26863912233204057
+s2b_multiscale_ablation,"W = {48,96,192}",SMD,20,AUC-PR,0.4580247489281895
+s2b_multiscale_ablation,"W = {48,96,192}",SVDB,28,AUC-PR,0.5301400506905756
+s2b_multiscale_ablation,"W = {48,96,192}",SWaT,2,AUC-PR,0.5315821439989918
+s2b_multiscale_ablation,"W = {48,96,192}",TAO,11,AUC-PR,0.08362578015888728
+s2b_multiscale_ablation,"W = {48,96,192}",CATSv2,5,AUC-ROC,0.6949739228752521
+s2b_multiscale_ablation,"W = {48,96,192}",CreditCard,1,AUC-ROC,0.7263004262562893
+s2b_multiscale_ablation,"W = {48,96,192}",Daphnet,1,AUC-ROC,0.9231629821285418
+s2b_multiscale_ablation,"W = {48,96,192}",Exathlon,25,AUC-ROC,0.9990676710419115
+s2b_multiscale_ablation,"W = {48,96,192}",GECCO,1,AUC-ROC,0.8754772992395817
+s2b_multiscale_ablation,"W = {48,96,192}",GHL,23,AUC-ROC,0.8430823623147335
+s2b_multiscale_ablation,"W = {48,96,192}",Genesis,1,AUC-ROC,0.9947186147186148
+s2b_multiscale_ablation,"W = {48,96,192}",LTDB,4,AUC-ROC,0.7831923144665673
+s2b_multiscale_ablation,"W = {48,96,192}",MITDB,11,AUC-ROC,0.7150989434328857
+s2b_multiscale_ablation,"W = {48,96,192}",MSL,14,AUC-ROC,0.7503464102884453
+s2b_multiscale_ablation,"W = {48,96,192}",OPPORTUNITY,7,AUC-ROC,0.6542518631184348
+s2b_multiscale_ablation,"W = {48,96,192}",PSM,1,AUC-ROC,0.847293511970476
+s2b_multiscale_ablation,"W = {48,96,192}",SMAP,25,AUC-ROC,0.7711562535574504
+s2b_multiscale_ablation,"W = {48,96,192}",SMD,20,AUC-ROC,0.8820133492556202
+s2b_multiscale_ablation,"W = {48,96,192}",SVDB,28,AUC-ROC,0.8604738273732572
+s2b_multiscale_ablation,"W = {48,96,192}",SWaT,2,AUC-ROC,0.8319268593121297
+s2b_multiscale_ablation,"W = {48,96,192}",TAO,11,AUC-ROC,0.4967134160559576
+s2b_pot_stage_ablation,No Stage-1 POT,CATSv2,5,VUS-PR,0.16805346692658416
+s2b_pot_stage_ablation,No Stage-1 POT,CreditCard,1,VUS-PR,0.0933561697013826
+s2b_pot_stage_ablation,No Stage-1 POT,Daphnet,1,VUS-PR,0.3561812097318972
+s2b_pot_stage_ablation,No Stage-1 POT,Exathlon,25,VUS-PR,0.9898318808408335
+s2b_pot_stage_ablation,No Stage-1 POT,GECCO,1,VUS-PR,0.2254608413842811
+s2b_pot_stage_ablation,No Stage-1 POT,GHL,23,VUS-PR,0.47339194420631914
+s2b_pot_stage_ablation,No Stage-1 POT,Genesis,1,VUS-PR,0.3663545609730622
+s2b_pot_stage_ablation,No Stage-1 POT,LTDB,4,VUS-PR,0.4595627507182414
+s2b_pot_stage_ablation,No Stage-1 POT,MITDB,11,VUS-PR,0.23784599849697974
+s2b_pot_stage_ablation,No Stage-1 POT,MSL,14,VUS-PR,0.33058079310621474
+s2b_pot_stage_ablation,No Stage-1 POT,OPPORTUNITY,7,VUS-PR,0.12856883729918425
+s2b_pot_stage_ablation,No Stage-1 POT,PSM,1,VUS-PR,0.3307867961094437
+s2b_pot_stage_ablation,No Stage-1 POT,SMAP,25,VUS-PR,0.3185553538790573
+s2b_pot_stage_ablation,No Stage-1 POT,SMD,20,VUS-PR,0.39531588568868026
+s2b_pot_stage_ablation,No Stage-1 POT,SVDB,28,VUS-PR,0.55701462119557
+s2b_pot_stage_ablation,No Stage-1 POT,SWaT,2,VUS-PR,0.41266836267795404
+s2b_pot_stage_ablation,No Stage-1 POT,TAO,11,VUS-PR,0.6459932885262091
+s2b_pot_stage_ablation,No Stage-1 POT,CATSv2,5,VUS-ROC,0.6661476145108576
+s2b_pot_stage_ablation,No Stage-1 POT,CreditCard,1,VUS-ROC,0.6943383138242135
+s2b_pot_stage_ablation,No Stage-1 POT,Daphnet,1,VUS-ROC,0.9277414937151928
+s2b_pot_stage_ablation,No Stage-1 POT,Exathlon,25,VUS-ROC,0.9994830520103988
+s2b_pot_stage_ablation,No Stage-1 POT,GECCO,1,VUS-ROC,0.8303276748200709
+s2b_pot_stage_ablation,No Stage-1 POT,GHL,23,VUS-ROC,0.8217317058782565
+s2b_pot_stage_ablation,No Stage-1 POT,Genesis,1,VUS-ROC,0.9961943893671524
+s2b_pot_stage_ablation,No Stage-1 POT,LTDB,4,VUS-ROC,0.7772106082100266
+s2b_pot_stage_ablation,No Stage-1 POT,MITDB,11,VUS-ROC,0.7349972324893251
+s2b_pot_stage_ablation,No Stage-1 POT,MSL,14,VUS-ROC,0.7962680889143855
+s2b_pot_stage_ablation,No Stage-1 POT,OPPORTUNITY,7,VUS-ROC,0.6233109620031607
+s2b_pot_stage_ablation,No Stage-1 POT,PSM,1,VUS-ROC,0.7857249340911092
+s2b_pot_stage_ablation,No Stage-1 POT,SMAP,25,VUS-ROC,0.7878071732922782
+s2b_pot_stage_ablation,No Stage-1 POT,SMD,20,VUS-ROC,0.8381529631753992
+s2b_pot_stage_ablation,No Stage-1 POT,SVDB,28,VUS-ROC,0.8967656055253226
+s2b_pot_stage_ablation,No Stage-1 POT,SWaT,2,VUS-ROC,0.769500928036851
+s2b_pot_stage_ablation,No Stage-1 POT,TAO,11,VUS-ROC,0.8223953480296662
+s2b_pot_stage_ablation,No Stage-1 POT,CATSv2,5,AUC-PR,0.2502230159879681
+s2b_pot_stage_ablation,No Stage-1 POT,CreditCard,1,AUC-PR,0.0312727906919947
+s2b_pot_stage_ablation,No Stage-1 POT,Daphnet,1,AUC-PR,0.3497259179670129
+s2b_pot_stage_ablation,No Stage-1 POT,Exathlon,25,AUC-PR,0.9856265932651462
+s2b_pot_stage_ablation,No Stage-1 POT,GECCO,1,AUC-PR,0.399370389758064
+s2b_pot_stage_ablation,No Stage-1 POT,GHL,23,AUC-PR,0.5550496028532862
+s2b_pot_stage_ablation,No Stage-1 POT,Genesis,1,AUC-PR,0.2562680693026471
+s2b_pot_stage_ablation,No Stage-1 POT,LTDB,4,AUC-PR,0.42070900318355325
+s2b_pot_stage_ablation,No Stage-1 POT,MITDB,11,AUC-PR,0.3117572309046894
+s2b_pot_stage_ablation,No Stage-1 POT,MSL,14,AUC-PR,0.29427974890733977
+s2b_pot_stage_ablation,No Stage-1 POT,OPPORTUNITY,7,AUC-PR,0.1301905162521694
+s2b_pot_stage_ablation,No Stage-1 POT,PSM,1,AUC-PR,0.3620522704313645
+s2b_pot_stage_ablation,No Stage-1 POT,SMAP,25,AUC-PR,0.30844508263056314
+s2b_pot_stage_ablation,No Stage-1 POT,SMD,20,AUC-PR,0.4804646920058212
+s2b_pot_stage_ablation,No Stage-1 POT,SVDB,28,AUC-PR,0.5395702255816841
+s2b_pot_stage_ablation,No Stage-1 POT,SWaT,2,AUC-PR,0.529785206578662
+s2b_pot_stage_ablation,No Stage-1 POT,TAO,11,AUC-PR,0.08732939620124026
+s2b_pot_stage_ablation,No Stage-1 POT,CATSv2,5,AUC-ROC,0.6847726423849974
+s2b_pot_stage_ablation,No Stage-1 POT,CreditCard,1,AUC-ROC,0.7263140161869585
+s2b_pot_stage_ablation,No Stage-1 POT,Daphnet,1,AUC-ROC,0.9248583105948204
+s2b_pot_stage_ablation,No Stage-1 POT,Exathlon,25,AUC-ROC,0.9992486866224389
+s2b_pot_stage_ablation,No Stage-1 POT,GECCO,1,AUC-ROC,0.8798036256009268
+s2b_pot_stage_ablation,No Stage-1 POT,GHL,23,AUC-ROC,0.826730320377365
+s2b_pot_stage_ablation,No Stage-1 POT,Genesis,1,AUC-ROC,0.996017316017316
+s2b_pot_stage_ablation,No Stage-1 POT,LTDB,4,AUC-ROC,0.7554634653363952
+s2b_pot_stage_ablation,No Stage-1 POT,MITDB,11,AUC-ROC,0.7018883045378334
+s2b_pot_stage_ablation,No Stage-1 POT,MSL,14,AUC-ROC,0.7432061611565739
+s2b_pot_stage_ablation,No Stage-1 POT,OPPORTUNITY,7,AUC-ROC,0.6249788199865115
+s2b_pot_stage_ablation,No Stage-1 POT,PSM,1,AUC-ROC,0.8485212269393788
+s2b_pot_stage_ablation,No Stage-1 POT,SMAP,25,AUC-ROC,0.7750401281553464
+s2b_pot_stage_ablation,No Stage-1 POT,SMD,20,AUC-ROC,0.8846081176875172
+s2b_pot_stage_ablation,No Stage-1 POT,SVDB,28,AUC-ROC,0.863131995398545
+s2b_pot_stage_ablation,No Stage-1 POT,SWaT,2,AUC-ROC,0.8325165755757649
+s2b_pot_stage_ablation,No Stage-1 POT,TAO,11,AUC-ROC,0.50818955616703
+s2b_pot_stage_ablation,No Stage-2 POT,CATSv2,5,VUS-PR,0.18218141913679003
+s2b_pot_stage_ablation,No Stage-2 POT,CreditCard,1,VUS-PR,0.0945375809688205
+s2b_pot_stage_ablation,No Stage-2 POT,Daphnet,1,VUS-PR,0.3402749513707431
+s2b_pot_stage_ablation,No Stage-2 POT,Exathlon,25,VUS-PR,0.9864540064771977
+s2b_pot_stage_ablation,No Stage-2 POT,GECCO,1,VUS-PR,0.2002619615425955
+s2b_pot_stage_ablation,No Stage-2 POT,GHL,23,VUS-PR,0.46926527592665296
+s2b_pot_stage_ablation,No Stage-2 POT,Genesis,1,VUS-PR,0.4624093753125497
+s2b_pot_stage_ablation,No Stage-2 POT,LTDB,4,VUS-PR,0.46198109903108686
+s2b_pot_stage_ablation,No Stage-2 POT,MITDB,11,VUS-PR,0.24396176219481616
+s2b_pot_stage_ablation,No Stage-2 POT,MSL,14,VUS-PR,0.3520947132958619
+s2b_pot_stage_ablation,No Stage-2 POT,OPPORTUNITY,7,VUS-PR,0.15838954138906608
+s2b_pot_stage_ablation,No Stage-2 POT,PSM,1,VUS-PR,0.3326598917802995
+s2b_pot_stage_ablation,No Stage-2 POT,SMAP,25,VUS-PR,0.28039122628093305
+s2b_pot_stage_ablation,No Stage-2 POT,SMD,20,VUS-PR,0.3703004324021583
+s2b_pot_stage_ablation,No Stage-2 POT,SVDB,28,VUS-PR,0.5839321210263603
+s2b_pot_stage_ablation,No Stage-2 POT,SWaT,2,VUS-PR,0.4140156129464212
+s2b_pot_stage_ablation,No Stage-2 POT,TAO,11,VUS-PR,0.6493436179369712
+s2b_pot_stage_ablation,No Stage-2 POT,CATSv2,5,VUS-ROC,0.6753783969112666
+s2b_pot_stage_ablation,No Stage-2 POT,CreditCard,1,VUS-ROC,0.6926948138757406
+s2b_pot_stage_ablation,No Stage-2 POT,Daphnet,1,VUS-ROC,0.9276349139073198
+s2b_pot_stage_ablation,No Stage-2 POT,Exathlon,25,VUS-ROC,0.9993546874538363
+s2b_pot_stage_ablation,No Stage-2 POT,GECCO,1,VUS-ROC,0.8162494482590382
+s2b_pot_stage_ablation,No Stage-2 POT,GHL,23,VUS-ROC,0.8314963382339878
+s2b_pot_stage_ablation,No Stage-2 POT,Genesis,1,VUS-ROC,0.9968452728759124
+s2b_pot_stage_ablation,No Stage-2 POT,LTDB,4,VUS-ROC,0.7962853258036161
+s2b_pot_stage_ablation,No Stage-2 POT,MITDB,11,VUS-ROC,0.7457587269351392
+s2b_pot_stage_ablation,No Stage-2 POT,MSL,14,VUS-ROC,0.7867837245482063
+s2b_pot_stage_ablation,No Stage-2 POT,OPPORTUNITY,7,VUS-ROC,0.6459219304418032
+s2b_pot_stage_ablation,No Stage-2 POT,PSM,1,VUS-ROC,0.7868151837144925
+s2b_pot_stage_ablation,No Stage-2 POT,SMAP,25,VUS-ROC,0.7808509907877301
+s2b_pot_stage_ablation,No Stage-2 POT,SMD,20,VUS-ROC,0.831926413132485
+s2b_pot_stage_ablation,No Stage-2 POT,SVDB,28,VUS-ROC,0.8989452889080364
+s2b_pot_stage_ablation,No Stage-2 POT,SWaT,2,VUS-ROC,0.7703577936890152
+s2b_pot_stage_ablation,No Stage-2 POT,TAO,11,VUS-ROC,0.8214993819716576
+s2b_pot_stage_ablation,No Stage-2 POT,CATSv2,5,AUC-PR,0.2685510466107604
+s2b_pot_stage_ablation,No Stage-2 POT,CreditCard,1,AUC-PR,0.0318051244292403
+s2b_pot_stage_ablation,No Stage-2 POT,Daphnet,1,AUC-PR,0.3150316052727468
+s2b_pot_stage_ablation,No Stage-2 POT,Exathlon,25,AUC-PR,0.9819671156541816
+s2b_pot_stage_ablation,No Stage-2 POT,GECCO,1,AUC-PR,0.3873990877007437
+s2b_pot_stage_ablation,No Stage-2 POT,GHL,23,AUC-PR,0.5570765182063142
+s2b_pot_stage_ablation,No Stage-2 POT,Genesis,1,AUC-PR,0.2973987090343071
+s2b_pot_stage_ablation,No Stage-2 POT,LTDB,4,AUC-PR,0.421711785181533
+s2b_pot_stage_ablation,No Stage-2 POT,MITDB,11,AUC-PR,0.3233116533484923
+s2b_pot_stage_ablation,No Stage-2 POT,MSL,14,AUC-PR,0.31880015594838423
+s2b_pot_stage_ablation,No Stage-2 POT,OPPORTUNITY,7,AUC-PR,0.16677874938845155
+s2b_pot_stage_ablation,No Stage-2 POT,PSM,1,AUC-PR,0.3646883907506322
+s2b_pot_stage_ablation,No Stage-2 POT,SMAP,25,AUC-PR,0.27885989388766885
+s2b_pot_stage_ablation,No Stage-2 POT,SMD,20,AUC-PR,0.46214260763411197
+s2b_pot_stage_ablation,No Stage-2 POT,SVDB,28,AUC-PR,0.5638788201368576
+s2b_pot_stage_ablation,No Stage-2 POT,SWaT,2,AUC-PR,0.5319956010238851
+s2b_pot_stage_ablation,No Stage-2 POT,TAO,11,AUC-PR,0.08639916787659206
+s2b_pot_stage_ablation,No Stage-2 POT,CATSv2,5,AUC-ROC,0.694385566824777
+s2b_pot_stage_ablation,No Stage-2 POT,CreditCard,1,AUC-ROC,0.7263410101786507
+s2b_pot_stage_ablation,No Stage-2 POT,Daphnet,1,AUC-ROC,0.9245370199928634
+s2b_pot_stage_ablation,No Stage-2 POT,Exathlon,25,AUC-ROC,0.9991084953861679
+s2b_pot_stage_ablation,No Stage-2 POT,GECCO,1,AUC-ROC,0.8731110702353079
+s2b_pot_stage_ablation,No Stage-2 POT,GHL,23,AUC-ROC,0.8379065909560282
+s2b_pot_stage_ablation,No Stage-2 POT,Genesis,1,AUC-ROC,0.996747062461348
+s2b_pot_stage_ablation,No Stage-2 POT,LTDB,4,AUC-ROC,0.7801768115921918
+s2b_pot_stage_ablation,No Stage-2 POT,MITDB,11,AUC-ROC,0.7135234810069314
+s2b_pot_stage_ablation,No Stage-2 POT,MSL,14,AUC-ROC,0.751379515305665
+s2b_pot_stage_ablation,No Stage-2 POT,OPPORTUNITY,7,AUC-ROC,0.6517629795051889
+s2b_pot_stage_ablation,No Stage-2 POT,PSM,1,AUC-ROC,0.8494764290017381
+s2b_pot_stage_ablation,No Stage-2 POT,SMAP,25,AUC-ROC,0.7746507829187961
+s2b_pot_stage_ablation,No Stage-2 POT,SMD,20,AUC-ROC,0.8827250096473881
+s2b_pot_stage_ablation,No Stage-2 POT,SVDB,28,AUC-ROC,0.8711182223247934
+s2b_pot_stage_ablation,No Stage-2 POT,SWaT,2,AUC-ROC,0.832528495236553
+s2b_pot_stage_ablation,No Stage-2 POT,TAO,11,AUC-ROC,0.507655581674997
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,CATSv2,5,VUS-PR,0.14308348867873583
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,CreditCard,1,VUS-PR,0.0946903937069333
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Daphnet,1,VUS-PR,0.0881015041594944
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Exathlon,25,VUS-PR,0.9755845400643338
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,GECCO,1,VUS-PR,0.2238423116614313
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,GHL,23,VUS-PR,0.1372507262815062
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Genesis,1,VUS-PR,0.021813883078388
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,LTDB,4,VUS-PR,0.43516136280371176
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,MITDB,11,VUS-PR,0.19404585222434376
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,MSL,14,VUS-PR,0.27155596401364945
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,OPPORTUNITY,7,VUS-PR,0.11515505664984368
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,PSM,1,VUS-PR,0.2184032758135738
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SMAP,25,VUS-PR,0.27900165900088625
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SMD,20,VUS-PR,0.34999734950451256
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SVDB,28,VUS-PR,0.5892587453964514
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SWaT,2,VUS-PR,0.35913278756466216
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,TAO,11,VUS-PR,0.731149008704215
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,CATSv2,5,VUS-ROC,0.6369180377055008
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,CreditCard,1,VUS-ROC,0.7119017573039127
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Daphnet,1,VUS-ROC,0.2523618008147942
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Exathlon,25,VUS-ROC,0.9988416756420746
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,GECCO,1,VUS-ROC,0.8288963050083066
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,GHL,23,VUS-ROC,0.7913025354519129
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Genesis,1,VUS-ROC,0.9044572908610694
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,LTDB,4,VUS-ROC,0.7498443058782105
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,MITDB,11,VUS-ROC,0.7264265966148169
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,MSL,14,VUS-ROC,0.7653853081540613
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,OPPORTUNITY,7,VUS-ROC,0.5140382627800466
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,PSM,1,VUS-ROC,0.5985813370130071
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SMAP,25,VUS-ROC,0.7436326119002132
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SMD,20,VUS-ROC,0.8197757795265233
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SVDB,28,VUS-ROC,0.9106471637591144
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SWaT,2,VUS-ROC,0.6940156635454175
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,TAO,11,VUS-ROC,0.8545250943890512
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,CATSv2,5,AUC-PR,0.23395668980551426
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,CreditCard,1,AUC-PR,0.0315949002798796
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Daphnet,1,AUC-PR,0.1275434366735172
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Exathlon,25,AUC-PR,0.9655186887161598
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,GECCO,1,AUC-PR,0.3982091017737918
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,GHL,23,AUC-PR,0.1574981503517609
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Genesis,1,AUC-PR,0.0154572862438842
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,LTDB,4,AUC-PR,0.39482802390440613
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,MITDB,11,AUC-PR,0.2750094976956615
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,MSL,14,AUC-PR,0.23553316754456852
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,OPPORTUNITY,7,AUC-PR,0.11686320108326474
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,PSM,1,AUC-PR,0.2428688996186442
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SMAP,25,AUC-PR,0.27819261803382556
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SMD,20,AUC-PR,0.4524121583407211
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SVDB,28,AUC-PR,0.5759091977770711
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SWaT,2,AUC-PR,0.48687733792804455
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,TAO,11,AUC-PR,0.11647476541108383
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,CATSv2,5,AUC-ROC,0.657745035013298
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,CreditCard,1,AUC-ROC,0.7324914582174329
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Daphnet,1,AUC-ROC,0.3366735117653791
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Exathlon,25,AUC-ROC,0.9983434824881696
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,GECCO,1,AUC-ROC,0.8791659390693681
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,GHL,23,AUC-ROC,0.8008373528602601
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,Genesis,1,AUC-ROC,0.9052727272727272
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,LTDB,4,AUC-ROC,0.7278876492924425
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,MITDB,11,AUC-ROC,0.6949035759649651
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,MSL,14,AUC-ROC,0.7187919396618796
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,OPPORTUNITY,7,AUC-ROC,0.5117657342425417
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,PSM,1,AUC-ROC,0.7147309675779374
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SMAP,25,AUC-ROC,0.7363187036207773
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SMD,20,AUC-ROC,0.8737986482647712
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SVDB,28,AUC-ROC,0.876894784853481
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,SWaT,2,AUC-ROC,0.7421542432244788
+s2b_pot_stage_ablation,No Stage-1 and Stage-2 POT,TAO,11,AUC-ROC,0.5820007621746999
+s2b_pot_stage_ablation,Full Two-Stage POT,CATSv2,5,VUS-PR,0.1839253974617509
+s2b_pot_stage_ablation,Full Two-Stage POT,CreditCard,1,VUS-PR,0.0945721592401964
+s2b_pot_stage_ablation,Full Two-Stage POT,Daphnet,1,VUS-PR,0.333934840336258
+s2b_pot_stage_ablation,Full Two-Stage POT,Exathlon,25,VUS-PR,0.985983907486818
+s2b_pot_stage_ablation,Full Two-Stage POT,GECCO,1,VUS-PR,0.2017196359895705
+s2b_pot_stage_ablation,Full Two-Stage POT,GHL,23,VUS-PR,0.5088557449337117
+s2b_pot_stage_ablation,Full Two-Stage POT,Genesis,1,VUS-PR,0.3236020621239201
+s2b_pot_stage_ablation,Full Two-Stage POT,LTDB,4,VUS-PR,0.4677771289033161
+s2b_pot_stage_ablation,Full Two-Stage POT,MITDB,11,VUS-PR,0.254559428296057
+s2b_pot_stage_ablation,Full Two-Stage POT,MSL,14,VUS-PR,0.30996980402887225
+s2b_pot_stage_ablation,Full Two-Stage POT,OPPORTUNITY,7,VUS-PR,0.15619596921221374
+s2b_pot_stage_ablation,Full Two-Stage POT,PSM,1,VUS-PR,0.3291869599783548
+s2b_pot_stage_ablation,Full Two-Stage POT,SMAP,25,VUS-PR,0.2659798816616762
+s2b_pot_stage_ablation,Full Two-Stage POT,SMD,20,VUS-PR,0.37328533485118787
+s2b_pot_stage_ablation,Full Two-Stage POT,SVDB,28,VUS-PR,0.5454691481993467
+s2b_pot_stage_ablation,Full Two-Stage POT,SWaT,2,VUS-PR,0.41299221734109104
+s2b_pot_stage_ablation,Full Two-Stage POT,TAO,11,VUS-PR,0.6402995455788804
+s2b_pot_stage_ablation,Full Two-Stage POT,CATSv2,5,VUS-ROC,0.6763201463774997
+s2b_pot_stage_ablation,Full Two-Stage POT,CreditCard,1,VUS-ROC,0.6926650436152416
+s2b_pot_stage_ablation,Full Two-Stage POT,Daphnet,1,VUS-ROC,0.9259370612837968
+s2b_pot_stage_ablation,Full Two-Stage POT,Exathlon,25,VUS-ROC,0.9993216510886619
+s2b_pot_stage_ablation,Full Two-Stage POT,GECCO,1,VUS-ROC,0.8197525577393976
+s2b_pot_stage_ablation,Full Two-Stage POT,GHL,23,VUS-ROC,0.8377276896889164
+s2b_pot_stage_ablation,Full Two-Stage POT,Genesis,1,VUS-ROC,0.9948110928313274
+s2b_pot_stage_ablation,Full Two-Stage POT,LTDB,4,VUS-ROC,0.7997269130202224
+s2b_pot_stage_ablation,Full Two-Stage POT,MITDB,11,VUS-ROC,0.7477437980975938
+s2b_pot_stage_ablation,Full Two-Stage POT,MSL,14,VUS-ROC,0.7854994965991404
+s2b_pot_stage_ablation,Full Two-Stage POT,OPPORTUNITY,7,VUS-ROC,0.6475517895111829
+s2b_pot_stage_ablation,Full Two-Stage POT,PSM,1,VUS-ROC,0.7846603958690066
+s2b_pot_stage_ablation,Full Two-Stage POT,SMAP,25,VUS-ROC,0.7748956841771468
+s2b_pot_stage_ablation,Full Two-Stage POT,SMD,20,VUS-ROC,0.8344661336731087
+s2b_pot_stage_ablation,Full Two-Stage POT,SVDB,28,VUS-ROC,0.8869299567080569
+s2b_pot_stage_ablation,Full Two-Stage POT,SWaT,2,VUS-ROC,0.7693652119037675
+s2b_pot_stage_ablation,Full Two-Stage POT,TAO,11,VUS-ROC,0.8159473721036652
+s2b_pot_stage_ablation,Full Two-Stage POT,CATSv2,5,AUC-PR,0.27225910139162823
+s2b_pot_stage_ablation,Full Two-Stage POT,CreditCard,1,AUC-PR,0.0318031012742223
+s2b_pot_stage_ablation,Full Two-Stage POT,Daphnet,1,AUC-PR,0.3086752083232432
+s2b_pot_stage_ablation,Full Two-Stage POT,Exathlon,25,AUC-PR,0.98128829867801
+s2b_pot_stage_ablation,Full Two-Stage POT,GECCO,1,AUC-PR,0.3894936505355769
+s2b_pot_stage_ablation,Full Two-Stage POT,GHL,23,AUC-PR,0.5890190386769553
+s2b_pot_stage_ablation,Full Two-Stage POT,Genesis,1,AUC-PR,0.2101760688223688
+s2b_pot_stage_ablation,Full Two-Stage POT,LTDB,4,AUC-PR,0.42586790638637007
+s2b_pot_stage_ablation,Full Two-Stage POT,MITDB,11,AUC-PR,0.329549743978541
+s2b_pot_stage_ablation,Full Two-Stage POT,MSL,14,AUC-PR,0.2744025417713426
+s2b_pot_stage_ablation,Full Two-Stage POT,OPPORTUNITY,7,AUC-PR,0.16499666410787536
+s2b_pot_stage_ablation,Full Two-Stage POT,PSM,1,AUC-PR,0.3560617359577582
+s2b_pot_stage_ablation,Full Two-Stage POT,SMAP,25,AUC-PR,0.26863912233204057
+s2b_pot_stage_ablation,Full Two-Stage POT,SMD,20,AUC-PR,0.4580247489281895
+s2b_pot_stage_ablation,Full Two-Stage POT,SVDB,28,AUC-PR,0.5301400506905756
+s2b_pot_stage_ablation,Full Two-Stage POT,SWaT,2,AUC-PR,0.5315821439989918
+s2b_pot_stage_ablation,Full Two-Stage POT,TAO,11,AUC-PR,0.08362578015888728
+s2b_pot_stage_ablation,Full Two-Stage POT,CATSv2,5,AUC-ROC,0.6949739228752521
+s2b_pot_stage_ablation,Full Two-Stage POT,CreditCard,1,AUC-ROC,0.7263004262562893
+s2b_pot_stage_ablation,Full Two-Stage POT,Daphnet,1,AUC-ROC,0.9231629821285418
+s2b_pot_stage_ablation,Full Two-Stage POT,Exathlon,25,AUC-ROC,0.9990676710419115
+s2b_pot_stage_ablation,Full Two-Stage POT,GECCO,1,AUC-ROC,0.8754772992395817
+s2b_pot_stage_ablation,Full Two-Stage POT,GHL,23,AUC-ROC,0.8430823623147335
+s2b_pot_stage_ablation,Full Two-Stage POT,Genesis,1,AUC-ROC,0.9947186147186148
+s2b_pot_stage_ablation,Full Two-Stage POT,LTDB,4,AUC-ROC,0.7831923144665673
+s2b_pot_stage_ablation,Full Two-Stage POT,MITDB,11,AUC-ROC,0.7150989434328857
+s2b_pot_stage_ablation,Full Two-Stage POT,MSL,14,AUC-ROC,0.7503464102884453
+s2b_pot_stage_ablation,Full Two-Stage POT,OPPORTUNITY,7,AUC-ROC,0.6542518631184348
+s2b_pot_stage_ablation,Full Two-Stage POT,PSM,1,AUC-ROC,0.847293511970476
+s2b_pot_stage_ablation,Full Two-Stage POT,SMAP,25,AUC-ROC,0.7711562535574504
+s2b_pot_stage_ablation,Full Two-Stage POT,SMD,20,AUC-ROC,0.8820133492556202
+s2b_pot_stage_ablation,Full Two-Stage POT,SVDB,28,AUC-ROC,0.8604738273732572
+s2b_pot_stage_ablation,Full Two-Stage POT,SWaT,2,AUC-ROC,0.8319268593121297
+s2b_pot_stage_ablation,Full Two-Stage POT,TAO,11,AUC-ROC,0.4967134160559576
+s2b_period_ablation,Fixed Window = 32,CATSv2,5,VUS-PR,0.1828888269993203
+s2b_period_ablation,Fixed Window = 32,CreditCard,1,VUS-PR,0.0945721592401964
+s2b_period_ablation,Fixed Window = 32,Daphnet,1,VUS-PR,0.335815873624091
+s2b_period_ablation,Fixed Window = 32,Exathlon,25,VUS-PR,0.9861502968998453
+s2b_period_ablation,Fixed Window = 32,GECCO,1,VUS-PR,0.1882350897891074
+s2b_period_ablation,Fixed Window = 32,GHL,23,VUS-PR,0.5096046600228581
+s2b_period_ablation,Fixed Window = 32,Genesis,1,VUS-PR,0.3287350883849504
+s2b_period_ablation,Fixed Window = 32,LTDB,4,VUS-PR,0.49111005250948775
+s2b_period_ablation,Fixed Window = 32,MITDB,11,VUS-PR,0.2566952325671785
+s2b_period_ablation,Fixed Window = 32,MSL,14,VUS-PR,0.30996980402887225
+s2b_period_ablation,Fixed Window = 32,OPPORTUNITY,7,VUS-PR,0.16983395927357273
+s2b_period_ablation,Fixed Window = 32,PSM,1,VUS-PR,0.3211154547578926
+s2b_period_ablation,Fixed Window = 32,SMAP,25,VUS-PR,0.2946277101455835
+s2b_period_ablation,Fixed Window = 32,SMD,20,VUS-PR,0.37249476967945483
+s2b_period_ablation,Fixed Window = 32,SVDB,28,VUS-PR,0.49121842600835003
+s2b_period_ablation,Fixed Window = 32,SWaT,2,VUS-PR,0.41393393228019215
+s2b_period_ablation,Fixed Window = 32,TAO,11,VUS-PR,0.6402995455788804
+s2b_period_ablation,Fixed Window = 32,CATSv2,5,VUS-ROC,0.6746904045754964
+s2b_period_ablation,Fixed Window = 32,CreditCard,1,VUS-ROC,0.6926650436152416
+s2b_period_ablation,Fixed Window = 32,Daphnet,1,VUS-ROC,0.922842569287758
+s2b_period_ablation,Fixed Window = 32,Exathlon,25,VUS-ROC,0.9993290013182449
+s2b_period_ablation,Fixed Window = 32,GECCO,1,VUS-ROC,0.7974587174218964
+s2b_period_ablation,Fixed Window = 32,GHL,23,VUS-ROC,0.841095698563356
+s2b_period_ablation,Fixed Window = 32,Genesis,1,VUS-ROC,0.9947533611989252
+s2b_period_ablation,Fixed Window = 32,LTDB,4,VUS-ROC,0.8283478371134937
+s2b_period_ablation,Fixed Window = 32,MITDB,11,VUS-ROC,0.7483086662498181
+s2b_period_ablation,Fixed Window = 32,MSL,14,VUS-ROC,0.7854994965991404
+s2b_period_ablation,Fixed Window = 32,OPPORTUNITY,7,VUS-ROC,0.6759806844688804
+s2b_period_ablation,Fixed Window = 32,PSM,1,VUS-ROC,0.7747645060686594
+s2b_period_ablation,Fixed Window = 32,SMAP,25,VUS-ROC,0.7813864203100706
+s2b_period_ablation,Fixed Window = 32,SMD,20,VUS-ROC,0.8297143147060926
+s2b_period_ablation,Fixed Window = 32,SVDB,28,VUS-ROC,0.838986327525091
+s2b_period_ablation,Fixed Window = 32,SWaT,2,VUS-ROC,0.7700246159321065
+s2b_period_ablation,Fixed Window = 32,TAO,11,VUS-ROC,0.8159473721036652
+s2b_period_ablation,Fixed Window = 32,CATSv2,5,AUC-PR,0.272782570726392
+s2b_period_ablation,Fixed Window = 32,CreditCard,1,AUC-PR,0.0318031012742223
+s2b_period_ablation,Fixed Window = 32,Daphnet,1,AUC-PR,0.3080591151769916
+s2b_period_ablation,Fixed Window = 32,Exathlon,25,AUC-PR,0.9815247439034899
+s2b_period_ablation,Fixed Window = 32,GECCO,1,AUC-PR,0.3869391904529696
+s2b_period_ablation,Fixed Window = 32,GHL,23,AUC-PR,0.5902548186140902
+s2b_period_ablation,Fixed Window = 32,Genesis,1,AUC-PR,0.2044715111020443
+s2b_period_ablation,Fixed Window = 32,LTDB,4,AUC-PR,0.4577429153708994
+s2b_period_ablation,Fixed Window = 32,MITDB,11,AUC-PR,0.33155008517661877
+s2b_period_ablation,Fixed Window = 32,MSL,14,AUC-PR,0.2744025417713426
+s2b_period_ablation,Fixed Window = 32,OPPORTUNITY,7,AUC-PR,0.17766833593325693
+s2b_period_ablation,Fixed Window = 32,PSM,1,AUC-PR,0.3428903015515758
+s2b_period_ablation,Fixed Window = 32,SMAP,25,AUC-PR,0.2916782497325395
+s2b_period_ablation,Fixed Window = 32,SMD,20,AUC-PR,0.4550269337748559
+s2b_period_ablation,Fixed Window = 32,SVDB,28,AUC-PR,0.4874868398618246
+s2b_period_ablation,Fixed Window = 32,SWaT,2,AUC-PR,0.5327394972035574
+s2b_period_ablation,Fixed Window = 32,TAO,11,AUC-PR,0.08362578015888728
+s2b_period_ablation,Fixed Window = 32,CATSv2,5,AUC-ROC,0.6937510741829428
+s2b_period_ablation,Fixed Window = 32,CreditCard,1,AUC-ROC,0.7263004262562893
+s2b_period_ablation,Fixed Window = 32,Daphnet,1,AUC-ROC,0.9202026113069368
+s2b_period_ablation,Fixed Window = 32,Exathlon,25,AUC-ROC,0.9990715702006001
+s2b_period_ablation,Fixed Window = 32,GECCO,1,AUC-ROC,0.8667527387976451
+s2b_period_ablation,Fixed Window = 32,GHL,23,AUC-ROC,0.847259883784456
+s2b_period_ablation,Fixed Window = 32,Genesis,1,AUC-ROC,0.9944972170686456
+s2b_period_ablation,Fixed Window = 32,LTDB,4,AUC-ROC,0.7994251137797816
+s2b_period_ablation,Fixed Window = 32,MITDB,11,AUC-ROC,0.7156489733047798
+s2b_period_ablation,Fixed Window = 32,MSL,14,AUC-ROC,0.7503464102884453
+s2b_period_ablation,Fixed Window = 32,OPPORTUNITY,7,AUC-ROC,0.6833333891915018
+s2b_period_ablation,Fixed Window = 32,PSM,1,AUC-ROC,0.8460750603769152
+s2b_period_ablation,Fixed Window = 32,SMAP,25,AUC-ROC,0.7743281571194003
+s2b_period_ablation,Fixed Window = 32,SMD,20,AUC-ROC,0.8791383076693717
+s2b_period_ablation,Fixed Window = 32,SVDB,28,AUC-ROC,0.8008235988098505
+s2b_period_ablation,Fixed Window = 32,SWaT,2,AUC-ROC,0.8327143726739881
+s2b_period_ablation,Fixed Window = 32,TAO,11,AUC-ROC,0.4967134160559576
+s2b_period_ablation,Fixed Window = 64,CATSv2,5,VUS-PR,0.1765130486282066
+s2b_period_ablation,Fixed Window = 64,CreditCard,1,VUS-PR,0.0945664116226083
+s2b_period_ablation,Fixed Window = 64,Daphnet,1,VUS-PR,0.3159573765068786
+s2b_period_ablation,Fixed Window = 64,Exathlon,25,VUS-PR,0.9835359675868435
+s2b_period_ablation,Fixed Window = 64,GECCO,1,VUS-PR,0.1228524201999894
+s2b_period_ablation,Fixed Window = 64,GHL,23,VUS-PR,0.5172203898031466
+s2b_period_ablation,Fixed Window = 64,Genesis,1,VUS-PR,0.2847623976016917
+s2b_period_ablation,Fixed Window = 64,LTDB,4,VUS-PR,0.47846932493119254
+s2b_period_ablation,Fixed Window = 64,MITDB,11,VUS-PR,0.2817617579809473
+s2b_period_ablation,Fixed Window = 64,MSL,14,VUS-PR,0.3336455341964705
+s2b_period_ablation,Fixed Window = 64,OPPORTUNITY,7,VUS-PR,0.15385877817474705
+s2b_period_ablation,Fixed Window = 64,PSM,1,VUS-PR,0.309120093695121
+s2b_period_ablation,Fixed Window = 64,SMAP,25,VUS-PR,0.25539669303522206
+s2b_period_ablation,Fixed Window = 64,SMD,20,VUS-PR,0.3736615856923915
+s2b_period_ablation,Fixed Window = 64,SVDB,28,VUS-PR,0.5234663054442888
+s2b_period_ablation,Fixed Window = 64,SWaT,2,VUS-PR,0.39823192124390683
+s2b_period_ablation,Fixed Window = 64,TAO,11,VUS-PR,0.6415369908438411
+s2b_period_ablation,Fixed Window = 64,CATSv2,5,VUS-ROC,0.6716972938562056
+s2b_period_ablation,Fixed Window = 64,CreditCard,1,VUS-ROC,0.6926047871052232
+s2b_period_ablation,Fixed Window = 64,Daphnet,1,VUS-ROC,0.9110161554783388
+s2b_period_ablation,Fixed Window = 64,Exathlon,25,VUS-ROC,0.9992541486347313
+s2b_period_ablation,Fixed Window = 64,GECCO,1,VUS-ROC,0.7150273244009133
+s2b_period_ablation,Fixed Window = 64,GHL,23,VUS-ROC,0.8335898010542052
+s2b_period_ablation,Fixed Window = 64,Genesis,1,VUS-ROC,0.9912839312838392
+s2b_period_ablation,Fixed Window = 64,LTDB,4,VUS-ROC,0.8098702616539115
+s2b_period_ablation,Fixed Window = 64,MITDB,11,VUS-ROC,0.7646695137783113
+s2b_period_ablation,Fixed Window = 64,MSL,14,VUS-ROC,0.7691215645003096
+s2b_period_ablation,Fixed Window = 64,OPPORTUNITY,7,VUS-ROC,0.6195392842357291
+s2b_period_ablation,Fixed Window = 64,PSM,1,VUS-ROC,0.7508356998950271
+s2b_period_ablation,Fixed Window = 64,SMAP,25,VUS-ROC,0.767856961113869
+s2b_period_ablation,Fixed Window = 64,SMD,20,VUS-ROC,0.8360792017874965
+s2b_period_ablation,Fixed Window = 64,SVDB,28,VUS-ROC,0.8619608452631445
+s2b_period_ablation,Fixed Window = 64,SWaT,2,VUS-ROC,0.7616712411160906
+s2b_period_ablation,Fixed Window = 64,TAO,11,VUS-ROC,0.8099313054563209
+s2b_period_ablation,Fixed Window = 64,CATSv2,5,AUC-PR,0.2655419042951409
+s2b_period_ablation,Fixed Window = 64,CreditCard,1,AUC-PR,0.0318003856456528
+s2b_period_ablation,Fixed Window = 64,Daphnet,1,AUC-PR,0.2939052553370762
+s2b_period_ablation,Fixed Window = 64,Exathlon,25,AUC-PR,0.9797176082840732
+s2b_period_ablation,Fixed Window = 64,GECCO,1,AUC-PR,0.3536948118868403
+s2b_period_ablation,Fixed Window = 64,GHL,23,AUC-PR,0.596444181498363
+s2b_period_ablation,Fixed Window = 64,Genesis,1,AUC-PR,0.1298859820040611
+s2b_period_ablation,Fixed Window = 64,LTDB,4,AUC-PR,0.4481128444295886
+s2b_period_ablation,Fixed Window = 64,MITDB,11,AUC-PR,0.36155008987320314
+s2b_period_ablation,Fixed Window = 64,MSL,14,AUC-PR,0.29506383539077313
+s2b_period_ablation,Fixed Window = 64,OPPORTUNITY,7,AUC-PR,0.16323669868990848
+s2b_period_ablation,Fixed Window = 64,PSM,1,AUC-PR,0.3325039290148124
+s2b_period_ablation,Fixed Window = 64,SMAP,25,AUC-PR,0.2578174375565233
+s2b_period_ablation,Fixed Window = 64,SMD,20,AUC-PR,0.46110549545363105
+s2b_period_ablation,Fixed Window = 64,SVDB,28,AUC-PR,0.5140719019259048
+s2b_period_ablation,Fixed Window = 64,SWaT,2,AUC-PR,0.5292855690245095
+s2b_period_ablation,Fixed Window = 64,TAO,11,AUC-PR,0.08217707937506111
+s2b_period_ablation,Fixed Window = 64,CATSv2,5,AUC-ROC,0.7002578065355882
+s2b_period_ablation,Fixed Window = 64,CreditCard,1,AUC-ROC,0.7262502914936471
+s2b_period_ablation,Fixed Window = 64,Daphnet,1,AUC-ROC,0.9124403735347202
+s2b_period_ablation,Fixed Window = 64,Exathlon,25,AUC-ROC,0.9990536576090515
+s2b_period_ablation,Fixed Window = 64,GECCO,1,AUC-ROC,0.8234228574131932
+s2b_period_ablation,Fixed Window = 64,GHL,23,AUC-ROC,0.8422956477818475
+s2b_period_ablation,Fixed Window = 64,Genesis,1,AUC-ROC,0.9904106369820656
+s2b_period_ablation,Fixed Window = 64,LTDB,4,AUC-ROC,0.7951104043534014
+s2b_period_ablation,Fixed Window = 64,MITDB,11,AUC-ROC,0.7332898942345238
+s2b_period_ablation,Fixed Window = 64,MSL,14,AUC-ROC,0.7196413516741446
+s2b_period_ablation,Fixed Window = 64,OPPORTUNITY,7,AUC-ROC,0.6255825855910627
+s2b_period_ablation,Fixed Window = 64,PSM,1,AUC-ROC,0.8448327401613793
+s2b_period_ablation,Fixed Window = 64,SMAP,25,AUC-ROC,0.7572591939718649
+s2b_period_ablation,Fixed Window = 64,SMD,20,AUC-ROC,0.8874321020155088
+s2b_period_ablation,Fixed Window = 64,SVDB,28,AUC-ROC,0.8289675921181827
+s2b_period_ablation,Fixed Window = 64,SWaT,2,AUC-ROC,0.823726119872432
+s2b_period_ablation,Fixed Window = 64,TAO,11,AUC-ROC,0.4822182833008643
+s2b_period_ablation,Fixed Window = 128,CATSv2,5,VUS-PR,0.16565537317543097
+s2b_period_ablation,Fixed Window = 128,CreditCard,1,VUS-PR,0.094541918359946
+s2b_period_ablation,Fixed Window = 128,Daphnet,1,VUS-PR,0.3822593152869264
+s2b_period_ablation,Fixed Window = 128,Exathlon,25,VUS-PR,0.9855906114408033
+s2b_period_ablation,Fixed Window = 128,GECCO,1,VUS-PR,0.1065395150674209
+s2b_period_ablation,Fixed Window = 128,GHL,23,VUS-PR,0.5080092298815592
+s2b_period_ablation,Fixed Window = 128,Genesis,1,VUS-PR,0.0221333383795022
+s2b_period_ablation,Fixed Window = 128,LTDB,4,VUS-PR,0.47434426424653786
+s2b_period_ablation,Fixed Window = 128,MITDB,11,VUS-PR,0.3138940223738435
+s2b_period_ablation,Fixed Window = 128,MSL,14,VUS-PR,0.29281832759989135
+s2b_period_ablation,Fixed Window = 128,OPPORTUNITY,7,VUS-PR,0.1667354952489151
+s2b_period_ablation,Fixed Window = 128,PSM,1,VUS-PR,0.3149356909526574
+s2b_period_ablation,Fixed Window = 128,SMAP,25,VUS-PR,0.2556499555938992
+s2b_period_ablation,Fixed Window = 128,SMD,20,VUS-PR,0.37970219380623016
+s2b_period_ablation,Fixed Window = 128,SVDB,28,VUS-PR,0.5349093847454948
+s2b_period_ablation,Fixed Window = 128,SWaT,2,VUS-PR,0.38857480269732403
+s2b_period_ablation,Fixed Window = 128,TAO,11,VUS-PR,0.6368120216775505
+s2b_period_ablation,Fixed Window = 128,CATSv2,5,VUS-ROC,0.6678793193000668
+s2b_period_ablation,Fixed Window = 128,CreditCard,1,VUS-ROC,0.692622458348188
+s2b_period_ablation,Fixed Window = 128,Daphnet,1,VUS-ROC,0.9336395031234124
+s2b_period_ablation,Fixed Window = 128,Exathlon,25,VUS-ROC,0.9993206795238998
+s2b_period_ablation,Fixed Window = 128,GECCO,1,VUS-ROC,0.6565426581027727
+s2b_period_ablation,Fixed Window = 128,GHL,23,VUS-ROC,0.8244196699759274
+s2b_period_ablation,Fixed Window = 128,Genesis,1,VUS-ROC,0.8922813781045712
+s2b_period_ablation,Fixed Window = 128,LTDB,4,VUS-ROC,0.8249533856915564
+s2b_period_ablation,Fixed Window = 128,MITDB,11,VUS-ROC,0.7986621966650919
+s2b_period_ablation,Fixed Window = 128,MSL,14,VUS-ROC,0.7605380251306261
+s2b_period_ablation,Fixed Window = 128,OPPORTUNITY,7,VUS-ROC,0.6408173028571529
+s2b_period_ablation,Fixed Window = 128,PSM,1,VUS-ROC,0.757535913824871
+s2b_period_ablation,Fixed Window = 128,SMAP,25,VUS-ROC,0.7563559301739956
+s2b_period_ablation,Fixed Window = 128,SMD,20,VUS-ROC,0.8352137290076745
+s2b_period_ablation,Fixed Window = 128,SVDB,28,VUS-ROC,0.8860293188128363
+s2b_period_ablation,Fixed Window = 128,SWaT,2,VUS-ROC,0.7478917348172646
+s2b_period_ablation,Fixed Window = 128,TAO,11,VUS-ROC,0.8099867752654735
+s2b_period_ablation,Fixed Window = 128,CATSv2,5,AUC-PR,0.2493445189026709
+s2b_period_ablation,Fixed Window = 128,CreditCard,1,AUC-PR,0.0317993856122221
+s2b_period_ablation,Fixed Window = 128,Daphnet,1,AUC-PR,0.3423538131179928
+s2b_period_ablation,Fixed Window = 128,Exathlon,25,AUC-PR,0.9816655876355513
+s2b_period_ablation,Fixed Window = 128,GECCO,1,AUC-PR,0.3378454736849967
+s2b_period_ablation,Fixed Window = 128,GHL,23,AUC-PR,0.5900417433965147
+s2b_period_ablation,Fixed Window = 128,Genesis,1,AUC-PR,0.0102054481507696
+s2b_period_ablation,Fixed Window = 128,LTDB,4,AUC-PR,0.44153627774745136
+s2b_period_ablation,Fixed Window = 128,MITDB,11,AUC-PR,0.3952447712815129
+s2b_period_ablation,Fixed Window = 128,MSL,14,AUC-PR,0.25397924498251306
+s2b_period_ablation,Fixed Window = 128,OPPORTUNITY,7,AUC-PR,0.17607495380833646
+s2b_period_ablation,Fixed Window = 128,PSM,1,AUC-PR,0.3382214033396562
+s2b_period_ablation,Fixed Window = 128,SMAP,25,AUC-PR,0.25083103446807675
+s2b_period_ablation,Fixed Window = 128,SMD,20,AUC-PR,0.4637578490351769
+s2b_period_ablation,Fixed Window = 128,SVDB,28,AUC-PR,0.5247408442501946
+s2b_period_ablation,Fixed Window = 128,SWaT,2,AUC-PR,0.5259533145776172
+s2b_period_ablation,Fixed Window = 128,TAO,11,AUC-PR,0.07999585477295511
+s2b_period_ablation,Fixed Window = 128,CATSv2,5,AUC-ROC,0.6977429246994897
+s2b_period_ablation,Fixed Window = 128,CreditCard,1,AUC-ROC,0.7262596564642818
+s2b_period_ablation,Fixed Window = 128,Daphnet,1,AUC-ROC,0.9297420014705235
+s2b_period_ablation,Fixed Window = 128,Exathlon,25,AUC-ROC,0.9990937862773476
+s2b_period_ablation,Fixed Window = 128,GECCO,1,AUC-ROC,0.7898066636152404
+s2b_period_ablation,Fixed Window = 128,GHL,23,AUC-ROC,0.8386410233558593
+s2b_period_ablation,Fixed Window = 128,Genesis,1,AUC-ROC,0.8594446505875077
+s2b_period_ablation,Fixed Window = 128,LTDB,4,AUC-ROC,0.8135970986763417
+s2b_period_ablation,Fixed Window = 128,MITDB,11,AUC-ROC,0.7688623798952421
+s2b_period_ablation,Fixed Window = 128,MSL,14,AUC-ROC,0.7204290347155141
+s2b_period_ablation,Fixed Window = 128,OPPORTUNITY,7,AUC-ROC,0.6439034218696383
+s2b_period_ablation,Fixed Window = 128,PSM,1,AUC-ROC,0.8491255310108561
+s2b_period_ablation,Fixed Window = 128,SMAP,25,AUC-ROC,0.7470304749619886
+s2b_period_ablation,Fixed Window = 128,SMD,20,AUC-ROC,0.887710648128623
+s2b_period_ablation,Fixed Window = 128,SVDB,28,AUC-ROC,0.8615347318730061
+s2b_period_ablation,Fixed Window = 128,SWaT,2,AUC-ROC,0.8182381828555809
+s2b_period_ablation,Fixed Window = 128,TAO,11,AUC-ROC,0.46518523074169554
+s2b_period_ablation,FFT Period-Adaptive Window,CATSv2,5,VUS-PR,0.1839253974617509
+s2b_period_ablation,FFT Period-Adaptive Window,CreditCard,1,VUS-PR,0.0945721592401964
+s2b_period_ablation,FFT Period-Adaptive Window,Daphnet,1,VUS-PR,0.333934840336258
+s2b_period_ablation,FFT Period-Adaptive Window,Exathlon,25,VUS-PR,0.985983907486818
+s2b_period_ablation,FFT Period-Adaptive Window,GECCO,1,VUS-PR,0.2017196359895705
+s2b_period_ablation,FFT Period-Adaptive Window,GHL,23,VUS-PR,0.5088557449337117
+s2b_period_ablation,FFT Period-Adaptive Window,Genesis,1,VUS-PR,0.3236020621239201
+s2b_period_ablation,FFT Period-Adaptive Window,LTDB,4,VUS-PR,0.4677771289033161
+s2b_period_ablation,FFT Period-Adaptive Window,MITDB,11,VUS-PR,0.254559428296057
+s2b_period_ablation,FFT Period-Adaptive Window,MSL,14,VUS-PR,0.30996980402887225
+s2b_period_ablation,FFT Period-Adaptive Window,OPPORTUNITY,7,VUS-PR,0.15619596921221374
+s2b_period_ablation,FFT Period-Adaptive Window,PSM,1,VUS-PR,0.3291869599783548
+s2b_period_ablation,FFT Period-Adaptive Window,SMAP,25,VUS-PR,0.2659798816616762
+s2b_period_ablation,FFT Period-Adaptive Window,SMD,20,VUS-PR,0.37328533485118787
+s2b_period_ablation,FFT Period-Adaptive Window,SVDB,28,VUS-PR,0.5454691481993467
+s2b_period_ablation,FFT Period-Adaptive Window,SWaT,2,VUS-PR,0.41299221734109104
+s2b_period_ablation,FFT Period-Adaptive Window,TAO,11,VUS-PR,0.6402995455788804
+s2b_period_ablation,FFT Period-Adaptive Window,CATSv2,5,VUS-ROC,0.6763201463774997
+s2b_period_ablation,FFT Period-Adaptive Window,CreditCard,1,VUS-ROC,0.6926650436152416
+s2b_period_ablation,FFT Period-Adaptive Window,Daphnet,1,VUS-ROC,0.9259370612837968
+s2b_period_ablation,FFT Period-Adaptive Window,Exathlon,25,VUS-ROC,0.9993216510886619
+s2b_period_ablation,FFT Period-Adaptive Window,GECCO,1,VUS-ROC,0.8197525577393976
+s2b_period_ablation,FFT Period-Adaptive Window,GHL,23,VUS-ROC,0.8377276896889164
+s2b_period_ablation,FFT Period-Adaptive Window,Genesis,1,VUS-ROC,0.9948110928313274
+s2b_period_ablation,FFT Period-Adaptive Window,LTDB,4,VUS-ROC,0.7997269130202224
+s2b_period_ablation,FFT Period-Adaptive Window,MITDB,11,VUS-ROC,0.7477437980975938
+s2b_period_ablation,FFT Period-Adaptive Window,MSL,14,VUS-ROC,0.7854994965991404
+s2b_period_ablation,FFT Period-Adaptive Window,OPPORTUNITY,7,VUS-ROC,0.6475517895111829
+s2b_period_ablation,FFT Period-Adaptive Window,PSM,1,VUS-ROC,0.7846603958690066
+s2b_period_ablation,FFT Period-Adaptive Window,SMAP,25,VUS-ROC,0.7748956841771468
+s2b_period_ablation,FFT Period-Adaptive Window,SMD,20,VUS-ROC,0.8344661336731087
+s2b_period_ablation,FFT Period-Adaptive Window,SVDB,28,VUS-ROC,0.8869299567080569
+s2b_period_ablation,FFT Period-Adaptive Window,SWaT,2,VUS-ROC,0.7693652119037675
+s2b_period_ablation,FFT Period-Adaptive Window,TAO,11,VUS-ROC,0.8159473721036652
+s2b_period_ablation,FFT Period-Adaptive Window,CATSv2,5,AUC-PR,0.27225910139162823
+s2b_period_ablation,FFT Period-Adaptive Window,CreditCard,1,AUC-PR,0.0318031012742223
+s2b_period_ablation,FFT Period-Adaptive Window,Daphnet,1,AUC-PR,0.3086752083232432
+s2b_period_ablation,FFT Period-Adaptive Window,Exathlon,25,AUC-PR,0.98128829867801
+s2b_period_ablation,FFT Period-Adaptive Window,GECCO,1,AUC-PR,0.3894936505355769
+s2b_period_ablation,FFT Period-Adaptive Window,GHL,23,AUC-PR,0.5890190386769553
+s2b_period_ablation,FFT Period-Adaptive Window,Genesis,1,AUC-PR,0.2101760688223688
+s2b_period_ablation,FFT Period-Adaptive Window,LTDB,4,AUC-PR,0.42586790638637007
+s2b_period_ablation,FFT Period-Adaptive Window,MITDB,11,AUC-PR,0.329549743978541
+s2b_period_ablation,FFT Period-Adaptive Window,MSL,14,AUC-PR,0.2744025417713426
+s2b_period_ablation,FFT Period-Adaptive Window,OPPORTUNITY,7,AUC-PR,0.16499666410787536
+s2b_period_ablation,FFT Period-Adaptive Window,PSM,1,AUC-PR,0.3560617359577582
+s2b_period_ablation,FFT Period-Adaptive Window,SMAP,25,AUC-PR,0.26863912233204057
+s2b_period_ablation,FFT Period-Adaptive Window,SMD,20,AUC-PR,0.4580247489281895
+s2b_period_ablation,FFT Period-Adaptive Window,SVDB,28,AUC-PR,0.5301400506905756
+s2b_period_ablation,FFT Period-Adaptive Window,SWaT,2,AUC-PR,0.5315821439989918
+s2b_period_ablation,FFT Period-Adaptive Window,TAO,11,AUC-PR,0.08362578015888728
+s2b_period_ablation,FFT Period-Adaptive Window,CATSv2,5,AUC-ROC,0.6949739228752521
+s2b_period_ablation,FFT Period-Adaptive Window,CreditCard,1,AUC-ROC,0.7263004262562893
+s2b_period_ablation,FFT Period-Adaptive Window,Daphnet,1,AUC-ROC,0.9231629821285418
+s2b_period_ablation,FFT Period-Adaptive Window,Exathlon,25,AUC-ROC,0.9990676710419115
+s2b_period_ablation,FFT Period-Adaptive Window,GECCO,1,AUC-ROC,0.8754772992395817
+s2b_period_ablation,FFT Period-Adaptive Window,GHL,23,AUC-ROC,0.8430823623147335
+s2b_period_ablation,FFT Period-Adaptive Window,Genesis,1,AUC-ROC,0.9947186147186148
+s2b_period_ablation,FFT Period-Adaptive Window,LTDB,4,AUC-ROC,0.7831923144665673
+s2b_period_ablation,FFT Period-Adaptive Window,MITDB,11,AUC-ROC,0.7150989434328857
+s2b_period_ablation,FFT Period-Adaptive Window,MSL,14,AUC-ROC,0.7503464102884453
+s2b_period_ablation,FFT Period-Adaptive Window,OPPORTUNITY,7,AUC-ROC,0.6542518631184348
+s2b_period_ablation,FFT Period-Adaptive Window,PSM,1,AUC-ROC,0.847293511970476
+s2b_period_ablation,FFT Period-Adaptive Window,SMAP,25,AUC-ROC,0.7711562535574504
+s2b_period_ablation,FFT Period-Adaptive Window,SMD,20,AUC-ROC,0.8820133492556202
+s2b_period_ablation,FFT Period-Adaptive Window,SVDB,28,AUC-ROC,0.8604738273732572
+s2b_period_ablation,FFT Period-Adaptive Window,SWaT,2,AUC-ROC,0.8319268593121297
+s2b_period_ablation,FFT Period-Adaptive Window,TAO,11,AUC-ROC,0.4967134160559576
+s2b_branch_a_internal,k-NN only,CATSv2,5,VUS-PR,0.15682490102812432
+s2b_branch_a_internal,k-NN only,CreditCard,1,VUS-PR,0.0945422239231038
+s2b_branch_a_internal,k-NN only,Daphnet,1,VUS-PR,0.3041837428491892
+s2b_branch_a_internal,k-NN only,Exathlon,25,VUS-PR,0.9848424395679729
+s2b_branch_a_internal,k-NN only,GECCO,1,VUS-PR,0.0985204632529994
+s2b_branch_a_internal,k-NN only,GHL,23,VUS-PR,0.5154280885465736
+s2b_branch_a_internal,k-NN only,Genesis,1,VUS-PR,0.3162001723389208
+s2b_branch_a_internal,k-NN only,LTDB,4,VUS-PR,0.487613624985956
+s2b_branch_a_internal,k-NN only,MITDB,11,VUS-PR,0.2588812915061603
+s2b_branch_a_internal,k-NN only,MSL,14,VUS-PR,0.31260592551728944
+s2b_branch_a_internal,k-NN only,OPPORTUNITY,7,VUS-PR,0.152416842885301
+s2b_branch_a_internal,k-NN only,PSM,1,VUS-PR,0.3021590602335738
+s2b_branch_a_internal,k-NN only,SMAP,25,VUS-PR,0.2628278313784145
+s2b_branch_a_internal,k-NN only,SMD,20,VUS-PR,0.36699592952049964
+s2b_branch_a_internal,k-NN only,SVDB,28,VUS-PR,0.5376308494395331
+s2b_branch_a_internal,k-NN only,SWaT,2,VUS-PR,0.4119735786836717
+s2b_branch_a_internal,k-NN only,TAO,11,VUS-PR,0.6377172227311894
+s2b_branch_a_internal,k-NN only,CATSv2,5,VUS-ROC,0.6649084430435506
+s2b_branch_a_internal,k-NN only,CreditCard,1,VUS-ROC,0.6926134423284829
+s2b_branch_a_internal,k-NN only,Daphnet,1,VUS-ROC,0.9163351298255008
+s2b_branch_a_internal,k-NN only,Exathlon,25,VUS-ROC,0.999270963337607
+s2b_branch_a_internal,k-NN only,GECCO,1,VUS-ROC,0.6428067057780085
+s2b_branch_a_internal,k-NN only,GHL,23,VUS-ROC,0.841595123009958
+s2b_branch_a_internal,k-NN only,Genesis,1,VUS-ROC,0.9947314193574636
+s2b_branch_a_internal,k-NN only,LTDB,4,VUS-ROC,0.8169564347542235
+s2b_branch_a_internal,k-NN only,MITDB,11,VUS-ROC,0.7521297218493548
+s2b_branch_a_internal,k-NN only,MSL,14,VUS-ROC,0.7885292848943386
+s2b_branch_a_internal,k-NN only,OPPORTUNITY,7,VUS-ROC,0.604037642543941
+s2b_branch_a_internal,k-NN only,PSM,1,VUS-ROC,0.7376823623147999
+s2b_branch_a_internal,k-NN only,SMAP,25,VUS-ROC,0.7741790737073088
+s2b_branch_a_internal,k-NN only,SMD,20,VUS-ROC,0.8265323471178465
+s2b_branch_a_internal,k-NN only,SVDB,28,VUS-ROC,0.8820787646050187
+s2b_branch_a_internal,k-NN only,SWaT,2,VUS-ROC,0.7681877194956077
+s2b_branch_a_internal,k-NN only,TAO,11,VUS-ROC,0.8134601804796587
+s2b_branch_a_internal,k-NN only,CATSv2,5,AUC-PR,0.23483217198085654
+s2b_branch_a_internal,k-NN only,CreditCard,1,AUC-PR,0.0318018855921088
+s2b_branch_a_internal,k-NN only,Daphnet,1,AUC-PR,0.2826378565246926
+s2b_branch_a_internal,k-NN only,Exathlon,25,AUC-PR,0.9797994792833863
+s2b_branch_a_internal,k-NN only,GECCO,1,AUC-PR,0.364130304034756
+s2b_branch_a_internal,k-NN only,GHL,23,AUC-PR,0.5935442185578355
+s2b_branch_a_internal,k-NN only,Genesis,1,AUC-PR,0.2071717445416791
+s2b_branch_a_internal,k-NN only,LTDB,4,AUC-PR,0.45389007254135866
+s2b_branch_a_internal,k-NN only,MITDB,11,AUC-PR,0.3320390409360535
+s2b_branch_a_internal,k-NN only,MSL,14,AUC-PR,0.27642365013527004
+s2b_branch_a_internal,k-NN only,OPPORTUNITY,7,AUC-PR,0.16144320207544047
+s2b_branch_a_internal,k-NN only,PSM,1,AUC-PR,0.341141768280947
+s2b_branch_a_internal,k-NN only,SMAP,25,AUC-PR,0.26521338729924376
+s2b_branch_a_internal,k-NN only,SMD,20,AUC-PR,0.4539887788587829
+s2b_branch_a_internal,k-NN only,SVDB,28,AUC-PR,0.5256169493921868
+s2b_branch_a_internal,k-NN only,SWaT,2,AUC-PR,0.5313959471235734
+s2b_branch_a_internal,k-NN only,TAO,11,AUC-PR,0.08254438675758398
+s2b_branch_a_internal,k-NN only,CATSv2,5,AUC-ROC,0.680863420985348
+s2b_branch_a_internal,k-NN only,CreditCard,1,AUC-ROC,0.7262599567152487
+s2b_branch_a_internal,k-NN only,Daphnet,1,AUC-ROC,0.91395040012268
+s2b_branch_a_internal,k-NN only,Exathlon,25,AUC-ROC,0.9989946979390086
+s2b_branch_a_internal,k-NN only,GECCO,1,AUC-ROC,0.7821023685880925
+s2b_branch_a_internal,k-NN only,GHL,23,AUC-ROC,0.8465480564271478
+s2b_branch_a_internal,k-NN only,Genesis,1,AUC-ROC,0.9946171923314782
+s2b_branch_a_internal,k-NN only,LTDB,4,AUC-ROC,0.8006183092609589
+s2b_branch_a_internal,k-NN only,MITDB,11,AUC-ROC,0.7196171833536422
+s2b_branch_a_internal,k-NN only,MSL,14,AUC-ROC,0.7513039859713849
+s2b_branch_a_internal,k-NN only,OPPORTUNITY,7,AUC-ROC,0.6113946941472072
+s2b_branch_a_internal,k-NN only,PSM,1,AUC-ROC,0.8313335684338261
+s2b_branch_a_internal,k-NN only,SMAP,25,AUC-ROC,0.7705161957248411
+s2b_branch_a_internal,k-NN only,SMD,20,AUC-ROC,0.8761568436395496
+s2b_branch_a_internal,k-NN only,SVDB,28,AUC-ROC,0.8569835064150298
+s2b_branch_a_internal,k-NN only,SWaT,2,AUC-ROC,0.8305730751916045
+s2b_branch_a_internal,k-NN only,TAO,11,AUC-ROC,0.48916032152003713
+s2b_branch_a_internal,PCA Orthogonal Residual only,CATSv2,5,VUS-PR,0.21069950836009096
+s2b_branch_a_internal,PCA Orthogonal Residual only,CreditCard,1,VUS-PR,0.0946504392905935
+s2b_branch_a_internal,PCA Orthogonal Residual only,Daphnet,1,VUS-PR,0.3243559115728526
+s2b_branch_a_internal,PCA Orthogonal Residual only,Exathlon,25,VUS-PR,0.9896971077707949
+s2b_branch_a_internal,PCA Orthogonal Residual only,GECCO,1,VUS-PR,0.3762902570382179
+s2b_branch_a_internal,PCA Orthogonal Residual only,GHL,23,VUS-PR,0.46444419316449487
+s2b_branch_a_internal,PCA Orthogonal Residual only,Genesis,1,VUS-PR,0.9596688179287608
+s2b_branch_a_internal,PCA Orthogonal Residual only,LTDB,4,VUS-PR,0.49912517165874615
+s2b_branch_a_internal,PCA Orthogonal Residual only,MITDB,11,VUS-PR,0.23736259730217693
+s2b_branch_a_internal,PCA Orthogonal Residual only,MSL,14,VUS-PR,0.2661482896211463
+s2b_branch_a_internal,PCA Orthogonal Residual only,OPPORTUNITY,7,VUS-PR,0.1773641151266603
+s2b_branch_a_internal,PCA Orthogonal Residual only,PSM,1,VUS-PR,0.3555550875602862
+s2b_branch_a_internal,PCA Orthogonal Residual only,SMAP,25,VUS-PR,0.30784503222726706
+s2b_branch_a_internal,PCA Orthogonal Residual only,SMD,20,VUS-PR,0.3791851512259726
+s2b_branch_a_internal,PCA Orthogonal Residual only,SVDB,28,VUS-PR,0.4895433785315762
+s2b_branch_a_internal,PCA Orthogonal Residual only,SWaT,2,VUS-PR,0.4150101491755773
+s2b_branch_a_internal,PCA Orthogonal Residual only,TAO,11,VUS-PR,0.6575552936681596
+s2b_branch_a_internal,PCA Orthogonal Residual only,CATSv2,5,VUS-ROC,0.6945784313765786
+s2b_branch_a_internal,PCA Orthogonal Residual only,CreditCard,1,VUS-ROC,0.692825600748638
+s2b_branch_a_internal,PCA Orthogonal Residual only,Daphnet,1,VUS-ROC,0.9109358942368648
+s2b_branch_a_internal,PCA Orthogonal Residual only,Exathlon,25,VUS-ROC,0.9994647069747035
+s2b_branch_a_internal,PCA Orthogonal Residual only,GECCO,1,VUS-ROC,0.957923724533339
+s2b_branch_a_internal,PCA Orthogonal Residual only,GHL,23,VUS-ROC,0.8202568515639115
+s2b_branch_a_internal,PCA Orthogonal Residual only,Genesis,1,VUS-ROC,0.999908074621324
+s2b_branch_a_internal,PCA Orthogonal Residual only,LTDB,4,VUS-ROC,0.8247543770097898
+s2b_branch_a_internal,PCA Orthogonal Residual only,MITDB,11,VUS-ROC,0.7160434622580693
+s2b_branch_a_internal,PCA Orthogonal Residual only,MSL,14,VUS-ROC,0.7482128417234197
+s2b_branch_a_internal,PCA Orthogonal Residual only,OPPORTUNITY,7,VUS-ROC,0.7172044459787014
+s2b_branch_a_internal,PCA Orthogonal Residual only,PSM,1,VUS-ROC,0.8189765550443894
+s2b_branch_a_internal,PCA Orthogonal Residual only,SMAP,25,VUS-ROC,0.7539110786207364
+s2b_branch_a_internal,PCA Orthogonal Residual only,SMD,20,VUS-ROC,0.8419325283794443
+s2b_branch_a_internal,PCA Orthogonal Residual only,SVDB,28,VUS-ROC,0.8553733604859955
+s2b_branch_a_internal,PCA Orthogonal Residual only,SWaT,2,VUS-ROC,0.7841041949623542
+s2b_branch_a_internal,PCA Orthogonal Residual only,TAO,11,VUS-ROC,0.8304924377257621
+s2b_branch_a_internal,PCA Orthogonal Residual only,CATSv2,5,AUC-PR,0.2973558928698744
+s2b_branch_a_internal,PCA Orthogonal Residual only,CreditCard,1,AUC-PR,0.0318999138007197
+s2b_branch_a_internal,PCA Orthogonal Residual only,Daphnet,1,AUC-PR,0.2985332862053349
+s2b_branch_a_internal,PCA Orthogonal Residual only,Exathlon,25,AUC-PR,0.9865411090135991
+s2b_branch_a_internal,PCA Orthogonal Residual only,GECCO,1,AUC-PR,0.4348704649022866
+s2b_branch_a_internal,PCA Orthogonal Residual only,GHL,23,AUC-PR,0.5553820852229928
+s2b_branch_a_internal,PCA Orthogonal Residual only,Genesis,1,AUC-PR,0.7250750962656606
+s2b_branch_a_internal,PCA Orthogonal Residual only,LTDB,4,AUC-PR,0.48258935307741635
+s2b_branch_a_internal,PCA Orthogonal Residual only,MITDB,11,AUC-PR,0.3074431338764421
+s2b_branch_a_internal,PCA Orthogonal Residual only,MSL,14,AUC-PR,0.22868332615953518
+s2b_branch_a_internal,PCA Orthogonal Residual only,OPPORTUNITY,7,AUC-PR,0.18890260360474656
+s2b_branch_a_internal,PCA Orthogonal Residual only,PSM,1,AUC-PR,0.3221766776077389
+s2b_branch_a_internal,PCA Orthogonal Residual only,SMAP,25,AUC-PR,0.32143996826927607
+s2b_branch_a_internal,PCA Orthogonal Residual only,SMD,20,AUC-PR,0.4570124842607375
+s2b_branch_a_internal,PCA Orthogonal Residual only,SVDB,28,AUC-PR,0.48492140852413895
+s2b_branch_a_internal,PCA Orthogonal Residual only,SWaT,2,AUC-PR,0.5292933754638945
+s2b_branch_a_internal,PCA Orthogonal Residual only,TAO,11,AUC-PR,0.0898719767706587
+s2b_branch_a_internal,PCA Orthogonal Residual only,CATSv2,5,AUC-ROC,0.7089115487528315
+s2b_branch_a_internal,PCA Orthogonal Residual only,CreditCard,1,AUC-ROC,0.7265130825780235
+s2b_branch_a_internal,PCA Orthogonal Residual only,Daphnet,1,AUC-ROC,0.9025183813089565
+s2b_branch_a_internal,PCA Orthogonal Residual only,Exathlon,25,AUC-ROC,0.9992430548800888
+s2b_branch_a_internal,PCA Orthogonal Residual only,GECCO,1,AUC-ROC,0.9601686040766824
+s2b_branch_a_internal,PCA Orthogonal Residual only,GHL,23,AUC-ROC,0.8264435689183097
+s2b_branch_a_internal,PCA Orthogonal Residual only,Genesis,1,AUC-ROC,0.9992504638218924
+s2b_branch_a_internal,PCA Orthogonal Residual only,LTDB,4,AUC-ROC,0.8037585724804356
+s2b_branch_a_internal,PCA Orthogonal Residual only,MITDB,11,AUC-ROC,0.6820480667720575
+s2b_branch_a_internal,PCA Orthogonal Residual only,MSL,14,AUC-ROC,0.7159155933870629
+s2b_branch_a_internal,PCA Orthogonal Residual only,OPPORTUNITY,7,AUC-ROC,0.7181642837379939
+s2b_branch_a_internal,PCA Orthogonal Residual only,PSM,1,AUC-ROC,0.8406186175357955
+s2b_branch_a_internal,PCA Orthogonal Residual only,SMAP,25,AUC-ROC,0.7489703652239943
+s2b_branch_a_internal,PCA Orthogonal Residual only,SMD,20,AUC-ROC,0.878004894993986
+s2b_branch_a_internal,PCA Orthogonal Residual only,SVDB,28,AUC-ROC,0.8179272246882977
+s2b_branch_a_internal,PCA Orthogonal Residual only,SWaT,2,AUC-ROC,0.832586715366217
+s2b_branch_a_internal,PCA Orthogonal Residual only,TAO,11,AUC-ROC,0.5290507571720828
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,CATSv2,5,VUS-PR,0.1839253974617509
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,CreditCard,1,VUS-PR,0.0945721592401964
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Daphnet,1,VUS-PR,0.333934840336258
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Exathlon,25,VUS-PR,0.985983907486818
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,GECCO,1,VUS-PR,0.2017196359895705
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,GHL,23,VUS-PR,0.5088557449337117
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Genesis,1,VUS-PR,0.3236020621239201
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,LTDB,4,VUS-PR,0.4677771289033161
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,MITDB,11,VUS-PR,0.254559428296057
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,MSL,14,VUS-PR,0.30996980402887225
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,OPPORTUNITY,7,VUS-PR,0.15619596921221374
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,PSM,1,VUS-PR,0.3291869599783548
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SMAP,25,VUS-PR,0.2659798816616762
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SMD,20,VUS-PR,0.37328533485118787
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SVDB,28,VUS-PR,0.5454691481993467
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SWaT,2,VUS-PR,0.41299221734109104
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,TAO,11,VUS-PR,0.6402995455788804
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,CATSv2,5,VUS-ROC,0.6763201463774997
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,CreditCard,1,VUS-ROC,0.6926650436152416
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Daphnet,1,VUS-ROC,0.9259370612837968
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Exathlon,25,VUS-ROC,0.9993216510886619
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,GECCO,1,VUS-ROC,0.8197525577393976
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,GHL,23,VUS-ROC,0.8377276896889164
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Genesis,1,VUS-ROC,0.9948110928313274
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,LTDB,4,VUS-ROC,0.7997269130202224
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,MITDB,11,VUS-ROC,0.7477437980975938
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,MSL,14,VUS-ROC,0.7854994965991404
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,OPPORTUNITY,7,VUS-ROC,0.6475517895111829
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,PSM,1,VUS-ROC,0.7846603958690066
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SMAP,25,VUS-ROC,0.7748956841771468
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SMD,20,VUS-ROC,0.8344661336731087
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SVDB,28,VUS-ROC,0.8869299567080569
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SWaT,2,VUS-ROC,0.7693652119037675
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,TAO,11,VUS-ROC,0.8159473721036652
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,CATSv2,5,AUC-PR,0.27225910139162823
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,CreditCard,1,AUC-PR,0.0318031012742223
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Daphnet,1,AUC-PR,0.3086752083232432
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Exathlon,25,AUC-PR,0.98128829867801
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,GECCO,1,AUC-PR,0.3894936505355769
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,GHL,23,AUC-PR,0.5890190386769553
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Genesis,1,AUC-PR,0.2101760688223688
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,LTDB,4,AUC-PR,0.42586790638637007
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,MITDB,11,AUC-PR,0.329549743978541
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,MSL,14,AUC-PR,0.2744025417713426
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,OPPORTUNITY,7,AUC-PR,0.16499666410787536
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,PSM,1,AUC-PR,0.3560617359577582
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SMAP,25,AUC-PR,0.26863912233204057
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SMD,20,AUC-PR,0.4580247489281895
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SVDB,28,AUC-PR,0.5301400506905756
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SWaT,2,AUC-PR,0.5315821439989918
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,TAO,11,AUC-PR,0.08362578015888728
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,CATSv2,5,AUC-ROC,0.6949739228752521
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,CreditCard,1,AUC-ROC,0.7263004262562893
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Daphnet,1,AUC-ROC,0.9231629821285418
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Exathlon,25,AUC-ROC,0.9990676710419115
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,GECCO,1,AUC-ROC,0.8754772992395817
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,GHL,23,AUC-ROC,0.8430823623147335
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,Genesis,1,AUC-ROC,0.9947186147186148
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,LTDB,4,AUC-ROC,0.7831923144665673
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,MITDB,11,AUC-ROC,0.7150989434328857
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,MSL,14,AUC-ROC,0.7503464102884453
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,OPPORTUNITY,7,AUC-ROC,0.6542518631184348
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,PSM,1,AUC-ROC,0.847293511970476
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SMAP,25,AUC-ROC,0.7711562535574504
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SMD,20,AUC-ROC,0.8820133492556202
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SVDB,28,AUC-ROC,0.8604738273732572
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,SWaT,2,AUC-ROC,0.8319268593121297
+s2b_branch_a_internal,k-NN + PCA Orthogonal Residual,TAO,11,AUC-ROC,0.4967134160559576

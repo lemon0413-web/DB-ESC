@@ -1,0 +1,220 @@
+{
+  "frozen_model_sha256": "c454732bc1dfdf8eaf16b46076786c641744cbade97ea1f97a89ba05dac10227",
+  "original_model_path": "D:/Downloads/Google/dbesc.py",
+  "raw_archive": "D:/ms_cmesc/TSB-AD-M.zip",
+  "raw_archive_sha256": "7de86ac27f30eeb48d833bb061055670e3f3de07defd995cf2bd5db10ccc9a0d",
+  "file_list_sha256": "fb75d7068911f948b2b9d3660035aa4cea7a7f1f138db64937306c481267a392",
+  "official_TSB_AD_commit": "303dffbfc11612995b17b06633f8c9d0ea0e38e5",
+  "official_source": "https://github.com/TheDatumOrg/TSB-AD",
+  "official_basic_metrics_sha256": "6996e2eaa4cfe585f97217d9748f386a92deade54db10d9945da35d3dba140e4",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.6",
+  "workers": 8,
+  "threads_per_worker": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "D:\\ms_cmesc\\venv\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Prescott"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\ms_cmesc\\venv\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\ms_cmesc\\venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "defaults": {
+    "causal": false,
+    "k_nn": 3,
+    "d_emb_max": 12,
+    "c_eff_max": 24,
+    "windows": [
+      48,
+      96,
+      192
+    ],
+    "lam": 0.15,
+    "q_tail": 0.98,
+    "w_ds": 16,
+    "reg_alpha": 0.15,
+    "strict_stride_truncation": true
+  },
+  "seed_bootstrap": 20261126,
+  "bootstrap_resamples": 10000,
+  "zero_variance_audit_tolerance": 1e-12,
+  "AUC_PR": "sklearn.metrics.average_precision_score with grouped ties",
+  "legacy_AP": "stable descending mergesort, point-by-point precision (order-dependent on ties)",
+  "VUS": {
+    "thre": 250,
+    "full_time_resolution": true,
+    "all_integer_buffer_widths": true,
+    "baseline": "unmodified official generate_curve version opt for all 180",
+    "ablations": "algebraically exact threshold-bin sums; parity checked against unmodified official implementation",
+    "score_normalization": "original runner min-max, span <= 1e-12 -> constant zeros",
+    "sliding_window": "official find_length_rank(raw first channel, rank=1), recomputed and crosschecked against original"
+  },
+  "prefix": "original runner max(64,min(filename _tr_,T-1)); no label-assisted truncation",
+  "preprocessing": "frozen model prefix median/IQR, std fallback and clipping [-15,15]; no external scaling",
+  "clean160": "filename first_anomaly > training_prefix_length; actual prefix labels also audited",
+  "S2A_stage1": "retained in all S2A branch-B controls; Raw means no Stage-2 branch calibration",
+  "S2A_smoothing": "retained except explicitly without Smoothing controls",
+  "S2B_stage2": "branch A POT always retained; Stage-2 ablation refers only to branch B",
+  "std_scaled_zero_rule": "if prefix std <= 1e-12, divisor=1 and flag; no arbitrary epsilon added to measured variance",
+  "variance_ddof": 0,
+  "equal_variance_approximation": "(var_a+var_b)*(1+raw_rho)/4",
+  "shrinkage": "0.85*clip(raw_rho,-0.99,0.99); undefined audit correlation left null, model diagnostic fallback separately reported",
+  "families": {
+    "s2a_core_ablation_180.csv": [
+      "Branch A only",
+      "Branch B only",
+      "A+B Raw Fusion",
+      "A+B Std-Scaled Fusion",
+      "A+B ECDF without Smoothing",
+      "A+B ECDF with Smoothing",
+      "A+B POT without Smoothing",
+      "Full DB-ESC"
+    ],
+    "s2b_multiscale_ablation_180.csv": [
+      "W = {48}",
+      "W = {96}",
+      "W = {192}",
+      "W = {48,96}",
+      "W = {48,192}",
+      "W = {96,192}",
+      "W = {48,96,192}"
+    ],
+    "s2b_pot_stage_ablation_180.csv": [
+      "No Stage-1 POT",
+      "No Stage-2 POT",
+      "No Stage-1 and Stage-2 POT",
+      "Full Two-Stage POT"
+    ],
+    "s2b_period_ablation_180.csv": [
+      "Fixed Window = 32",
+      "Fixed Window = 64",
+      "Fixed Window = 128",
+      "FFT Period-Adaptive Window"
+    ],
+    "s2b_branch_a_internal_180.csv": [
+      "k-NN only",
+      "PCA Orthogonal Residual only",
+      "k-NN + PCA Orthogonal Residual"
+    ]
+  },
+  "unique_inference_configs": [
+    "Branch A only",
+    "Branch B only",
+    "A+B Raw Fusion",
+    "A+B Std-Scaled Fusion",
+    "A+B ECDF without Smoothing",
+    "A+B ECDF with Smoothing",
+    "A+B POT without Smoothing",
+    "Full DB-ESC",
+    "W = {48}",
+    "W = {96}",
+    "W = {192}",
+    "W = {48,96}",
+    "W = {48,192}",
+    "W = {96,192}",
+    "No Stage-1 POT",
+    "No Stage-2 POT",
+    "No Stage-1 and Stage-2 POT",
+    "Fixed Window = 32",
+    "Fixed Window = 64",
+    "Fixed Window = 128",
+    "k-NN only",
+    "PCA Orthogonal Residual only"
+  ],
+  "optional_S2E_S2F": "deferred until core experiments complete; not required for core package",
+  "provided_manuscript": "DBESCNeurocomputingManuscript_provided.pdf (copied unchanged, not revised)",
+  "execution_invocations": [
+    {
+      "argv": [
+        "outputs\\Stage2_Final_Results\\scripts\\run_experiments.py",
+        "--phase",
+        "all",
+        "--workers",
+        "8"
+      ],
+      "workers": 8,
+      "data_dir": "C:\\Users\\杨佳阳\\Documents\\Codex\\2026-11-25\\files-mentioned-by-the-user-tsb\\work\\data",
+      "checkpoint_dir": "C:\\Users\\杨佳阳\\Documents\\Codex\\2026-11-25\\files-mentioned-by-the-user-tsb\\work\\checkpoints",
+      "script_sha256": {
+        "analyze_results.py": "b9977d9eb6dd68023e81505282a4cf7500cf5354f5f21d822ce72e73d78665ef",
+        "dbesc.py": "c454732bc1dfdf8eaf16b46076786c641744cbade97ea1f97a89ba05dac10227",
+        "exact_vus.py": "e48f9c018b39522de6023f2021f07e59c4ea8f2b1cde3170854508fcf30798fd",
+        "experiment_model.py": "c9b9ad3f2e2bf17b51c587cf7744a8d44ee38af75b20a9cad26d680f44dab608",
+        "make_figures_tables.py": "4df76e33d83711d4f832f7dc549378fb1ac393b169f44d98ae720debdd27f78c",
+        "package_results.py": "1301545a7eebe725f97c1dd060f62fa6c1cb5b768f290b16050d50e295a3a99b",
+        "run_experiments.py": "ca9e290af3a329cd5931cea6a67293dd4ffcf4d43248ac516f7cb7cc3d376430",
+        "validate_protocol.py": "6ffacb050e123e5970633b467744f90662e4fbef80090cdb54073589f47e0b64",
+        "write_result_notes.py": "727195a3694449ea286a1b972242d3528703f7961bf0d134825e4f1c542be84e"
+      }
+    }
+  ],
+  "completion_time_Asia_Shanghai": "2026-11-26T10:12:26.843421+08:00",
+  "workers_history": [
+    4,
+    8
+  ],
+  "independent_timing_calls": 3960,
+  "independent_timing_repeats_per_file_config": 1,
+  "paired_test_unit": "dataset mean, 17 paired datasets",
+  "paired_test": "two-sided Wilcoxon signed-rank; exact sign-flip and sign-test sensitivity checks",
+  "holm_family_size": 84,
+  "statistical_numerical_tie_tolerance": 1e-12,
+  "implementation_constants": {
+    "robust_clip": [
+      -15,
+      15
+    ],
+    "fft_lags": [
+      24,
+      160
+    ],
+    "acf_peak_threshold": 0.25,
+    "branch_a_channel_cap": 16,
+    "branch_a_orthogonal_weight": 0.5,
+    "dictionary_stride_target": 1200,
+    "branch_a_grid_target": 4000,
+    "branch_b_grid_target": 3000,
+    "spd_trace_floor": 0.0001
+  },
+  "final_script_sha256": {
+    "analyze_results.py": "00dc9d6069fd50e4022c5cab92e9b8424592e4731e63a12c89deb7a9f11a9fdd",
+    "dbesc.py": "c454732bc1dfdf8eaf16b46076786c641744cbade97ea1f97a89ba05dac10227",
+    "exact_vus.py": "e48f9c018b39522de6023f2021f07e59c4ea8f2b1cde3170854508fcf30798fd",
+    "experiment_model.py": "c9b9ad3f2e2bf17b51c587cf7744a8d44ee38af75b20a9cad26d680f44dab608",
+    "final_validation.py": "e3db46a2785260cb55b20fe707b34089b2d711fc2178133f96ac2c841c1d07bc",
+    "make_figures_tables.py": "b1e02a270511776f902918a3438da838afadfba89275bef8a0e7d7a528fcbc0f",
+    "package_results.py": "acd75297dba576b8a834b1b27aa7a334708f3cd85ebfea7376bf126b31c6d2e4",
+    "run_experiments.py": "ca9e290af3a329cd5931cea6a67293dd4ffcf4d43248ac516f7cb7cc3d376430",
+    "validate_protocol.py": "6ffacb050e123e5970633b467744f90662e4fbef80090cdb54073589f47e0b64",
+    "write_result_notes.py": "cd6f49a818f93c90216d9bdafc98d22c14b149c957e9ae3dc16372b0d8f4ce33"
+  },
+  "formal_metric_nan_count": 0,
+  "postprocessing_recovery": "pandas read-only dataset-difference array copied before numerical tie handling; original traceback retained",
+  "manuscript_status": "provided latest PDF copied unchanged; not revised with new experiments"
+}

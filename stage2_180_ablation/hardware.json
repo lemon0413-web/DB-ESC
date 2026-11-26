@@ -1,0 +1,12 @@
+{
+  "cpu": "13th Gen Intel(R) Core(TM) i7-13650HX",
+  "logical_processors": 20,
+  "physical_ram_bytes": 25551560704,
+  "experiment_timezone": "Asia/Shanghai",
+  "experiment_date": "2026-11-26",
+  "parallel_workers": 8,
+  "threads_per_worker": 1,
+  "isolated_timing_processes": 1,
+  "isolated_timing_threads": 1,
+  "initial_baseline_workers": 4
+}

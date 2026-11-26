@@ -1,0 +1,131 @@
+Stage-2 final core experiments: result notes
+
+Scope: S2-A, S2-B and S2-C, all 180 official TSB-AD-M-Eva raw CSV sequences; 17 datasets.
+SKAB was not rerun. Optional ExCal and S2-F multiseed stress tests were not executed.
+The manuscript PDF is the latest supplied local PDF, copied unchanged; these new results have not been inserted into it.
+
+BASELINE REPRODUCTION
+Series-average VUS-PR: 0.477320850320
+Dataset-average VUS-PR: 0.375782892095
+Standard Average Precision: 0.465365133318
+Legacy pointwise tie-dependent AP: 0.465339658239
+Series with changed AP: 30/180
+Max official VUS equivalence discrepancy: 6.661e-16
+
+IMPORTANT NEGATIVE / QUALIFIED FINDINGS
+Std-Scaled Fusion has higher point estimates than the frozen Full model: Series VUS-PR=0.482450, Dataset VUS-PR=0.389113. Its paired raw p=0.0505371, Holm p=1; a higher mean is not a significant advantage under the prespecified correction.
+Removing Branch-B Stage-1 alone or Stage-2 alone also raises both VUS-PR means. The full two-stage design is not empirically best in every control.
+VUS-PR comparisons significant after the global 84-comparison Holm correction: 0/21.
+These results do not support a claim that all proposed modules significantly improve VUS-PR. The main model and its defaults remain frozen.
+
+CORE ABLATION (standard AP, complete 180)
+Method | Series VUS-PR | Dataset VUS-PR | AP | isolated mean seconds
+Branch A only | 0.395132 | 0.334422 | 0.368550 | 0.415766
+Branch B only | 0.449895 | 0.311440 | 0.438607 | 0.389876
+A+B Raw Fusion | 0.432829 | 0.369216 | 0.413724 | 0.760208
+A+B Std-Scaled Fusion | 0.482450 | 0.389113 | 0.470710 | 0.749796
+A+B ECDF without Smoothing | 0.424671 | 0.343441 | 0.387359 | 0.773684
+A+B ECDF with Smoothing | 0.431942 | 0.350776 | 0.398410 | 0.779181
+A+B POT without Smoothing | 0.476358 | 0.373671 | 0.463462 | 0.759285
+Full DB-ESC | 0.477321 | 0.375783 | 0.465365 | 0.765633
+
+CALIBRATION AND FALLBACK CAUTIONS
+All S2-A Branch-B controls retain Stage-1 POT. Raw/Std/ECDF are not fully calibration-free models.
+S2-B Stage-2 removal affects Branch B only; Branch-A POT stays active.
+Requested scales/windows can be capped, dropped or replaced by the frozen fallback; primary means keep all 180.
+Do not interpret a fallback result as the originally requested window. Consult effective scales, scale details and requested_vs_realized_window_sensitivity.csv.
+
+INTERNAL ABLATION SUMMARY (all 180; no selected exclusions)
+s2b_multiscale_ablation / W = {48}: Ser=0.424495, DS=0.353134, paired p=0.377823, Holm p=1, Branch-B requested scales fully realized=180/180, Branch-A window capped=1/180
+s2b_multiscale_ablation / W = {96}: Ser=0.482365, DS=0.376546, paired p=0.711899, Holm p=1, Branch-B requested scales fully realized=180/180, Branch-A window capped=1/180
+s2b_multiscale_ablation / W = {192}: Ser=0.465242, DS=0.363992, paired p=0.2435, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_multiscale_ablation / W = {48,96}: Ser=0.473034, DS=0.372573, paired p=0.746658, Holm p=1, Branch-B requested scales fully realized=180/180, Branch-A window capped=1/180
+s2b_multiscale_ablation / W = {48,192}: Ser=0.466172, DS=0.375970, paired p=0.711899, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_multiscale_ablation / W = {96,192}: Ser=0.476701, DS=0.376858, paired p=0.579056, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_multiscale_ablation / W = {48,96,192}: Ser=0.477321, DS=0.375783, paired p=1, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_pot_stage_ablation / No Stage-1 POT: Ser=0.484593, DS=0.381737, paired p=0.328949, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_pot_stage_ablation / No Stage-2 POT: Ser=0.483899, DS=0.387203, paired p=0.284164, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_pot_stage_ablation / No Stage-1 and Stage-2 POT: Ser=0.425704, DS=0.307484, paired p=0.0305176, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_pot_stage_ablation / Full Two-Stage POT: Ser=0.477321, DS=0.375783, paired p=1, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_period_ablation / Fixed Window = 32: Ser=0.473972, DS=0.375724, paired p=0.470338, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=0/180
+s2b_period_ablation / Fixed Window = 64: Ser=0.475690, DS=0.367327, paired p=0.224686, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=0/180
+s2b_period_ablation / Fixed Window = 128: Ser=0.474635, DS=0.354300, paired p=0.190094, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=30/180
+s2b_period_ablation / FFT Period-Adaptive Window: Ser=0.477321, DS=0.375783, paired p=1, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_branch_a_internal / k-NN only: Ser=0.474557, DS=0.364786, paired p=0.0568848, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_branch_a_internal / PCA Orthogonal Residual only: Ser=0.473411, DS=0.423794, paired p=0.284164, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+s2b_branch_a_internal / k-NN + PCA Orthogonal Residual: Ser=0.477321, DS=0.375783, paired p=1, Holm p=1, Branch-B requested scales fully realized=146/180, Branch-A window capped=1/180
+
+VARIANCE AUDIT
+All-180
+  var_ratio_a_over_b: mean=0.968191, median=1.00311, IQR=[0.972487, 1.01516], defined=180/180
+  pearson_unshrunk: mean=-0.18153, median=-0.227061, IQR=[-0.439331, 0.0436476], defined=180/180
+  variance_reduction_percent: mean=58.7627, median=60.8429, IQR=[47.8182, 71.839], defined=180/180
+  equal_approximation_relative_error: mean=-0.00826288, median=-6.81116e-06, IQR=[-0.000136417, 1.5403e-08], defined=180/180
+  negative_correlation: 127/180 (70.56% of defined cases)
+  actual_variance_reduction: 180/180 (100.00% of defined cases)
+  equal_variance_within_2x: 176/180 (97.78% of defined cases)
+  undefined_correlation: 0/180 (0.00% of defined cases)
+  undefined_variance_ratio: 0/180 (0.00% of defined cases)
+  Exploratory dataset-level association with fusion_gain_over_mean_branch_VUS-PR: rho=0.5245, p=0.030654, exploratory Holm p=0.183924, n=17
+  Exploratory dataset-level association with fusion_gain_over_best_branch_VUS-PR: rho=0.2500, p=0.33317, exploratory Holm p=0.99951, n=17
+Clean-160
+  var_ratio_a_over_b: mean=0.955948, median=1.00108, IQR=[0.970802, 1.01293], defined=160/160
+  pearson_unshrunk: mean=-0.184286, median=-0.227061, IQR=[-0.449238, 0.0565318], defined=160/160
+  variance_reduction_percent: mean=58.8738, median=60.8429, IQR=[47.1735, 72.3521], defined=160/160
+  equal_approximation_relative_error: mean=-0.00884304, median=-4.25666e-06, IQR=[-0.000110364, 2.07899e-08], defined=160/160
+  negative_correlation: 110/160 (68.75% of defined cases)
+  actual_variance_reduction: 160/160 (100.00% of defined cases)
+  equal_variance_within_2x: 156/160 (97.50% of defined cases)
+  undefined_correlation: 0/160 (0.00% of defined cases)
+  undefined_variance_ratio: 0/160 (0.00% of defined cases)
+  Exploratory dataset-level association with fusion_gain_over_mean_branch_VUS-PR: rho=0.4500, p=0.0802957, exploratory Holm p=0.401479, n=16
+  Exploratory dataset-level association with fusion_gain_over_best_branch_VUS-PR: rho=0.2265, p=0.398983, exploratory Holm p=0.99951, n=16
+
+INTERPRETATION LIMITS
+The general covariance formula is an algebraic identity; its agreement is a computational check, not evidence of detection effectiveness.
+Negative correlation and reduced variance do not by themselves prove detection gains. Use matched unsmoothed branch/fusion performance comparisons.
+Equal-variance approximation errors and all negative or nonsignificant results are retained.
+The variance-ratio band [0.5,2] is a descriptive diagnostic, not a theoretical validation threshold.
+Primary tests operate on 17 dataset means. Holm spans 84 unique ablation/metric comparisons. Bootstrap CIs resample dataset clusters 10,000 times.
+Independent runtime uses one process and one CPU thread after parallel workers exit, one timed fresh fit/score per file/config after per-file warmup.
+Internal component-ablation wrappers preserve common computations even when a resulting score term is disabled; their runtimes describe this implementation.
+No metric evaluation, CSV parsing, disk writing or shared inter-configuration score cache is inside the independent timed interval.
+
+COMPLETENESS
+{
+  "completed": true,
+  "expected_unique_score_configurations": 22,
+  "expected_grouped_metric_rows": 4680,
+  "actual_grouped_metric_rows": 4680,
+  "all_26_configuration_checks_passed": true,
+  "variance_rows": 180,
+  "clean160_rows": 160,
+  "undefined_variance_quantities_intentionally_preserved": true,
+  "metric_nan_count": 0,
+  "isolated_timing_rows": 3960,
+  "holm_comparisons": 84,
+  "max_covariance_identity_error": 1.3322676295501878e-15,
+  "max_official_baseline_parity_error": 6.661338147750939e-16,
+  "frozen_model_sha256": "c454732bc1dfdf8eaf16b46076786c641744cbade97ea1f97a89ba05dac10227",
+  "isolated_score_hash_mismatches": 0,
+  "official_synthetic_and_real_ablation_parity_cases": 82,
+  "vector_pdf_count": 5,
+  "latex_table_count": 6,
+  "figure_manual_review_passed": true,
+  "all_requested_core_outputs_present": true,
+  "frozen_source_verified": true
+}
+
+REPRODUCTION
+Install scripts/requirements.txt into a scientific Python environment. Supply the original 180 raw CSV files separately.
+PowerShell example:
+.\run_all.ps1 -DataDir D:\path\to\TSB-AD-M -PythonExe D:\path\to\python.exe -Workers 4
+The 180-file official manifest, frozen code, exact VUS code, official metric source, scripts and input hashes are included.
+Check PROTOCOL.md for full configuration definitions, inference conventions, and runtime limitations.
+CSV nulls in variance/diagnostic quantities are intentional and accompanied by flags/counts. Core detection metrics must all be finite.
+Raw data, model score-array caches and temporary package installations are excluded from the final ZIP.
+
+RUN NOTES
+One postprocessing attempt encountered a pandas 3 read-only array assignment; copying the 17 dataset differences fixed it. The original traceback is retained in logs/analysis_attempt1_readonly_array.log. No model scores or detection metrics were changed.
+The initial 4-worker baseline batch was restarted with 8 workers after a memory check; completed per-series checkpoints were reused. Partial baseline and full resumed execution logs are retained.
+The input-preparation source in reference/prepare_inputs_original_run.py is an archival copy of the actual original workspace script; use run_all.ps1 with an external raw-CSV directory for portable reproduction.

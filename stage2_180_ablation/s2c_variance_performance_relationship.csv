@@ -1,0 +1,9 @@
+cohort,level,outcome,n,spearman_rho,p_raw,interpretation,p_holm_exploratory
+All-180,series_descriptive,fusion_gain_over_mean_branch_VUS-PR,180,0.2451045256192463,0.0009123572730735266,exploratory association; not causal evidence,0.007298858184588213
+All-180,dataset_means_primary_exploratory,fusion_gain_over_mean_branch_VUS-PR,17,0.5245098039215687,0.030654016087948877,exploratory association; not causal evidence,0.18392409652769326
+All-180,series_descriptive,fusion_gain_over_best_branch_VUS-PR,180,-0.06298096957924157,0.4009499418051362,exploratory association; not causal evidence,0.9995104077464285
+All-180,dataset_means_primary_exploratory,fusion_gain_over_best_branch_VUS-PR,17,0.25000000000000006,0.3331701359154762,exploratory association; not causal evidence,0.9995104077464285
+Clean-160,series_descriptive,fusion_gain_over_mean_branch_VUS-PR,160,0.25298811201720633,0.0012480946239492466,exploratory association; not causal evidence,0.008736662367644726
+Clean-160,dataset_means_primary_exploratory,fusion_gain_over_mean_branch_VUS-PR,16,0.45,0.08029573654339647,exploratory association; not causal evidence,0.4014786827169824
+Clean-160,series_descriptive,fusion_gain_over_best_branch_VUS-PR,160,-0.10130747682217033,0.20242107247041335,exploratory association; not causal evidence,0.8096842898816534
+Clean-160,dataset_means_primary_exploratory,fusion_gain_over_best_branch_VUS-PR,16,0.22647058823529412,0.39898292664128926,exploratory association; not causal evidence,0.9995104077464285

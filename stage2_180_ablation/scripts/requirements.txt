@@ -1,0 +1,10 @@
+numpy==1.26.4
+scipy==1.17.1
+scikit-learn==1.9.1
+pandas==3.0.6
+statsmodels
+threadpoolctl
+matplotlib==3.11.2
+# Optional system diagnostics / PDF extraction:
+psutil==7.2.2
+pypdf
